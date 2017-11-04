@@ -44,8 +44,9 @@ def fetch_stories(params={}):
     return fetched_stories
 
 # Configure API key authorization: app_id, application_key
-aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-ID'] = 'd5889e03'
-aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = '09edcc0645c5c9bfcc6865bfacf511df'
+aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-ID'] = 'cfa4787e'
+aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = '4fd1a82e4716ecccfb9ee352139d6ca9'
+
 
 # create an instance of the API class
 api_instance = aylien_news_api.DefaultApi()
@@ -71,9 +72,9 @@ def get_title_and_location_of_stories(stories):
     return stories_and_location
 
 stories = fetch_stories(params)
-
 stories_and_locations = get_title_and_location_of_stories(stories)
 
+# return json output for the user
 for story, location, link in stories:
     print story, location, link
 
