@@ -138,7 +138,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
     center: [-98.58, 39.82],
     zoom: 3.5,
-    interactive: false
+    interactive: true
 });
 
 map.on('load', function() {
@@ -150,6 +150,7 @@ map.on('load', function() {
 
     places.features.forEach(function(feature) {
         var symbol = feature.properties['icon'];
+        var title = feature.properties['title'];
         var layerID = 'poi-' + symbol;
 
         // Add a layer for this symbol type if it hasn't been added already.
