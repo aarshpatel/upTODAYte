@@ -1,1 +1,3 @@
 # RecapMyDay
+
+RecapMyDay is an visualization application that displays sports, events, news, etc in a globe...
