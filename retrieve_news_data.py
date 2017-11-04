@@ -2,6 +2,8 @@ import aylien_news_api
 from aylien_news_api.rest import ApiException
 import time
 import pickle
+from utils import *
+import json
 
 params = {
   'language': ['en'],
@@ -46,7 +48,12 @@ aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = '4fd
 api_instance = aylien_news_api.DefaultApi()
 
 def get_title_and_location_of_stories(stories):
-    """ Preprocess the raw stories from the API to only include the title, link, and location """
+    """ 
+    Preprocess the raw stories from the API to only include the title, link, and location 
+    TODO:
+    Need some way to filter out places that aren't part of the United States or aren't states of the US
+    """
+
     all_story_titles = []
     stories_and_location = []
 
@@ -56,24 +63,32 @@ def get_title_and_location_of_stories(stories):
             all_story_titles.append(title)
 
             all_entities = []
+            geo_coordinates = []
+
             for entities in story.entities.body:
                 if "Place" in entities.types:
-                    all_entities.append(entities.text)
+                    coords = convert_location_to_lat_lng(entities.text)
+                    if coords is not None:
+                        geo_coordinates.append(coords) # append the geo_coordinates of the place
+                        all_entities.append(entities.text) # append the text of the place
+                        print entities.text, coords
+
             if len(all_entities) == 0 or len(all_entities) > 2:
                 continue
             else:
-                stories_and_location.append((title, all_entities, story.links.permalink))
+                stories_and_location.append((title, all_entities, story.links.permalink, geo_coordinates))
     return stories_and_location
 
 def create_json_from_stories(stories_and_location):
     """ Convert the preprocessed stories into a list of dictionaries. This will help us with making
     the 3d visualizations """
     stories = []
-    for story, location, link in stories_and_location:
+    for story, location, link, geo_coordinates in stories_and_location:
         story_dict = {}
         story_dict["title"] = story
         story_dict["locations"] = location
         story_dict["link"] = link
+        story_dict["geo_coordinates"] = geo_coordinates
         stories.append(story_dict)
     return stories
 
@@ -81,5 +96,8 @@ def create_json_from_stories(stories_and_location):
 stories = fetch_stories(params)
 stories = get_title_and_location_of_stories(stories)
 stories = create_json_from_stories(stories)
+
+with open("stories.json", "w") as f:
+    json.dump(stories, f)
 
 print stories[:5]

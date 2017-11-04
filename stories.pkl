@@ -1,1133 +1,1584 @@
 (lp0
 (dp1
-S'link'
+S'geo_coordinates'
 p2
-S'http://feeds.foxnews.com/~r/foxnews/sports/~3/ncwHBDRTKsE/disabled-navy-vet-refuses-to-receive-award-from-saints-over-national-anthem-protests.html'
-p3
-sS'locations'
-p4
-(lp5
-S'New Orleans'
+(lp3
+(F46.8044352
+F-92.0703141
+tp4
+asS'link'
+p5
+S'http://ijr.com/the-declaration/2017/11/1011624-la-times-viciously-attacked-sanderss-weight-now-embarrassing/'
 p6
-aS'Detroit'
+sS'locations'
 p7
-asS'title'
-p8
-S'Disabled Navy vet refuses to receive award from Saints over national anthem protests'
+(lp8
+S'Fox News'
 p9
-sa(dp10
-g2
-S'http://www.dallascowboys.com/news/2017/11/03/zeke-granted-stay-suspension-eligible-play-against-kansas-city'
+asS'title'
+p10
+VLA Times Writer Viciously Attacked Sanders's Weight \u2014 What They Have to Do Now Is Embarrassing
 p11
-sg4
-(lp12
-S'Kansas City'
-p13
-aS'New York'
-p14
-asg8
-S'Zeke Granted Stay Of Suspension, Eligible To Play Against Kansas City'
+sa(dp12
+g2
+(lp13
+(F27.7567667
+F-81.4639835
+tp14
+asg5
+S'http://www.washingtonpost.com/blogs/the-fix/wp/2017/11/04/both-bush-presidents-openly-condemned-trump-book-claims-one-even-voted-for-clinton/'
 p15
-sa(dp16
-g2
-S'http://thehill.com/blogs/floor-action/house/358614-gop-lawmaker-calls-for-mueller-recusal-over-uranium-deal'
+sg7
+(lp16
+S'Florida'
 p17
-sg4
-(lp18
-S'Russia'
-p19
-aS'Puerto Rico'
-p20
-asg8
-S'GOP lawmaker calls for Mueller recusal over uranium deal'
-p21
-sa(dp22
+asg10
+S'Analysis | Both Bush presidents openly condemned Trump, book claims. One even voted for Clinton.'
+p18
+sa(dp19
 g2
-S'http://ijr.com/the-declaration/2017/11/1011463-texans-just-picked-two-new-quarterbacks-youve-never-heard-instead-hiring-know/'
+(lp20
+(F42.3604823
+F-71.0595678
+tp21
+a(F35.4729886
+F-97.5170536
+tp22
+asg5
+S'http://www.nba.com/celtics/gamerecap/keys-20171103-bosokc'
 p23
-sg4
+sg7
 (lp24
-S'Houston'
+S'Boston'
 p25
-aS'San Francisco'
+aS'Oklahoma City'
 p26
-asg8
-S"The Texans Just Picked Up Two New Quarterbacks You've Never Heard of Instead of Hiring You Know Who"
+asg10
+S'Keys to the Game: Celtics 101, Thunder 94'
 p27
 sa(dp28
 g2
-S'https://www.essence.com/culture/dallas-tv-anchor-demetria-obilor-viewer-criticism-outfits'
-p29
-sg4
-(lp30
-S'Dallas'
+(lp29
+(F46.2419692
+F17.5329993
+tp30
+asg5
+S'http://www.nba.com/lakers/news/171103-running-diary-lakers-nets'
 p31
-asg8
-S'People Are Defending A Dallas TV Anchor After Viewer Criticizes Her Outifts'
-p32
-sa(dp33
-g2
-S'http://uproxx.com/news/harvey-weinstein-paz-de-la-huerta/'
+sg7
+(lp32
+S'Mike'
+p33
+asg10
+S'Running Diary: Lakers vs. Nets (11/3/17)'
 p34
-sg4
-(lp35
-S'Manhattan'
-p36
-aS'Hollywood'
-p37
-asg8
-S"The NYPD 'Have An Actual Case' Against Harvey Weinstein"
-p38
-sa(dp39
+sa(dp35
 g2
-S'http://ijr.com/the-declaration/2017/11/1011624-la-times-viciously-attacked-sanderss-weight-now-embarrassing/'
-p40
-sg4
-(lp41
-S'Fox News'
+(lp36
+(F32.7762719
+F-96.7968559
+tp37
+a(F33.8613328
+F-112.1254665
+tp38
+asg5
+S'http://feedproxy.google.com/~r/breitbart/~3/fKNlSjmeHHs/'
+p39
+sg7
+(lp40
+S'Dallas'
+p41
+aS'Anthem'
 p42
-asg8
-VLA Times Writer Viciously Attacked Sanders's Weight \u2014 What They Have to Do Now Is Embarrassing
+asg10
+S"Papa John's Deciding Whether to Drop NFL Sponsorship After Sales Fall Due to Anthem Protests"
 p43
 sa(dp44
 g2
-S'http://www.nba.com/celtics/gamerecap/keys-20171103-bosokc'
-p45
-sg4
-(lp46
-S'Boston'
-p47
-aS'Oklahoma City'
+(lp45
+(F40.7902778
+F-73.9597222
+tp46
+a(F34.1028268
+F-118.3299899
+tp47
+asg5
+S'http://uproxx.com/news/harvey-weinstein-paz-de-la-huerta/'
 p48
-asg8
-S'Keys to the Game: Celtics 101, Thunder 94'
-p49
-sa(dp50
-g2
-S'http://www.nfl.com/news/story/0ap3000000871457/article/texans-add-tj-yates-matt-mcgloin-to-qb-room'
+sg7
+(lp49
+S'Manhattan'
+p50
+aS'Hollywood'
 p51
-sg4
-(lp52
-S'Penn State'
-p53
-aS'Houston'
-p54
-asg8
-S'Texans add T.J. Yates, Matt McGloin to QB room'
-p55
-sa(dp56
+asg10
+S"The NYPD 'Have An Actual Case' Against Harvey Weinstein"
+p52
+sa(dp53
 g2
-S'http://www.tmz.com/2017/11/03/wwe-undertaker-american-flag-gun-shirt/'
+(lp54
+(F37.1232245
+F-78.4927721
+tp55
+a(F38.029306
+F-78.4766781
+tp56
+asg5
+S'http://thehill.com/blogs/blog-briefing-room/358767-gillespie-ahead-by-3-points-in-new-poll'
 p57
-sg4
+sg7
 (lp58
-S'Tennessee'
+S'Virginia'
 p59
-aS'Texas'
+aS'Charlottesville'
 p60
-asg8
-S"WWE Legend Undertaker Surfaces In 'American Gun' Shirt"
+asg10
+S'Gillespie ahead by 3 points in new Virginia poll'
 p61
 sa(dp62
 g2
-S'http://mlb.mlb.com/news/article/mlb/ichiro-suzuki-becomes-free-agent?ymd=20171103&content_id=260608324&vkey=news_mlb'
-p63
-sg4
-(lp64
-S'Japan'
+(lp63
+(F33.0955793
+F44.1749775
+tp64
+asg5
+S'http://feedproxy.google.com/~r/businessinsider/~3/dBpsU9aJpiY/george-hw-bush-calls-trump-a-blowhard-2017-11'
 p65
-asg8
-S'Ichiro Suzuki becomes free agent'
-p66
-sa(dp67
-g2
-S'http://mlb.mlb.com/news/article/mlb/pitcher-masahiro-tanaka-to-stay-with-yankees?ymd=20171103&content_id=260673824&vkey=news_mlb'
+sg7
+(lp66
+S'Iraq'
+p67
+asg10
+S"The White House fires back after George H.W. Bush calls Trump a 'blowhard'"
 p68
-sg4
-(lp69
+sa(dp69
+g2
+(lp70
+(F40.7306458
+F-73.9866136
+tp71
+asg5
+S'http://mlb.mlb.com/news/article/mlb/pitcher-masahiro-tanaka-to-stay-with-yankees?ymd=20171103&content_id=260673824&vkey=news_mlb'
+p72
+sg7
+(lp73
 S'New York'
-p70
-asg8
+p74
+asg10
 S'Pitcher Masahiro Tanaka to stay with Yankees'
-p71
-sa(dp72
-g2
-S'http://profootballtalk.nbcsports.com/2017/11/03/ezekiel-elliott-is-back-again/'
-p73
-sg4
-(lp74
-S'Dallas'
 p75
-asg8
-S'Ezekiel Elliott is back, again'
-p76
-sa(dp77
+sa(dp76
 g2
-S'https://www.cbssports.com/nfl/news/ezekiel-elliotts-request-for-stay-is-granted-now-eligible-to-play-sunday/'
-p78
-sg4
-(lp79
-S'United States'
-p80
-aS'New York'
+(lp77
+(F46.8044352
+F-92.0703141
+tp78
+asg5
+S'http://feedproxy.google.com/~r/breitbart/~3/3paFJ1AKbxQ/'
+p79
+sg7
+(lp80
+S'Fox News'
 p81
-asg8
-S"Ezekiel Elliott's request for stay is granted, now eligible to play Sunday"
+asg10
+S"L.A. Times Columnist Apologizes, Retracts 'Body-Shaming' of Sarah Huckabee Sanders"
 p82
 sa(dp83
 g2
-S'http://dailycaller.com/2017/11/03/broadcast-nets-ignore-dnc-rigging-for-clinton/'
-p84
-sg4
-(lp85
-S'Las Vegas'
-p86
-aS'Nevada'
+(lp84
+(F35.4729886
+F-97.5170536
+tp85
+a(F36.7183708
+F-76.2466798
+tp86
+asg5
+S'http://www.nba.com/celtics/news/sidebar/post-110317-celtic-pride-makes-thunderous-statement-in-okc'
 p87
-asg8
-S'These Networks Flat Out Ignored Revelations That Clinton Controlled The DNC'
-p88
-sa(dp89
-g2
-S'https://www.nbcnews.com/politics/white-house/trump-seizes-brazile-book-excerpt-revives-cries-rigged-dnc-primary-n817246?cid=public-rss_20171103'
+sg7
+(lp88
+S'Oklahoma City'
+p89
+aS'Chesapeake'
 p90
-sg4
-(lp91
-S'Russia'
-p92
-asg8
-S'Trump urges FBI, DOJ investigate Clinton after Brazile book excerpt'
-p93
-sa(dp94
+asg10
+S'Celtic Pride Makes Thunderous Statement in OKC'
+p91
+sa(dp92
 g2
-S'http://feeds.inquisitr.com/~r/google/yDYq/~3/lakCyOjQkIo/'
+(lp93
+(F53.2824686
+F-6.3190221
+tp94
+asg5
+S'http://www.tmz.com/2017/11/04/yu-darvish-dodgers-world-series/'
 p95
-sg4
+sg7
 (lp96
-S'Salon'
+S'Beverly Grove'
 p97
-asg8
-S'A Message To Democrats Who Still Support Hillary Clinton'
+asg10
+S"Yu Darvish's Emotional World Series Apology, 'I Couldn't Do It, I'm Sorry'"
 p98
 sa(dp99
 g2
-S'http://www.cbsnews.com/news/source-who-is-being-examined-by-special-counsel-its-every-man-for-himself/'
-p100
-sg4
-(lp101
-S'Washington'
+(lp100
+(F39.7837304
+F-100.4458825
+tp101
+asg5
+S'http://www.politicususa.com/2017/11/04/bush-presidents-speak-blowhard-trump-call-unfit-president.html'
 p102
-asg8
-S'Source who is being examined by special counsel: "It\'s every man for himself"'
-p103
-sa(dp104
-g2
-S'http://mlb.mlb.com/news/article/pit/pirates-exercise-andrew-mccutchen-option?ymd=20171103&content_id=260650812&vkey=news_pit'
+sg7
+(lp103
+S'United States'
+p104
+asg10
+S"Both Bush Presidents Confirm They Didn't Vote For Trump And Call Him Unfit To Be President"
 p105
-sg4
-(lp106
-S'Pittsburgh'
-p107
-asg8
-S'Pirates exercise Andrew McCutchen option'
-p108
-sa(dp109
+sa(dp106
 g2
-S'http://wgntv.com/2017/11/03/cubs-congratulate-astros-on-world-series-championship-with-pizza/'
-p110
-sg4
-(lp111
-S'Houston'
+(lp107
+(F33.0955793
+F44.1749775
+tp108
+asg5
+S'http://wgntv.com/2017/11/04/copy-george-h-w-bush-labels-trump-a-blowhard-in-new-book/'
+p109
+sg7
+(lp110
+S'Iraq'
+p111
+asg10
+VCopy George H.W. Bush labels Trump a \u2018blowhard\u2019 in new book
 p112
-aS'Kansas City'
-p113
-asg8
-S'Cubs congratulate Astros on World Series Championship with pizza'
-p114
-sa(dp115
+sa(dp113
 g2
+(lp114
+(F43.7311424
+F7.4197576
+tp115
+a(F53.4791301
+F-2.2441009
+tp116
+asg5
 S'http://rss.cnn.com/~r/rss/cnn_topstories/~3/dSMlfUAyukg/2742382-patrice-evra-suspended-by-olympique-marseille-after-kicking-fan'
-p116
-sg4
-(lp117
+p117
+sg7
+(lp118
 S'Monaco'
-p118
-aS'Manchester'
 p119
-asg8
-S'Patrice Evra Suspended by Olympique Marseille After Kicking Fan'
+aS'Manchester'
 p120
-sa(dp121
+asg10
+S'Patrice Evra Suspended by Olympique Marseille After Kicking Fan'
+p121
+sa(dp122
 g2
-S'http://dailycaller.com/2017/11/03/new-poll-gillespie-takes-the-lead-in-virginia-gov-race/'
-p122
-sg4
 (lp123
-S'New York'
-p124
-aS'Virginia'
+(F8.444585
+F125.951249185475
+tp124
+asg5
+S'http://www.mercurynews.com/2017/11/03/tom-steyer-fox-news-pulled-the-plug-on-pro-impeachment-ad/'
 p125
-asg8
-S'New Poll: Gillespie Takes The Lead In Virginia Gov. Race'
-p126
-sa(dp127
-g2
-S'http://www.al.com/sports/index.ssf/2017/11/jay_jacobs_to_resign_as_auburn.html'
+sg7
+(lp126
+S'San Francisco'
+p127
+asg10
+S'Tom Steyer: Fox News pulled the plug on pro-impeachment ad'
 p128
-sg4
-(lp129
-S'Auburn'
-p130
-asg8
-S'Jay Jacobs to resign as Auburn athletic director'
-p131
-sa(dp132
+sa(dp129
 g2
-S'http://www.cbsnews.com/news/donna-byrne-florida-woman-horseback-charged-dui/'
-p133
-sg4
-(lp134
-S'Florida'
+(lp130
+(F29.9499323
+F-90.0701156
+tp131
+asg5
+S'https://www.cnsnews.com/blog/craig-bannister/saints-call-disabled-veteran-declining-nfl-honor-over-anthem-protests-sad-and'
+p132
+sg7
+(lp133
+S'New Orleans'
+p134
+asg10
+S"Saints Call Disabled Veteran Declining NFL Honor Over Anthem Protests 'Sad and Divisive'"
 p135
-aS'Fla.'
-p136
-asg8
-S'Florida woman charged with DUI while riding horse'
-p137
-sa(dp138
+sa(dp136
 g2
-S'http://www.npr.org/2017/11/03/561643959/dan-rather-an-unlikely-essayist-on-what-unites-us?utm_medium=RSS&utm_campaign=us'
+(lp137
+(F38.8949549
+F-77.0366456
+tp138
+asg5
+S'http://www.msnbc.com/rachel-maddow/watch/nyt-carter-page-met-russian-officials-informed-trump-campaign-1088391747630'
 p139
-sg4
+sg7
 (lp140
 S'Washington'
 p141
-asg8
-S"Dan Rather, An Unlikely Essayist, On 'What Unites Us'"
+asg10
+S'NYT: Carter Page met Russian officials, informed Trump campaign'
 p142
 sa(dp143
 g2
-S'https://www.cbssports.com/mlb/news/masahiro-tanaka-will-remain-with-yankees-for-next-three-years-after-declining-opt-out/'
-p144
-sg4
-(lp145
-S'New York'
+(lp144
+(F40.3736611
+F127.0870417
+tp145
+asg5
+S'http://www.politicususa.com/2017/11/04/chris-matthews-calls-trump-groundhog-day-presidents-idiotic-stuff-day.html'
 p146
-asg8
-S'Masahiro Tanaka to remain with Yankees for next three years after declining opt-out'
-p147
-sa(dp148
-g2
-S'http://www.msnbc.com/rachel-maddow/watch/nyt-carter-page-met-russian-officials-informed-trump-campaign-1088391747630'
+sg7
+(lp147
+S'North Korea'
+p148
+asg10
+S"Chris Matthews Calls Trump The 'Groundhog Day' Of Presidents: Same 'Idiotic' Stuff Every Day"
 p149
-sg4
-(lp150
-S'Washington'
-p151
-asg8
-S'NYT: Carter Page met Russian officials, informed Trump campaign'
-p152
-sa(dp153
+sa(dp150
 g2
-S'http://thehill.com/blogs/blog-briefing-room/news/358590-ex-obama-spokesman-trump-tweets-demanding-clinton-investigation'
+(lp151
+(F37.61003765
+F-122.096493097361
+tp152
+a(F41.5051613
+F-81.6934446
+tp153
+asg5
+S'http://uproxx.com/dimemag/gordon-hayward-practicing-broken-ankle-video/'
 p154
-sg4
+sg7
 (lp155
-S'Moscow'
+S'Gordon Hayward'
 p156
-aS'Russia'
+aS'Cleveland'
 p157
-asg8
-VEx-Obama spokesman: Trump tweets demanding Clinton investigation are \u2018autocrat 101\u2019
+asg10
+S'Gordon Hayward Is Already Back At Practice Working On His Game'
 p158
 sa(dp159
 g2
-S'https://www.politico.com/story/2017/11/03/elizabeth-warren-respond-trump-tweet-russia-donna-brazile-244513'
-p160
-sg4
-(lp161
-S'Russia'
+(lp160
+(F31.8160381
+F-99.5120986
+tp161
+asg5
+S'http://nascar.nbcsports.com/2017/11/03/heres-the-starting-lineup-for-sundays-aaa-texas-500/'
 p162
-aS'POLITICO.'
-p163
-asg8
-S"Warren to Trump: 'I understand your desperation to change the subject'"
+sg7
+(lp163
+S'Texas'
 p164
-sa(dp165
+asg10
+VHere\u2019s the starting lineup for Sunday\u2019s AAA Texas 500
+p165
+sa(dp166
 g2
-S'https://www.buzzfeed.com/christopherpena/s-club-7-never-got-the-recognition-they-deserved-a'
-p166
-sg4
 (lp167
-S'Hollywood'
-p168
-aS'Miami'
+(F40.7306458
+F-73.9866136
+tp168
+asg5
+S'https://www.cbssports.com/mlb/news/masahiro-tanaka-will-remain-with-yankees-for-next-three-years-after-declining-opt-out/'
 p169
-asg8
-S'S Club 7 Is The Most Underrated Group Of All Time'
-p170
-sa(dp171
-g2
-S'http://dailycaller.com/2017/11/03/trump-slams-tv-networks-for-ignoring-dnc-scandal/'
+sg7
+(lp170
+S'New York'
+p171
+asg10
+S'Masahiro Tanaka to remain with Yankees for next three years after declining opt-out'
 p172
-sg4
-(lp173
-S'Florida'
-p174
-asg8
-S'Trump Slams TV Networks For Ignoring DNC Scandal'
-p175
-sa(dp176
+sa(dp173
 g2
-S'http://www.politicususa.com/2017/11/03/trump-threatens-fire-jeff-sessions-investigate-hillary-clinton.html'
-p177
-sg4
-(lp178
-S'Russia'
+(lp174
+(F36.1662859
+F-115.149225
+tp175
+asg5
+S'http://www.theblaze.com/news/2017/11/04/police-reveal-what-could-be-a-possible-motive-in-the-las-vegas-shooting/'
+p176
+sg7
+(lp177
+S'Las Vegas'
+p178
+asg10
+S'Police reveal what could be a possible motive in the Las Vegas shooting'
 p179
-asg8
-S"Trump Threatens To Fire Jeff Sessions If He Won't Investigate Hillary Clinton"
-p180
-sa(dp181
+sa(dp180
 g2
-S'https://www.cnsnews.com/blog/craig-bannister/saints-call-disabled-veteran-declining-nfl-honor-over-anthem-protests-sad-and'
-p182
-sg4
-(lp183
-S'New Orleans'
-p184
-asg8
-S"Saints Call Disabled Veteran Declining NFL Honor Over Anthem Protests 'Sad and Divisive'"
+(lp181
+(F46.8044352
+F-92.0703141
+tp182
+asg5
+S'http://rare.us/rare-news/the-media/columnist-apologizes-to-sarah-huckabee-sanders-for-insensitive-remarks-on-her-appearance/'
+p183
+sg7
+(lp184
+S'Fox News'
 p185
-sa(dp186
+asg10
+VColumnist apologizes to Sarah Huckabee Sanders for \u201cinsensitive\u201d remarks on her appearance
+p186
+sa(dp187
 g2
-S'http://www.chicagotribune.com/sports/baseball/cubs/ct-cubs-astros-pizza-world-series-20171103-story.html'
-p187
-sg4
 (lp188
-S'Houston'
-p189
-aS'Kansas City-based'
+(F31.8160381
+F-99.5120986
+tp189
+asg5
+S'http://nascar.nbcsports.com/2017/11/04/saturday-schedule-at-texas-motor-speedway-2/'
 p190
-asg8
-S'Cubs send Astros pizza for winning the World Series'
-p191
-sa(dp192
-g2
-S'https://www.cbssports.com/nfl/news/ezekiel-elliott-on-suspension-its-bigger-than-football-im-not-an-abuser/'
+sg7
+(lp191
+S'Texas'
+p192
+asg10
+S'Saturday schedule at Texas Motor Speedway'
 p193
-sg4
-(lp194
-S'United States'
-p195
-aS'Fort Worth Star-Telegram'
-p196
-asg8
-S"Ezekiel Elliott on suspension: 'It's bigger than football ... I'm not an abuser'"
+sa(dp194
+g2
+(lp195
+(F27.6886419
+F-82.5723193
+tp196
+asg5
+S'https://www.cbssports.com/nfl/news/buccaneers-coach-is-concerned-that-the-buccaneers-have-a-culture-of-losing/'
 p197
-sa(dp198
-g2
-S'http://thehill.com/homenews/campaign/358538-brazile-revelation-tears-at-democratic-scab'
+sg7
+(lp198
+S'Tampa Bay'
 p199
-sg4
-(lp200
-S'Detroit'
-p201
-asg8
-S'Brazile revelation tears at Democratic scab'
-p202
-sa(dp203
+asg10
+S'Buccaneers coach is concerned that the Buccaneers have a culture of losing'
+p200
+sa(dp201
 g2
-S'http://thehill.com/homenews/administration/358576-trump-calls-on-fbi-to-investigate-dems-after-revelations-about'
+(lp202
+(F45.38948185
+F-122.751310219937
+tp203
+asg5
+S'http://www.nba.com/lakers/releases/171103-larry-nance-injury-report'
 p204
-sg4
+sg7
 (lp205
-S'Russia'
+S'Portland Trail Blazers'
 p206
-asg8
-S'Trump calls on FBI to investigate Dems after revelations about Clinton-DNC deal'
+asg10
+S'Larry Nance Jr. Medical Update'
 p207
 sa(dp208
 g2
-S'http://www.nydailynews.com/news/national/pizza-hut-sales-unaffected-nfl-protests-article-1.3608894'
-p209
-sg4
-(lp210
-S'Papa'
+(lp209
+(F33.171276
+F-117.245728
+tp210
+asg5
+S'http://abcnews.go.com/US/frat-pledges-death-sparks-investigation-suspension-fraternity/story?id=50929078'
 p211
-asg8
-S"Pizza Hut says unlike Papa John's, NFL protests not hurting sales"
-p212
-sa(dp213
-g2
-S'https://www.yahoo.com/news/victims-manhattan-bike-path-attack-slideshow-wp-212727126.html'
+sg7
+(lp212
+S'Buena Vista Drive'
+p213
+asg10
+S"Frat pledge's death sparks investigation, suspension of fraternity"
 p214
-sg4
-(lp215
-S'Belgium'
-p216
-aS'New York'
-p217
-asg8
-S'Victims of the Manhattan bike path attack'
+sa(dp215
+g2
+(lp216
+(F47.6114034
+F-122.33442
+tp217
+asg5
+S'http://www.complex.com/sneakers/2017/11/nike-pg1-bright-violet-release-date-878627-500'
 p218
-sa(dp219
-g2
-S'http://nhl.nbcsports.com/2017/11/03/nhl-fines-killorn-hayes-stamkos-5000-for-water-squirting-antics-video/'
+sg7
+(lp219
+S'Nike'
 p220
-sg4
-(lp221
-S'New York'
-p222
-aS'Tampa Bay'
-p223
-asg8
-S'NHL fines Killorn, Hayes, Stamkos $5,000 for water-squirting antics (Video)'
-p224
-sa(dp225
+asg10
+S'Purple Nike PG1 Kicks Off December'
+p221
+sa(dp222
 g2
-S'http://nascar.nbcsports.com/2017/11/03/ryan-blaney-nearly-eclipses-200-mph-to-lead-cup-practice-at-texas/'
-p226
-sg4
-(lp227
-S'Texas'
+(lp223
+(F34.054935
+F-118.244476
+tp224
+asg5
+S'http://variety.com/2017/biz/vpage/friends-israel-defense-forces-gala-raises-record-breaking-53-8-million-1202606799/'
+p225
+sg7
+(lp226
+S'Los Angeles'
+p227
+asg10
+S'Friends of Israel Defense Forces Gala Raises Record-Breaking $53.8 Million'
 p228
-aS'199.933'
-p229
-asg8
-S'Ryan Blaney nearly eclipses 200 mph to lead Cup practice at Texas'
-p230
-sa(dp231
+sa(dp229
 g2
-S'http://www.nba.com/lakers/releases/171103-larry-nance-injury-report'
+(lp230
+(F37.182261
+F-118.260475
+tp231
+asg5
+S'http://www.tennisworldusa.org/tennis/news/Andy_Murray/48807/here-is-where-you-can-watch-murray-vs-federer-exhibition-for-free/'
 p232
-sg4
+sg7
 (lp233
-S'Portland Trail Blazers'
+S'Zurich'
 p234
-asg8
-S'Larry Nance Jr. Medical Update'
+asg10
+S'Here is where you can watch Murray vs Federer exhibition For Free'
 p235
 sa(dp236
 g2
-S'http://fortune.com/2017/11/03/thieves-steal-300-iphonex-ups-truck/'
-p237
-sg4
-(lp238
-S'San Francisco'
+(lp237
+(F39.9523993
+F-75.1635899
+tp238
+asg5
+S'http://www.complex.com/sneakers/2017/11/ben-simmons-nike-jersey-ripped'
 p239
-asg8
-S'Thieves Steal $300,000 Worth of iPhone Xs in San Francisco Daylight Heist'
-p240
-sa(dp241
-g2
-S'http://feedproxy.google.com/~r/TheAtlantic/~3/zKJ-VEP45ig/'
+sg7
+(lp240
+S'Philadelphia'
+p241
+asg10
+S'Ben Simmons Latest to Have Nike Jersey Ripped in a Game'
 p242
-sg4
-(lp243
-S'United States'
-p244
-asg8
-S'Trump Demands the Prosecution of His Defeated Rival'
-p245
-sa(dp246
+sa(dp243
 g2
-S'http://myfox8.com/2017/11/03/no-jail-time-for-army-sgt-bowe-bergdahl/'
-p247
-sg4
-(lp248
-S'Afghanistan'
+(lp244
+(F6.7501787
+F-75.3229229277351
+tp245
+asg5
+S'http://profootballtalk.nbcsports.com/2017/11/03/aaron-rodgers-if-im-healthy-and-it-makes-sense-ill-come-back/'
+p246
+sg7
+(lp247
+S'Carolina'
+p248
+asg10
+VAaron Rodgers: If I\u2019m healthy and it makes sense, I\u2019ll come back
 p249
-aS'Guantanamo Bay'
-p250
-asg8
-S'No jail time for Army Sgt. Bowe Bergdahl'
-p251
-sa(dp252
+sa(dp250
 g2
-S'http://thehill.com/homenews/senate/358670-feinstein-trumps-calls-to-investigate-clinton-deeply-disturbing'
+(lp251
+(F35.4729886
+F-97.5170536
+tp252
+asg5
+S'http://www.nba.com/celtics/news/post-ups-20171103'
 p253
-sg4
+sg7
 (lp254
-S'United States'
+S'Oklahoma City'
 p255
-aS'Moscow'
+asg10
+S'Pregame Post-Ups: Versatility is Name of the Game Tonight'
 p256
-asg8
-S"Feinstein: Trump's calls to investigate Clinton 'deeply disturbing'"
-p257
-sa(dp258
+sa(dp257
 g2
-S'http://uproxx.com/dimemag/gordon-hayward-practicing-broken-ankle-video/'
-p259
-sg4
-(lp260
-S'Gordon Hayward'
-p261
-aS'Cleveland'
+(lp258
+(F53.7158609
+F-1.3823269
+tp259
+asg5
+S'http://crooksandliars.com/2017/11/uh-oh-white-house-didnt-know-sam-clovis'
+p260
+sg7
+(lp261
+S'Coffee Boy'
 p262
-asg8
-S'Gordon Hayward Is Already Back At Practice Working On His Game'
+asg10
+S"Uh Oh. White House Didn't Know Sam Clovis Testified Last Week"
 p263
 sa(dp264
 g2
-S'http://profootballtalk.nbcsports.com/2017/11/03/aaron-rodgers-if-im-healthy-and-it-makes-sense-ill-come-back/'
-p265
-sg4
-(lp266
-S'Carolina'
-p267
-asg8
-VAaron Rodgers: If I\u2019m healthy and it makes sense, I\u2019ll come back
-p268
-sa(dp269
-g2
-S'http://dailycaller.com/2017/11/03/the-justice-department-wont-release-comeys-memos-so-we-sued-them/'
-p270
-sg4
-(lp271
-S'Washington'
-p272
-asg8
-VThe Justice Department Won\u2019t Release Comey\u2019s Memos, So We Sued Them
-p273
-sa(dp274
-g2
+(lp265
+(F32.3665322
+F-96.1008056
+tp266
+a(F32.7762719
+F-96.7968559
+tp267
+asg5
 S'http://ktla.com/2017/11/03/texas-mom-planned-to-kill-her-two-children-weeks-before-sheriff-says/'
-p275
-sg4
-(lp276
+p268
+sg7
+(lp269
 S'Mabank'
-p277
+p270
 aS'Dallas'
-p278
-asg8
+p271
+asg10
 V\u2018Please Just Shoot Me,\u2019 Texas Mother Told Husband After Allegedly Killing 2 Young Daughters
+p272
+sa(dp273
+g2
+(lp274
+(F46.7323875
+F-117.0001651
+tp275
+a(F40.58475245
+F-8.46771457113208
+tp276
+asg5
+S'https://www.cnbc.com/2017/11/04/donna-brazile-book-on-hillary-clinton-campaign-dnc-deal.html'
+p277
+sg7
+(lp278
+S'Moscow'
 p279
-sa(dp280
-g2
-S'http://www.nba.com/celtics/news/post-ups-20171103'
+aS'HFA.'
+p280
+asg10
+S'Outrage after book claims Clinton campaign effectively bought control of DNC before election'
 p281
-sg4
-(lp282
-S'Oklahoma City'
-p283
-asg8
-S'Pregame Post-Ups: Versatility is Name of the Game Tonight'
+sa(dp282
+g2
+(lp283
+Nasg5
+S'http://feedproxy.google.com/~r/breitbart/~3/XHlSVGzs0wo/'
 p284
-sa(dp285
-g2
-S'http://www.pressherald.com/2017/11/03/maine-woman-80-who-never-shot-before-shoots-a-buck-on-2nd-day-of-hunting/'
+sg7
+(lp285
+S'Portland Trailblazers'
 p286
-sg4
-(lp287
-S'Auburn'
-p288
-asg8
-VMaine woman, 80, who \u2018never shot before\u2019 shoots a buck on 2nd day of hunting
-p289
-sa(dp290
+asg10
+S'PETA Rips Charles Barkley for Rejecting Vegetarianism'
+p287
+sa(dp288
 g2
-S'http://rssfeeds.usatoday.com/~/485111814/0/usatodaycomnfl-topstories~Appeals-court-grants-stay-to-Cowboysapos-Ezekiel-Elliott-who-can-play-vs-Chiefs/'
+(lp289
+(F40.3641184
+F-111.73854
+tp290
+asg5
+S'http://highschoolsports.al.com/news/article/9190294369122225964/pinson-valley-34-pleasant-grove-0-indians-finish-regular-season-undefeated/'
 p291
-sg4
+sg7
 (lp292
-S'New York'
+S'Pleasant Grove'
 p293
-aS'Kansas City'
+asg10
+S'Pinson Valley 34, Pleasant Grove 0: Indians finish regular season undefeated'
 p294
-asg8
-S"Appeals court grants stay to Cowboys' Ezekiel Elliott, who can play vs. Chiefs"
-p295
-sa(dp296
+sa(dp295
 g2
-S'https://www.ksat.com/news/mattress-mack-loses-10-million-in-bet-with-houston-astros-fans'
-p297
-sg4
-(lp298
-S'Houston'
+(lp296
+(F42.7281938
+F-84.4850116892922
+tp297
+a(F43.6211955
+F-84.6824346
+tp298
+asg5
+S'http://www.pennlive.com/pennstatefootball/index.ssf/2017/11/penn_state-michigan_state_to_r.html'
 p299
-aS'Texas'
-p300
-asg8
-S'Mattress Mack loses $10 million in rebate bet with Houston Astros fans'
+sg7
+(lp300
+S'Spartan Stadium'
 p301
-sa(dp302
-g2
-S'http://rare.us/rare-news/the-media/columnist-apologizes-to-sarah-huckabee-sanders-for-insensitive-remarks-on-her-appearance/'
+aS'Mich.'
+p302
+asg10
+S'Penn State-Michigan State should resume at 4 p.m.; unclear if FOX, or another network, will air it'
 p303
-sg4
-(lp304
-S'Fox News'
-p305
-asg8
-VColumnist apologizes to Sarah Huckabee Sanders for \u201cinsensitive\u201d remarks on her appearance
-p306
-sa(dp307
+sa(dp304
 g2
-S'http://www.nbcsports.com/boston/celtics/al-horford-leads-boston-celtics-comeback-win-over-oklahoma-city-thunder-extending-win-streak-7'
-p308
-sg4
-(lp309
-S'Oklahoma City'
+(lp305
+(F47.6038321
+F-122.3300624
+tp306
+asg5
+S'http://www.tmz.com/2017/11/03/colin-kaepernick-case-will-include-pete-carroll-paul-allen/'
+p307
+sg7
+(lp308
+S'Seattle'
+p309
+asg10
+S'Colin Kaepernick Case Will Include Pete Carroll, Paul Allen'
 p310
-aS'Boston'
-p311
-asg8
-S"Horford leads C's to comeback win over Thunder, extending win streak to 7"
-p312
-sa(dp313
+sa(dp311
 g2
-S'http://nypost.com/2017/11/03/white-house-on-lockdown-over-suspicious-activity/'
+(lp312
+(F27.6886419
+F-82.5723193
+tp313
+asg5
+S'https://www.cbssports.com/nfl/news/cardinals-plan-without-carson-palmer-is-to-feed-the-beast-adrian-peterson/'
 p314
-sg4
+sg7
 (lp315
-S'Hawaii'
+S'Tampa Bay'
 p316
-aS'Asia'
+asg10
+S"Cardinals' plan without Carson Palmer is to feed 'the beast,' Adrian Peterson"
 p317
-asg8
-VWhite House lockdown lifted after \u2018suspicious activity\u2019
-p318
-sa(dp319
+sa(dp318
 g2
-S'http://nascar.nbcsports.com/2017/11/03/discount-tire-miller-lite-to-sponsor-brad-keselowskis-cup-car-in-2018/'
+(lp319
+Nasg5
+S'http://www.mysanantonio.com/sports/high_school/high_school_football/article/Memorial-makes-history-with-win-against-Highlands-12331348.php'
 p320
-sg4
+sg7
 (lp321
-S'Daytona'
+VMinutemen\u2019s
 p322
-asg8
-VMiller Lite, Discount Tire to sponsor Brad Keselowski\u2019s Cup car in 2018
+asg10
+S'Memorial makes history with win against Highlands'
 p323
 sa(dp324
 g2
-S'http://www.cbsnews.com/news/former-clinton-campaign-aide-says-rigged-election-claims-is-overstating-things/'
-p325
-sg4
-(lp326
-S'Asia'
+(lp325
+(F25.7742658
+F-80.1936589
+tp326
+asg5
+S'https://www.cbssports.com/nfl/news/dolphins-ndamukong-suh-avoids-fine-after-grabbing-ryan-mallett-by-the-throat/'
 p327
-asg8
-S'Former Clinton campaign aide says rigged election claim is "overstating" things'
-p328
-sa(dp329
-g2
-S'http://nascar.nbcsports.com/2017/11/03/discount-tire-to-sponsor-brad-keselowskis-cup-car-in-2018/'
+sg7
+(lp328
+S'Miami'
+p329
+asg10
+S"Dolphins' Ndamukong Suh avoids fine after grabbing Ryan Mallett by the throat"
 p330
-sg4
-(lp331
-S'Daytona'
-p332
-asg8
-VDiscount Tire to sponsor Brad Keselowski\u2019s Cup car in 2018
-p333
-sa(dp334
+sa(dp331
 g2
-S'http://www.al.com/alabamafootball/index.ssf/2017/11/watch_taulia_tagovailoa_tuas_l.html'
-p335
-sg4
-(lp336
-S'Alabama'
+(lp332
+(F38.27312
+F-98.5821872
+tp333
+asg5
+S'http://www.dallascowboys.com/news/2017/11/03/gut-feeling-dallascowboyscom-writers%E2%80%99-final-preview-cowboys-chiefs'
+p334
+sg7
+(lp335
+S'Kansas'
+p336
+asg10
+VGut Feeling: DallasCowboys.com Writers\u2019 Final Preview Of Cowboys-Chiefs
 p337
-asg8
-S"Watch QB Taulia Tagovailoa, Tua's little brother, in wild win in Tuscaloosa"
-p338
-sa(dp339
+sa(dp338
 g2
-S'http://www.nfl.com/news/story/0ap3000000871495/article/doug-pederson-still-mulling-if-jay-ajayi-will-play-sunday'
-p340
-sg4
-(lp341
-S'Philadelphia'
+(lp339
+(F35.7979355
+F-78.6118311
+tp340
+a(F35.875259
+F-78.7751271
+tp341
+asg5
+S'http://www.wral.com/durham-bulls-miracle-league-field-expands-baseball-league-for-children-with-disabilities-/17089431/'
 p342
-aS'Miami'
-p343
-asg8
-S'Doug Pederson still mulling if Jay Ajayi will play Sunday'
+sg7
+(lp343
+S'Wake County'
 p344
-sa(dp345
-g2
-S'http://www.complex.com/music/2017/11/schoolboy-q-lonzo-ball-collaboration-hell-nah'
+aS'Triangle'
+p345
+asg10
+S'Bulls back Miracle League field for children with disabilities to play ball ::'
 p346
-sg4
-(lp347
-S'Los Angeles'
-p348
-asg8
-S"Schoolboy Q on Whether He Would Collaborate With Lonzo Ball: 'Hell Nah'"
-p349
-sa(dp350
+sa(dp347
 g2
-S'http://rare.us/local/houston/jose-altuve-tells-jimmy-fallon-of-the-impact-of-hurricane-harvey-on-their-world-series-win/'
+(lp348
+(F32.982418
+F-80.619816
+tp349
+a(F50.0601579
+F13.8307479420999
+tp350
+asg5
+S'http://www.kansascity.com/news/local/article182760136.html#storylink=rss'
 p351
-sg4
+sg7
 (lp352
-S'New York City'
+S'Candle Light'
 p353
-aS'Houston'
+aS'St.'
 p354
-asg8
-VJosé Altuve tells Jimmy Fallon of the impact of Hurricane Harvey on their World Series win
+asg10
+VGirl, 5, reported missing from Grandview home. Police seek public\u2019s help in locating.
 p355
 sa(dp356
 g2
-S'http://www.tmz.com/2017/11/03/colin-kaepernick-case-will-include-pete-carroll-paul-allen/'
-p357
-sg4
-(lp358
-S'Seattle'
+(lp357
+(F39.7837304
+F-100.4458825
+tp358
+asg5
+S'http://www.complex.com/sports/2017/11/owners-cell-phone-records-sought-in-colin-kaepernick-collusion-deposition'
 p359
-asg8
-S'Colin Kaepernick Case Will Include Pete Carroll, Paul Allen'
-p360
-sa(dp361
-g2
-S'https://www.thedailybeast.com/no-hillary-clinton-didnt-take-over-the-dnc-but-barack-obama-did-let-it-languish'
+sg7
+(lp360
+S'United States'
+p361
+asg10
+S'NFL Owners Will Be Asked to Turn Over Cell Phone Records and Emails in Kaepernick Collusion Case'
 p362
-sg4
-(lp363
-S'Politico'
-p364
-aS'South Africa'
-p365
-asg8
-VNo, Hillary Clinton Didn\u2019t Take Over the DNC. But Barack Obama Did Let It Languish.
+sa(dp363
+g2
+(lp364
+(F-33.8548157
+F151.2164539
+tp365
+asg5
+S'http://www.tennisworldusa.org/tennis/news/Serena_Williams/48815/serena-williams-2018-schedule-is-a-mystery-unlikely-to-play-brisbane/'
 p366
-sa(dp367
-g2
-S'http://www.politicususa.com/2017/11/03/trump-suddenly-loses-memory-begging-people-clinton-dnc-russia.html'
+sg7
+(lp367
+S'Sydney'
 p368
-sg4
-(lp369
-S'Asia'
-p370
-asg8
-S'Trump Suddenly Loses His Memory As He Begs People To Look At Clinton And DNC Instead Of Russia'
-p371
-sa(dp372
+asg10
+S"Serena Williams' 2018 schedule is a mystery: unlikely to play Brisbane"
+p369
+sa(dp370
 g2
-S'http://dailycaller.com/2017/11/03/hillary-clinton-wins-democratic-woman-of-the-year-award/'
+(lp371
+(F26.301135
+F-81.797742
+tp372
+asg5
+S'http://www.nbcsports.com/chicago/white-sox/white-sox-add-prospect-daniel-palka-twins-waivers-power-potential'
 p373
-sg4
+sg7
 (lp374
-S'New York'
+S'Gulf Coast'
 p375
-aS'Manhattan'
+asg10
+S'White Sox add prospect with intriguing power potential'
 p376
-asg8
-S'Hillary Clinton Wins Democratic Woman Of The Year Award'
-p377
-sa(dp378
+sa(dp377
 g2
-S'http://www.chron.com/news/houston-texas/article/Fans-flock-to-downtown-Houston-for-Astros-12329792.php'
-p379
-sg4
-(lp380
-S'Houston'
-p381
-asg8
-S"Fans flock to downtown Houston for Astros' victory parade"
-p382
-sa(dp383
-g2
+(lp378
+(F44.5990718
+F-72.5002608
+tp379
+asg5
 S'http://dailycaller.com/2017/11/03/trump-what-happened-to-bernie-sanders-with-dnc-was-horrible-video/'
-p384
-sg4
-(lp385
+p380
+sg7
+(lp381
 S'Vermont'
-p386
-asg8
+p382
+asg10
 VTrump: What Happened To Bernie Sanders With DNC Was \u2018Horrible\u2019 [VIDEO]
+p383
+sa(dp384
+g2
+(lp385
+(F35.4729886
+F-97.5170536
+tp386
+asg5
+S'http://boston.cbslocal.com/2017/11/04/celtics-7-7-2-record/'
 p387
-sa(dp388
-g2
-S'https://www.cbssports.com/nfl/news/cardinals-plan-without-carson-palmer-is-to-feed-the-beast-adrian-peterson/'
+sg7
+(lp388
+S'Oklahoma City'
 p389
-sg4
-(lp390
-S'Tampa Bay'
-p391
-asg8
-S"Cardinals' plan without Carson Palmer is to feed 'the beast,' Adrian Peterson"
-p392
-sa(dp393
+asg10
+S'Celtics @ 7: What A 7-2 Record Means For The Celtics'
+p390
+sa(dp391
 g2
-S'http://uproxx.com/dimemag/lebron-james-57-points-cavs-wizards/'
-p394
-sg4
-(lp395
-S'Cleveland'
-p396
-aS'Washington'
+(lp392
+(F40.3270127
+F-86.1746933
+tp393
+a(F39.6188156
+F-106.4285445
+tp394
+asg5
+S'http://www.theindychannel.com/news/local-news/owen-county/suspect-in-31-hour-standoff-killed-after-firing-several-shots-at-officers'
+p395
+sg7
+(lp396
+S'Ind.'
 p397
-asg8
-S'LeBron Put The Cavs On His Back With A Huge 57-Point Game Vs. Wizards'
+aS'Kinnickinick Ridge'
 p398
-sa(dp399
+asg10
+S'Suspect in 31 hour standoff killed after firing several shots at officers, hostages rescued'
+p399
+sa(dp400
 g2
-S'http://feedproxy.google.com/~r/businessinsider/~3/h3sDuiyFYKo/sebastian-gorka-twitter-reporters-questions-2017-11'
-p400
-sg4
 (lp401
-S'Arlington'
-p402
-aS'Virginia'
+(F34.1028268
+F-118.3299899
+tp402
+asg5
+S'http://www.washingtonexaminer.com/trust-donna-brazile-democrats-youre-better-off-without-clinton-and-obama/article/2639620'
 p403
-asg8
-S'Former Trump adviser Sebastian Gorka keeps trying to roast reporters when they reach out to ask him questions'
-p404
-sa(dp405
-g2
-S'https://www.cbssports.com/nfl/news/randall-cunningham-im-praying-carson-wentz-outdoes-everything-weve-all-done/'
+sg7
+(lp404
+S'Hollywood'
+p405
+asg10
+S"Trust Donna Brazile, Democrats: You're better off without Clinton and Obama"
 p406
-sg4
-(lp407
-S'Philadelphia'
-p408
-aS'1999-2009'
-p409
-asg8
-S"Randall Cunningham: 'I'm praying Carson Wentz outdoes everything we've all done'"
-p410
-sa(dp411
+sa(dp407
 g2
-S'http://nypost.com/2017/11/03/masahiro-tanaka-staying-with-yankees/'
-p412
-sg4
-(lp413
-S'New York'
+(lp408
+(F41.71803185
+F-75.5583619505367
+tp409
+a(F39.2744299
+F-88.2423795
+tp410
+asg5
+S'http://www.pennlive.com/news/2017/11/12_reasons_tuesdays_election_i.html'
+p411
+sg7
+(lp412
+S'Susquehanna Township'
+p413
+aS'Cumberland County'
 p414
-asg8
-S'Masahiro Tanaka had to make decision to stay with Yankees'
+asg10
+S"11 reasons Tuesday's election is more important to you than Trump vs. Clinton in 2016"
 p415
 sa(dp416
 g2
-S'http://highschoolsports.al.com/news/article/9190294369122225964/pinson-valley-34-pleasant-grove-0-indians-finish-regular-season-undefeated/'
-p417
-sg4
-(lp418
-S'Pleasant Grove'
+(lp417
+(F64.6863136
+F97.7453061
+tp418
+asg5
+S'http://insider.foxnews.com/2017/11/03/byron-york-braziles-claims-full-scale-indictment-entire-power-structure-dnc'
 p419
-asg8
-S'Pinson Valley 34, Pleasant Grove 0: Indians finish regular season undefeated'
-p420
-sa(dp421
-g2
-S'https://www.cbssports.com/nba/news/watch-manu-ginobili-turns-back-clock-with-thunderous-jam-in-1000th-game/'
-p422
-sg4
-(lp423
-S'San Antonio'
-p424
-aS'Charlotte'
-p425
-asg8
-S'WATCH: Manu Ginobili turns back clock with thunderous jam in 1,000th game'
-p426
-sa(dp427
-g2
-S'http://rare.us/rare-news/as-long-as-nfl-players-take-a-knee-this-retired-navy-officer-is-taking-a-stand/'
-p428
-sg4
-(lp429
-S'Carolina'
-p430
-aS'Tampa Bay'
-p431
-asg8
-VAs long as NFL players \u201ctake a knee,\u201d this retired Navy officer is taking a stand
-p432
-sa(dp433
-g2
-S'http://uproxx.com/news/elizabeth-warren-trump-pocahontas-twitter/'
-p434
-sg4
-(lp435
+sg7
+(lp420
 S'Russia'
-p436
-aS'Griffin'
+p421
+asg10
+S"Byron York on Brazile's Claims: 'A Full-Scale Indictment of the Entire Power Structure at the DNC'"
+p422
+sa(dp423
+g2
+(lp424
+(F28.3861159
+F-80.7419984
+tp425
+a(F41.1421905
+F-87.8613221
+tp426
+asg5
+S'http://rssfeeds.floridatoday.com/~/485498618/0/brevard/sports~Rockledge-beats-Cocoa-to-highlight-Week/'
+p427
+sg7
+(lp428
+S'Cocoa'
+p429
+aS'Bradley'
+p430
+asg10
+S'Rockledge beats Cocoa to highlight Week 11'
+p431
+sa(dp432
+g2
+(lp433
+(F40.7306458
+F-73.9866136
+tp434
+asg5
+S'http://nypost.com/2017/11/03/masahiro-tanaka-staying-with-yankees/'
+p435
+sg7
+(lp436
+S'New York'
 p437
-asg8
-S"Elizabeth Warren Slams Trump After Calling Her 'Pocahontas' On Twitter"
+asg10
+S'Masahiro Tanaka had to make decision to stay with Yankees'
 p438
 sa(dp439
 g2
-S'https://www.cbssports.com/nfl/news/watch-jets-defense-celebrates-thrashing-bills-with-on-field-dance-party/'
-p440
-sg4
-(lp441
-S'New York'
-p442
-asg8
-S'WATCH: Jets defense celebrates thrashing Bills with on-field dance party'
-p443
-sa(dp444
-g2
-S'http://uproxx.com/prowrestling/triple-h-wwe-conor-mcgregor-ronda-rousey/'
-p445
-sg4
-(lp446
-S'Europe'
-p447
-aS'Britain'
-p448
-asg8
-S'Triple H Addressed Those Rumors About Conor McGregor And Ronda Rousey'
-p449
-sa(dp450
-g2
-S'https://www.cbssports.com/mlb/news/marlins-decline-ichiro-suzukis-option-and-this-could-be-the-end-of-his-career/'
-p451
-sg4
-(lp452
-S'Japan'
-p453
-asg8
-S"Marlins decline Ichiro Suzuki's option, and this could be the end of his career"
-p454
-sa(dp455
-g2
-S'http://www.complex.com/sports/2017/11/owners-cell-phone-records-sought-in-colin-kaepernick-collusion-deposition'
-p456
-sg4
-(lp457
-S'United States'
-p458
-asg8
-S'NFL Owners Will Be Asked to Turn Over Cell Phone Records and Emails in Kaepernick Collusion Case'
-p459
-sa(dp460
-g2
-S'http://nascar.nbcsports.com/2017/11/03/friday-schedule-at-texas-motor-speedway-3/'
-p461
-sg4
-(lp462
-S'Texas'
-p463
-asg8
-S'Friday schedule at Texas Motor Speedway'
-p464
-sa(dp465
-g2
-S'https://newrepublic.com/article/145659/dnc-broken'
-p466
-sg4
-(lp467
-S'Brooklyn'
-p468
-asg8
-S'The DNC Is Broken'
-p469
-sa(dp470
-g2
-S'http://www.businessinsider.com/brands-say-theyll-pull-ads-from-nfl-if-nbc-keeps-covering-protests-2017-11'
-p471
-sg4
-(lp472
-S'New York'
-p473
-asg8
-S"Brands are threatening to pull ads from NFL coverage if NBC keeps covering players' national anthem protests"
-p474
-sa(dp475
-g2
+(lp440
+(F40.7306458
+F-73.9866136
+tp441
+a(F40.7306458
+F-73.9866136
+tp442
+asg5
 S'http://www.businessinsider.com/anthony-weiner-prison-sentence-2017-11'
-p476
-sg4
-(lp477
+p443
+sg7
+(lp444
 S'New York City'
-p478
+p445
 aS'New York'
-p479
-asg8
+p446
+asg10
 S'Anthony Weiner ordered to report to prison by Monday'
+p447
+sa(dp448
+g2
+(lp449
+(F38.8949549
+F-77.0366456
+tp450
+a(F41.5051613
+F-81.6934446
+tp451
+asg5
+S'http://www.complex.com/sports/2017/11/wizards-player-kelly-oubre-jr-could-be-fined-by-nba-over-his-choice-of-coat'
+p452
+sg7
+(lp453
+S'Washington'
+p454
+aS'Cleveland'
+p455
+asg10
+S'Wizards Player Kelly Oubre Jr. Could Be Fined By NBA Over His Choice of Coat'
+p456
+sa(dp457
+g2
+(lp458
+(F45.9896587
+F-94.6113288
+tp459
+a(F7.0523847
+F-4.4419131
+tp460
+asg5
+S'http://www.twincities.com/2017/11/03/mille-lacs-ice-fishing-walleye-regulations-announced/'
+p461
+sg7
+(lp462
+S'Minn.'
+p463
+aS'Lacs Lake'
+p464
+asg10
+S'Mille Lacs ice fishing walleye regulations announced'
+p465
+sa(dp466
+g2
+(lp467
+(F41.5051613
+F-81.6934446
+tp468
+asg5
+S'http://uproxx.com/dimemag/paul-piece-thinks-lebron-james-sign-washington-wizards/'
+p469
+sg7
+(lp470
+S'Cleveland'
+p471
+asg10
+S'Paul Pierce Thinks LeBron James Should Sign With The Wizards'
+p472
+sa(dp473
+g2
+(lp474
+(F35.4729886
+F-97.5170536
+tp475
+a(F42.3604823
+F-71.0595678
+tp476
+asg5
+S'http://www.nbcsports.com/boston/celtics/al-horford-leads-boston-celtics-comeback-win-over-oklahoma-city-thunder-extending-win-streak-7'
+p477
+sg7
+(lp478
+S'Oklahoma City'
+p479
+aS'Boston'
 p480
-sa(dp481
+asg10
+S"Horford leads C's to comeback win over Thunder, extending win streak to 7"
+p481
+sa(dp482
 g2
-S'http://thehill.com/blogs/ballot-box/358580-american-arrested-in-zimbabwe-for-insulting-president-on-twitter'
-p482
-sg4
 (lp483
-S'Zimbabwe'
-p484
-asg8
-S'American arrested in Zimbabwe for insulting president on Twitter'
-p485
-sa(dp486
-g2
-S'http://www.washingtontimes.com/news/2017/nov/3/tulsi-gabbard-calls-complete-overhaul-dnc-followin/?utm_source=RSS_Feed&utm_medium=RSS'
-p487
-sg4
-(lp488
-S'Vermont'
+(F41.5051613
+F-81.6934446
+tp484
+a(F38.8949549
+F-77.0366456
+tp485
+asg5
+S'http://uproxx.com/dimemag/lebron-james-57-points-cavs-wizards/'
+p486
+sg7
+(lp487
+S'Cleveland'
+p488
+aS'Washington'
 p489
-aS'Hawaii'
+asg10
+S'LeBron Put The Cavs On His Back With A Huge 57-Point Game Vs. Wizards'
 p490
-asg8
-S'Tulsi Gabbard calls for complete overhaul of DNC following Clinton rigging revelations'
-p491
-sa(dp492
+sa(dp491
 g2
-S'http://www.sportingnews.com/au/nba-au/news/ben-simmons-posts-triple-double-to-lead-sixers-to-fourth-straight-win/dtsjr8a23cq71gx0nevcmgrao'
-p493
-sg4
-(lp494
-S'Utah'
-p495
-aS'Philadelphia'
+(lp492
+(F45.9896587
+F-94.6113288
+tp493
+asg5
+S'http://minnesota.cbslocal.com/2017/11/03/stillwater-magnificent-7/'
+p494
+sg7
+(lp495
+S'Minnesota'
 p496
-asg8
-S'Ben Simmons posts triple-double to lead Sixers to fourth straight win'
+asg10
+VStillwater\u2019s Magnificent 7: 20 Years Later
 p497
 sa(dp498
 g2
-S'http://boston.cbslocal.com/2017/11/04/boston-celtics-oklahoma-city-thunder/'
-p499
-sg4
-(lp500
-S'Oklahoma City'
-p501
-aS'Orlando Magic.'
+(lp499
+(F8.444585
+F125.951249185475
+tp500
+a(F35.9301898
+F139.3990527
+tp501
+asg5
+S'https://townhall.com/columnists/jeffcrouere/2017/11/04/saints-criticize-navy-veteran-who-supports-anthem-n2404738'
 p502
-asg8
-S'Celtics Storm Back For Road Win Over Thunder'
-p503
-sa(dp504
-g2
-S'http://www.givemesport.com/1185189-liverpool-fans-cannot-believe-what-daniel-sturridge-did-to-sadio-mane-in-training-before-scoring?autoplay=on'
+sg7
+(lp503
+S'San Francisco'
+p504
+aS'50'
 p505
-sg4
-(lp506
-S'Germany'
-p507
-aS'Brazil'
-p508
-asg8
-S'Liverpool fans cannot believe what Daniel Sturridge did to Sadio Mane in training before scoring'
-p509
-sa(dp510
+asg10
+S'Saints Criticize Navy Veteran Who Supports Anthem'
+p506
+sa(dp507
 g2
-S'http://rssfeeds.usatoday.com/~/485052280/0/usatodaycomwashington-topstories~Trump-says-military-is-hitting-ISIS-aposmuch-harderapos-in-response-to-New-York-City-attack/'
+(lp508
+(F39.7837304
+F-100.4458825
+tp509
+a(F35.7803977
+F-78.6390989
+tp510
+asg5
+S'http://www.wral.com/fall-back-this-weekend/16184015/'
 p511
-sg4
+sg7
 (lp512
-S'New York'
-p513
-asg8
-S"Trump says military is hitting ISIS 'much harder' in response to New York City attack"
-p514
-sa(dp515
-g2
-S'http://www.wral.com/north-carolina-restaurant-workers-wear-pro-flag-t-shirts/17088121/'
-p516
-sg4
-(lp517
 S'United States'
-p518
-aS'North Carolina'
+p513
+aS'Raleigh.'
+p514
+asg10
+S'Fall back this weekend ::'
+p515
+sa(dp516
+g2
+(lp517
+(F22.3511148
+F78.6677428
+tp518
+asg5
+S'http://www.tennisworldusa.org/tennis/news/Maria_Sharapova/48852/chris-evert-sharapova-doesn-t-talk-to-the-other-women-in-the-locker-room-/'
 p519
-asg8
-S'North Carolina restaurant workers wear pro-flag T-shirts ::'
-p520
+sg7
+(lp520
+S'India'
+p521
+asg10
+S"Chris Evert: 'Sharapova doesn't talk to the other women in the locker room'"
+p522
+sa(dp523
+g2
+(lp524
+(F29.4246002
+F-98.4951405
+tp525
+a(F35.2270869
+F-80.8431268
+tp526
+asg5
+S'https://www.cbssports.com/nba/news/watch-manu-ginobili-turns-back-clock-with-thunderous-jam-in-1000th-game/'
+p527
+sg7
+(lp528
+S'San Antonio'
+p529
+aS'Charlotte'
+p530
+asg10
+S'WATCH: Manu Ginobili turns back clock with thunderous jam in 1,000th game'
+p531
+sa(dp532
+g2
+(lp533
+(F45.9896587
+F-94.6113288
+tp534
+a(F38.0608444
+F-97.9297743
+tp535
+asg5
+S'http://minnesota.cbslocal.com/2017/11/03/deer-stand-injury/'
+p536
+sg7
+(lp537
+S'Minnesota'
+p538
+aS'Hutchinson'
+p539
+asg10
+S'Man Falls From Deer Stand, Breaks Back, Drives Home For Help'
+p540
+sa(dp541
+g2
+(lp542
+(F15.6134137
+F19.0156172
+tp543
+a(F42.3604823
+F-71.0595678
+tp544
+asg5
+S'https://www.boston.com/sports/sports-q/2017/11/04/are-you-disappointed-the-patriots-traded-jimmy-garoppolo'
+p545
+sg7
+(lp546
+S'Chad'
+p547
+aS'Boston'
+p548
+asg10
+S'Are you disappointed the Patriots traded Jimmy Garoppolo?'
+p549
+sa(dp550
+g2
+(lp551
+(F42.120868
+F-85.526382
+tp552
+a(F43.6211955
+F-84.6824346
+tp553
+asg5
+S'http://www.pennlive.com/pennstatefootball/index.ssf/2017/11/penn_state_trace_mcsorley_care.html'
+p554
+sg7
+(lp555
+S'Michigan State'
+p556
+aS'Mich.'
+p557
+asg10
+S"Penn State's Trace McSorley is now the Lions' all-time career passing touchdowns leader"
+p558
+sa(dp559
+g2
+(lp560
+(F-33.8548157
+F151.2164539
+tp561
+asg5
+S'http://www.tennisworldusa.org/tennis/news/Serena_Williams/48815/serena-williams-s-2018-schedule-is-a-mistery-unlikely-to-play-brisbane/'
+p562
+sg7
+(lp563
+S'Sydney'
+p564
+asg10
+S"Serena Williams's 2018 schedule is a mistery: unlikely to play Brisbane"
+p565
+sa(dp566
+g2
+(lp567
+(F37.1232245
+F-78.4927721
+tp568
+asg5
+S'http://www.realclearpolitics.com/video/2017/11/04/david_brooks_those_of_us_trying_to_rebut_trump_have_the_disadvantage_that_our_elites_really_do_stink.html'
+p569
+sg7
+(lp570
+S'Virginia'
+p571
+asg10
+S'David Brooks: Those Of Us Trying To Rebut Trump Have The Disadvantage That "Our Elites Really Do Stink"'
+p572
+sa(dp573
+g2
+(lp574
+(F33.0955793
+F44.1749775
+tp575
+asg5
+S'http://fox6now.com/2017/11/04/george-h-w-bush-labels-president-trump-a-blowhard-in-new-book/'
+p576
+sg7
+(lp577
+S'Iraq'
+p578
+asg10
+VGeorge H.W. Bush labels President Trump a \u2018blowhard\u2019 in new book
+p579
+sa(dp580
+g2
+(lp581
+(F32.8295183
+F-96.9442177
+tp582
+asg5
+S'http://uproxx.com/dimemag/kyrie-irving-unbelievably-craving-intellectual-coach-brad-stevens/'
+p583
+sg7
+(lp584
+S'Irving'
+p585
+asg10
+S"Kyrie Irving Was 'Craving' An Intellectual Coach Like Brad Stevens"
+p586
+sa(dp587
+g2
+(lp588
+(F41.5051613
+F-81.6934446
+tp589
+asg5
+S'http://www.complex.com/sports/2017/11/lebron-james-29000-career-points'
+p590
+sg7
+(lp591
+S'Cleveland'
+p592
+asg10
+S'LeBron Becomes Youngest NBA Player Ever to Score 29,000 Career Points'
+p593
+sa(dp594
+g2
+(lp595
+(F29.7589382
+F-95.3676974
+tp596
+asg5
+S'http://www.chron.com/news/houston-texas/houston/article/Study-ranks-which-MLB-teams-have-the-brightest-12331102.php'
+p597
+sg7
+(lp598
+S'Houston'
+p599
+asg10
+S'Study predicts how well Astros and other MLB teams will perform next year'
+p600
+sa(dp601
+g2
+(lp602
+(F35.4729886
+F-97.5170536
+tp603
+a(F28.554096
+F-81.4085784254174
+tp604
+asg5
+S'http://boston.cbslocal.com/2017/11/04/boston-celtics-oklahoma-city-thunder/'
+p605
+sg7
+(lp606
+S'Oklahoma City'
+p607
+aS'Orlando Magic.'
+p608
+asg10
+S'Celtics Storm Back For Road Win Over Thunder'
+p609
+sa(dp610
+g2
+(lp611
+(F43.255205
+F-79.868202
+tp612
+a(F-17.6247511
+F-149.6083311
+tp613
+asg5
+S'http://www.sportingnews.com/au/league/news/rugby-league-fans-call-for-regular-series-between-tonga-and-samoa-rlwc-nrl/1nk4iaipn1o4l1mfur5vhgknsc'
+p614
+sg7
+(lp615
+S'Hamilton'
+p616
+aS'Pacific Islands'
+p617
+asg10
+S'Rugby league fans call for regular series between Tonga and Samoa'
+p618
+sa(dp619
+g2
+(lp620
+(F47.4873376
+F-121.8622122
+tp621
+asg5
+S'http://www.newser.com/story/251108/new-jfk-files-contain-explosive-mlk-allegations.html'
+p622
+sg7
+(lp623
+S'King'
+p624
+asg10
+S'New JFK Files Contain Explosive MLK Allegations'
+p625
+sa(dp626
+g2
+(lp627
+(F47.6038321
+F-122.3300624
+tp628
+asg5
+S'http://www.49ers.com/news/article-2/Foster-Questionable-Seven-49ers-Out-for-Week-9-vs-Cardinals/b0bcd04b-3c9b-4b97-893e-2c4781aece6f'
+p629
+sg7
+(lp630
+S'Seattle'
+p631
+asg10
+S'Foster Questionable, Seven 49ers Out for Week 9 vs. Cardinals'
+p632
+sa(dp633
+g2
+(lp634
+(F40.7306458
+F-73.9866136
+tp635
+a(F-3.5639671
+F-39.5179952
+tp636
+asg5
+S'http://www.nydailynews.com/sports/baseball/yankees/masahiro-tanaka-opts-stay-yankees-seasons-article-1.3609923'
+p637
+sg7
+(lp638
+S'New York'
+p639
+aS'Severino'
+p640
+asg10
+S'Masahiro Tanaka opts in, will stay with Yankees for three seasons'
+p641
+sa(dp642
+g2
+(lp643
+(F39.9523993
+F-75.1635899
+tp644
+asg5
+S'https://www.cbssports.com/nba/news/sixers-rookie-ben-simmons-joins-elite-company-with-second-triple-double/'
+p645
+sg7
+(lp646
+S'Philadelphia'
+p647
+asg10
+S'Sixers rookie Ben Simmons joins elite company with second triple-double'
+p648
+sa(dp649
+g2
+(lp650
+(F35.7234734
+F-79.4622431
+tp651
+a(F38.0472916
+F-89.8107962
+tp652
+asg5
+S'http://myfox8.com/2017/11/03/randolph-county-mother-accused-of-using-kids-to-break-into-buildings-posting-videos-on-youtube/'
+p653
+sg7
+(lp654
+S'Siler City'
+p655
+aS'Randolph County'
+p656
+asg10
+S'Randolph County mother accused of using kids to break into buildings, posting videos on YouTube'
+p657
+sa(dp658
+g2
+(lp659
+(F-33.88906005
+F151.225387171003
+tp660
+a(F40.3429683
+F-76.4233816
+tp661
+asg5
+S'http://www.sportingnews.com/au/league/news/watch-england-awarded-try-after-farcical-video-ref-decision-lebanon-rlwc/17n4nvavyo1021u8ytguhzqz03'
+p662
+sg7
+(lp663
+S'Allianz Stadium'
+p664
+aS'Lebanon'
+p665
+asg10
+S'WATCH: England awarded try after farcical video ref decision'
+p666
+sa(dp667
+g2
+(lp668
+(F36.9786449
+F-76.4321089
+tp669
+a(F46.2303063
+F7.6605757
+tp670
+asg5
+S'http://wtkr.com/2017/11/04/15-year-old-killed-in-newport-news-shooting/'
+p671
+sg7
+(lp672
+S'Newport News'
+p673
+aS'Va.'
+p674
+asg10
+S'15-year-old killed in Newport News shooting'
+p675
+sa(dp676
+g2
+(lp677
+(F42.3486635
+F-83.0567375
+tp678
+asg5
+S'http://rssfeeds.detroitnews.com/~/485912418/0/detroit/home~WSU-student-reports-rape-in-residential-hall/'
+p679
+sg7
+(lp680
+S'Detroit'
+p681
+asg10
+S'WSU student reports rape in residential hall'
+p682
+sa(dp683
+g2
+(lp684
+(F39.9523993
+F-75.1635899
+tp685
+asg5
+S'http://www.inforum.com/sports/4354314-family-10-year-old-boy-lost-cancer-featured-espn-piece-be-special-guests-bison-home'
+p686
+sg7
+(lp687
+S'Philadelphia'
+p688
+asg10
+S'Family of 10-year-old boy lost to cancer, featured in ESPN piece...'
+p689
 sa.

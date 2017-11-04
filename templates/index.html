@@ -102,74 +102,35 @@ html, body, #map {
 
 
 <script>
+
+var parsed_stories = JSON.parse({{data|tojson|safe}});
+console.log(parsed_stories);
+
+
+var features = [];
+parsed_stories["data"].forEach(function(story) {
+    var new_story = {}
+    new_story["type"] = "Feature";
+    new_story["properties"] = {
+        "icon" : "marker",
+        "title": story["title"]
+    };
+    new_story["geometry"] = {
+        "type": "Point",
+        "coordinates": [story["geo_coordinates"][0][1], story["geo_coordinates"][0][0]]
+    };
+    features.push(new_story);
+});
+
+console.log(features);
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyc2hwYXRlbCIsImEiOiJjajlsNHJzb280NTZqMnhwYXczbnZrdTQ3In0.p3_wHLMfkVdfPT3EnMeQBA';
 var places = {
     "type": "FeatureCollection",
-    "features": [{
-        "type": "Feature",
-        "properties": {
-            "icon": "theatre"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.038659, 38.931567]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "theatre"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.003168, 38.894651]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "bar"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.090372, 38.881189]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "bicycle"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.052477, 38.943951]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "music"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.031706, 38.914581]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "music"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.020945, 38.878241]
-        }
-    }, {
-        "type": "Feature",
-        "properties": {
-            "icon": "music"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.007481, 38.876516]
-        }
-    }]
+    "features": features 
 };
+
+console.log(places);
 
 var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
@@ -199,7 +160,9 @@ map.on('load', function() {
                 "source": "places",
                 "layout": {
                     "icon-image": symbol + "-15",
-                    "icon-allow-overlap": true
+                    "icon-allow-overlap": true,
+                    "text-offset": [0, 2],
+                    "text-size": 10
                 },
                 "filter": ["==", "icon", symbol]
             });
