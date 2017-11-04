@@ -114,7 +114,7 @@ stories = fetch_stories(params)
 stories = get_title_and_location_of_stories(stories)
 stories = create_json_from_stories(stories)
 
-# with open("stories.json", "w") as f:
-#   json.dump(stories, f)
+with open("stories.json", "w") as f:
+  json.dump(stories, f)
 
 print stories[:5]
