@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+html, body, #map {
+  height: 100%;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}

@@ -1,45 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
- 
+<html>
 <head>
-    <title>Recap My Day</title>
- 
- 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
- 
-    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
- 
- 
-</head>
- 
-<body>
- 
-    <div class="container">
-        <div class="header">
-            <h3 class="navbar-brand text-muted" href="#">Recap My Day</h3>
-            <!-- <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
-              </li>
-            </ul> -->
-        </div>
- 
-        <div class="jumbotron">
-            <p class="lead">Ever feel like you're missing out on the news? With Recap My Day, you can catch up on everything that happened all over the world in the past day!</p>
-            <!-- <p><a class="btn btn-lg btn-info" href="showSignUp" role="button">Log in with Twitter</a>
-            </p> -->
-        </div>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-        {{ 2+2 }}
- 
-        <footer class="footer">
-            <p>Created with love by the best web developer in the game (Lynn)</p>
-        </footer>
- 
-    </div>
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:50px; bottom:0; width:100%}
+</style>
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar navbar-toggleable-md navbar-dark">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><strong>RecapMyDay</strong></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How to Use It</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id='map'></div>
+</div>
+
+
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyc2hwYXRlbCIsImEiOiJjajlsNHJzb280NTZqMnhwYXczbnZrdTQ3In0.p3_wHLMfkVdfPT3EnMeQBA';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v9',
+    center: [-96, 37.8],
+    zoom: 3,
+    interactive: false
+});
+
+map.on('load', function () {
+
+    map.addLayer({
+        "id": "points",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-77.03238901390978, 38.913188059745586]
+                    },
+                    "properties": {
+                        "title": "Mapbox DC",
+                        "description": 'Some article based in DC',
+                        "icon": "bakery"
+                    }
+                }, {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-122.414, 37.776]
+                    },
+                    "properties": {
+                        "title": "Mapbox SF",
+                        "description": 'Some Article Based in San Fransisco',
+                        "icon": "bus"
+                    }
+                }]
+            }
+        },
+        "layout": {
+            "icon-image": "{icon}-15",
+            "text-field": "{description}",
+            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-offset": [0, 0.6],
+            "text-anchor": "top"
+            // "icon-color": "#3bb20"
+        }
+    });
+});
+</script>
+
+
 </body>
- 
 </html>
