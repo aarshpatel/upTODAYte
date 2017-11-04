@@ -15,6 +15,64 @@
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:50px; bottom:0; width:100%}
+  body {
+  margin: 0;
+}
+html, body, #map {
+  height: 100%;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+ .filter-group {
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        z-index: 1;
+        border-radius: 3px;
+        width: 120px;
+        color: #eee;
+    }
+
+    .filter-group input[type=checkbox]:first-child + label {
+        border-radius: 3px 3px 0 0;
+    }
+
+    .filter-group label:last-child {
+        border-radius: 0 0 3px 3px;
+        border: none;
+    }
+
+    .filter-group input[type=checkbox] {
+        display: none;
+    }
+
+    .filter-group input[type=checkbox] + label {
+        background-color: #3386c0;
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    }
+
+    .filter-group input[type=checkbox] + label {
+        background-color: #3386c0;
+        text-transform: capitalize;
+    }
+
+    .filter-group input[type=checkbox] + label:hover,
+    .filter-group input[type=checkbox]:checked + label {
+        background-color: #4ea0da;
+    }
+
+    .filter-group input[type=checkbox]:checked + label:before {
+        content: '✔';
+        margin-right: 5px;
+    }
 </style>
 </head>
 
@@ -38,61 +96,131 @@
       </div>
     </nav>
     <div id='map'></div>
+    <nav id='filter-group' class='filter-group'></nav>
+
 </div>
 
 
 <script>
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyc2hwYXRlbCIsImEiOiJjajlsNHJzb280NTZqMnhwYXczbnZrdTQ3In0.p3_wHLMfkVdfPT3EnMeQBA';
+var places = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "icon": "theatre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.038659, 38.931567]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "theatre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.003168, 38.894651]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "bar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.090372, 38.881189]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "bicycle"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.052477, 38.943951]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "music"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.031706, 38.914581]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "music"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.020945, 38.878241]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "icon": "music"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.007481, 38.876516]
+        }
+    }]
+};
+
+var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
-    center: [-96, 37.8],
-    zoom: 3,
+    center: [-98.58, 39.82],
+    zoom: 3.5,
     interactive: false
 });
 
-map.on('load', function () {
+map.on('load', function() {
+    // Add a GeoJSON source containing place coordinates and information.
+    map.addSource("places", {
+        "type": "geojson",
+        "data": places
+    });
 
-    map.addLayer({
-        "id": "points",
-        "type": "symbol",
-        "source": {
-            "type": "geojson",
-            "data": {
-                "type": "FeatureCollection",
-                "features": [{
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [-77.03238901390978, 38.913188059745586]
-                    },
-                    "properties": {
-                        "title": "Mapbox DC",
-                        "description": 'Some article based in DC',
-                        "icon": "bakery"
-                    }
-                }, {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [-122.414, 37.776]
-                    },
-                    "properties": {
-                        "title": "Mapbox SF",
-                        "description": 'Some Article Based in San Fransisco',
-                        "icon": "bus"
-                    }
-                }]
-            }
-        },
-        "layout": {
-            "icon-image": "{icon}-15",
-            "text-field": "{description}",
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-            "text-offset": [0, 0.6],
-            "text-anchor": "top"
-            // "icon-color": "#3bb20"
+    places.features.forEach(function(feature) {
+        var symbol = feature.properties['icon'];
+        var layerID = 'poi-' + symbol;
+
+        // Add a layer for this symbol type if it hasn't been added already.
+        if (!map.getLayer(layerID)) {
+            map.addLayer({
+                "id": layerID,
+                "type": "symbol",
+                "source": "places",
+                "layout": {
+                    "icon-image": symbol + "-15",
+                    "icon-allow-overlap": true
+                },
+                "filter": ["==", "icon", symbol]
+            });
+
+            // Add checkbox and label elements for the layer.
+            var input = document.createElement('input');
+            input.type = 'checkbox';
+            input.id = layerID;
+            input.checked = true;
+            filterGroup.appendChild(input);
+
+            var label = document.createElement('label');
+            label.setAttribute('for', layerID);
+            label.textContent = symbol;
+            filterGroup.appendChild(label);
+
+            // When the checkbox changes, update the visibility of the layer.
+            input.addEventListener('change', function(e) {
+                map.setLayoutProperty(layerID, 'visibility',
+                    e.target.checked ? 'visible' : 'none');
+            });
         }
     });
 });
