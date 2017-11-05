@@ -109,7 +109,7 @@ convert_location_to_lat_lng(): given a textual location return a tuple of latitu
 ## Authors
 
 * **Aarsh Patel** -https://github.com/aarshpatel
-* **Hisham** - https://github.com
+* **Hisham Alhussain** - https://github.com
 * **Varun Sharma** - https://github.com
 * **Lynn Samson** - https://github.com/lasamson
 
