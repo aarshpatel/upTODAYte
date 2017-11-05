@@ -104,15 +104,13 @@ html, body, #map {
 <script>
 
 var parsed_stories = JSON.parse({{data|tojson|safe}});
-console.log(parsed_stories);
-
-
 var features = [];
 parsed_stories["data"].forEach(function(story) {
     var new_story = {}
     new_story["type"] = "Feature";
     new_story["properties"] = {
         "icon" : "marker",
+        "icon-color": "#add8e6",
         "title": story["title"]
     };
     new_story["geometry"] = {
@@ -122,20 +120,16 @@ parsed_stories["data"].forEach(function(story) {
     features.push(new_story);
 });
 
-console.log(features);
-
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyc2hwYXRlbCIsImEiOiJjajlsNHJzb280NTZqMnhwYXczbnZrdTQ3In0.p3_wHLMfkVdfPT3EnMeQBA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGlzaGFtODM4MyIsImEiOiJjajltMGZ3aXowbTRjMzNuNDl1OWRqZHBjIn0.4tAAJTn_VgK4w70dxwk0WA';
 var places = {
     "type": "FeatureCollection",
     "features": features 
 };
 
-console.log(places);
-
 var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/dark-v9',
+    style: 'mapbox://styles/hisham8383/cj9m0hg0023ir2smspg983bzf',
     center: [-98.58, 39.82],
     zoom: 3.5,
     interactive: false
@@ -160,6 +154,7 @@ map.on('load', function() {
                 "source": "places",
                 "layout": {
                     "icon-image": symbol + "-15",
+                    "icon-size": 1.5,
                     "icon-allow-overlap": true,
                     "text-offset": [0, 2],
                     "text-size": 10
