@@ -23,8 +23,23 @@ html, body, #map {
 }
 
 .mapboxgl-popup {
-    max-width: 200px;
+    max-width: 300px;
+    background-color: #3384E5;
+    border-radius: 2px;
+    height:5px;
+    color: #e6e5e3;
 }
+
+.mapboxgl-popup-tip {
+  border-top-color: #6D1237 !important;
+}
+
+.mapboxgl-popup-content {
+  background-color: #6D1237 !important;
+  top:5px;
+  position: relative;
+}
+
 
  .filter-group {
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -111,9 +126,16 @@ var features = [];
 parsed_stories["data"].forEach(function(story) {
     var new_story = {}
     new_story["type"] = "Feature";
+    var story_summary = "";
+
+    story.summary.forEach(function(st) {
+        story_summary += st + '~'
+    });
+
     new_story["properties"] = {
         "icon" : "marker",
-        "description": "<strong>" + story["title"] + "</strong>",
+        "description": story["title"],
+        "summary": story_summary,
         "link": story["link"],
         "title": story["title"]
     };
@@ -219,8 +241,16 @@ map.on('load', function() {
 
         // Populate the popup and set its coordinates
         // based on the feature found.
+        var description = e.features[0].properties.description;
+        var summary = e.features[0].properties.summary.split("~");
+        var summaryHTML = "<ul>";
+        summary.forEach(function(summary) {
+            summaryHTML += "<li>" + summary + "</li>";
+        });
+        summaryHTML += "</ul>";
+        popHTML = description + "</br>" + summaryHTML;
         popup.setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(e.features[0].properties.description)
+            .setHTML(description)
             .addTo(map);
     });
 
