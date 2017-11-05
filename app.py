@@ -31,11 +31,17 @@ def recap_me():
 		summary = story["summary"]
 		if len(summary) == 0:
 			continue
-		random_summary = random.choice(summary)
-		all_summaries.append((story["title"], story["img_url"], random_summary))
+
+		random_summary = ""
+		for story_summary in summary:
+			if len(story_summary.split()) < 91 and len(story_summary.split()) > 20:
+				random_summary = story_summary
+		
+		if random_summary:	
+			all_summaries.append((story["title"], story["img_url"], random_summary, story["link"]))
 
 
-	return render_template("recap_me.html", summaries=all_summaries[:3])
+	return render_template("recap_me.html", summaries=all_summaries)
 
 if __name__ == '__main__':
 	app.run(debug=True)
