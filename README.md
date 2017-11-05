@@ -1,4 +1,4 @@
-# Up(today)te
+# upTODAYte
 
 Uptodayte is a news aggregation and visualization tool that collects relevant news articles that took place within the last 24 hours.
 
