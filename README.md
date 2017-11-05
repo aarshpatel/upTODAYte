@@ -74,7 +74,7 @@ The json output looks like this:
         ],
         "link": "https://movieweb.com/iphone-x-drop-test-video-most-breakable/",
         "img_url": "https://cdn.movieweb.com/img.news.tops/NEkwttq6jwrXnq_1_a/Iphone-X-Drop-Test-Video-Most-Breakable.jpg"
-    },
+}
 ```
 
 **utils.py**
