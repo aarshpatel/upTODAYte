@@ -11,7 +11,6 @@
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
 
-
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:50px; bottom:0; width:100%}
@@ -23,8 +22,24 @@ html, body, #map {
 }
 
 .mapboxgl-popup {
-    max-width: 200px;
+    max-width: 300px;
+    background-color: #3384E5;
+    border-radius: 2px;
+    height:5px;
+    color: #e6e5e3;
 }
+
+
+.mapboxgl-popup-tip {
+  border-top-color: #6D1237 !important;
+}
+
+.mapboxgl-popup-content {
+  background-color: #6D1237 !important;
+  top:5px;
+  position: relative;
+}
+
 
  .filter-group {
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -73,12 +88,30 @@ html, body, #map {
         content: '✔';
         margin-right: 5px;
     }
+
+/*    .navbar-custom li a {
+        color: #e6e5e3 !important;
+        background-color: #6D1237 !important;
+    }*/
+
+    .navbar-default {
+      background-color: #3384E5;
+      background-image: none;
+      background-repeat: no-repeat;
+      color: #e6e5e3 !important;
+    } 
+
+    a {
+        color: #e6e5e3 !important
+    }
+
+
 </style>
 </head>
 
 <body>
     <div id="container">
-        <nav class="navbar navbar-toggleable-md navbar-dark">
+        <nav class="navbar navbar-toggleable-md navbar-default">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -86,20 +119,22 @@ html, body, #map {
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">How to Use It</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="/recap_me">What Did I Miss!</a>
-          </li> 
+          </li>      
+          <li class="nav-item">
+            <a class="nav-link" href="/">How to Use It</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About</a>
+          </li>
         </ul>
       </div>
     </nav>
+    <div id="container">
     <div id='map'></div>
     <nav id='filter-group' class='filter-group'></nav>
+</div>
 
 </div>
 
@@ -111,9 +146,16 @@ var features = [];
 parsed_stories["data"].forEach(function(story) {
     var new_story = {}
     new_story["type"] = "Feature";
+    var story_summary = "";
+
+    story.summary.forEach(function(st) {
+        story_summary += st + '~'
+    });
+
     new_story["properties"] = {
         "icon" : "marker",
-        "description": "<strong>" + story["title"] + "</strong>",
+        "description": story["title"],
+        "summary": story_summary,
         "link": story["link"],
         "title": story["title"]
     };
@@ -141,8 +183,8 @@ var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/hisham8383/cj9m0hg0023ir2smspg983bzf',
-    center: [-98.58, 39.82],
-    zoom: 3.5,
+    center: [0, 0],
+    zoom: 1,
     interactive: true
 });
 
@@ -152,6 +194,18 @@ map.on('load', function() {
         "type": "geojson",
         "data": places
     });
+
+// places.features.forEach(function(marker) {
+
+//   // create a HTML element for each feature
+//   var el = document.createElement('div');
+//   el.className = 'marker';
+
+//   // make a marker for each feature and add to the map
+//   new mapboxgl.Marker(el)
+//   .setLngLat(marker.geometry.coordinates)
+//   .addTo(map);
+// });
 
     places.features.forEach(function(feature) {
         var symbol = feature.properties['icon'];
@@ -219,8 +273,16 @@ map.on('load', function() {
 
         // Populate the popup and set its coordinates
         // based on the feature found.
+        var description = e.features[0].properties.description;
+        var summary = e.features[0].properties.summary.split("~");
+        var summaryHTML = "<ul>";
+        summary.forEach(function(summary) {
+            summaryHTML += "<li>" + summary + "</li>";
+        });
+        summaryHTML += "</ul>";
+        popHTML = description + "</br>" + summaryHTML;
         popup.setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(e.features[0].properties.description)
+            .setHTML(description)
             .addTo(map);
     });
 
