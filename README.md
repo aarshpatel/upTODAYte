@@ -40,34 +40,18 @@ This will create a local server on your machine. Point your web browser to the a
 
 ### Description of Main Files
 
+**app.py**
 
-A step by step series of examples that tell you have to get a development env running
+Contains all of the server code using Flask. 
 
-Say what the step will be
+**retrieve_news_data.py**
 
-```
-Give the example
-```
+Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. 
 
-And repeat
+**utils.py**
 
-```
-until finished
-```
+Utility script file that contains code to convert textual locations to geo coordinates. 
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
@@ -88,7 +72,7 @@ Add additional notes about how to deploy this on a live system
 * [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [Mapbox](https://github.com/mapbox/mapbox-gl-js) - a JavaScript library for interactive, customizable vector maps on the web
 * [Slick](http://kenwheeler.github.io/slick/) - carousel module for Javascript
-* [AWS] - for deployment of web application
+* AWS - for deployment of web application
 
 ## Authors
 
