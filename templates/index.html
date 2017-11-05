@@ -11,7 +11,6 @@
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
 
-
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:50px; bottom:0; width:100%}
@@ -29,6 +28,7 @@ html, body, #map {
     height:5px;
     color: #e6e5e3;
 }
+
 
 .mapboxgl-popup-tip {
   border-top-color: #6D1237 !important;
@@ -119,20 +119,22 @@ html, body, #map {
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">How to Use It</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="/recap_me">What Did I Miss!</a>
-          </li> 
+          </li>      
+          <li class="nav-item">
+            <a class="nav-link" href="/">How to Use It</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About</a>
+          </li>
         </ul>
       </div>
     </nav>
+    <div id="container">
     <div id='map'></div>
     <nav id='filter-group' class='filter-group'></nav>
+</div>
 
 </div>
 
@@ -192,6 +194,18 @@ map.on('load', function() {
         "type": "geojson",
         "data": places
     });
+
+// places.features.forEach(function(marker) {
+
+//   // create a HTML element for each feature
+//   var el = document.createElement('div');
+//   el.className = 'marker';
+
+//   // make a marker for each feature and add to the map
+//   new mapboxgl.Marker(el)
+//   .setLngLat(marker.geometry.coordinates)
+//   .addTo(map);
+// });
 
     places.features.forEach(function(feature) {
         var symbol = feature.properties['icon'];
