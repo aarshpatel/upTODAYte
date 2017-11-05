@@ -5,17 +5,26 @@ Uptodayte is a news aggregation and visualization tool that collects relevant ne
 * Articles are represented by markers that are overlayed on a world map, indicating the location in which the story took place
 * Clicking on a marker will show more details about the story or event that took place at that marker location
 * If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article
+* "What did I miss?!" feature contains a short summary of all the relevant information that occured in the past day
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine. 
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
+ * Python 2.7
+ * flask
+ * geopy 
+ * aylien_news_api
+ 
+
+The requirements.txt file contains all of the modules and versions of those modules to be installed. It can be done like this:
+
 ```
-Give examples
+pip install -r requirements.txt
 ```
 
 ### Installing
