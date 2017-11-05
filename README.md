@@ -27,6 +27,16 @@ The requirements.txt file contains all of the modules and versions of those modu
 pip install -r requirements.txt
 ```
 
+### Running the Server
+
+The project is built upon a python **flask** server. In order to run the server, run this command
+
+```
+python app.py
+```
+
+This will create a local server on your machine. Point your web browser to the address displayed in your terminal.
+
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
