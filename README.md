@@ -8,6 +8,11 @@ Uptodayte is a news aggregation and visualization tool that collects relevant ne
 * If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article
 * "What did I miss?!" feature contains a short summary of all the relevant information that occured in the past day
 
+
+## Why UpTODAYte
+
+Uptodayte was designed with usability and user intuition in mind. We believe that visualizing data through its properties leads to a far better understanding of the overall picture than a crude listing, and this is exactly the vision behind Uptodayte. For these reasons, we believe Uptodayte is usable right out of the box without instructions. 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine. 
@@ -44,8 +49,8 @@ Your browser should something like the following:
 
 ![alt text](https://www.dropbox.com/s/yrkqwac9uylegaf/Screen%20Shot%202017-11-05%20at%206.42.56%20AM.png?raw=1)
 
-### Description of Main Files
 
+### Description of Main Files
 
 **app.py**
 
