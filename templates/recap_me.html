@@ -2,19 +2,18 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>FillMeIn</title>
+<title>What Did I Miss?!</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/> -->
-
-
 
 <style>
   body { margin:0; padding:0; }
   body {
     margin: 0;
     }
-    html, body, #map {
+
+    html, body {
       height: 100%;
     }
 
@@ -253,6 +252,13 @@ overflow: hidden;
   content: "←";
 }
 
+.nav-link {
+        font-size: 20px !important;
+    }
+.navbar {
+  height: 50px !important;
+}
+
 </style>
 </head>
 
@@ -263,7 +269,7 @@ overflow: hidden;
         <span class="navbar-toggler-icon"></span>
       </button>
        <!-- <a href="/" class="pull-left"><img src="/static/uptodayte.png"></a>  -->
-    <a class="navbar-brand" href="/" style="max-width: 20%;z-index: 1000;bottom: 3px;right: 12px;position: relative;">
+    <a class="navbar-brand" href="/" style="max-width: 20%;z-index: 1000;bottom: 2px;right: 0px;position: relative;">
         <img src="static/uptodayte.png" class="img-fluid">
      </a>
       <!-- <a class="navbar-brand" href="#">RecapMyDay</a> -->
@@ -271,14 +277,8 @@ overflow: hidden;
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto" style="z-index: 10000; position: relative; bottom: 2px; right: 0px;">
           <li class="nav-item"> 
-            <a class="nav-link" href="/recap_me">What Did I Miss?!</a>
+            <a class="nav-link" href="/recap_me"><strong>What Did I Miss!</strong></a>
           </li>      
-          <li class="nav-item">
-            <a class="nav-link" href="/howtouse">How to Use It</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/about">About</a>
-          </li>
         </ul>
       </div>
     </nav>
