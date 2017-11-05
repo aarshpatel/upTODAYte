@@ -87,11 +87,14 @@ html, body, #map {
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">How to Use It</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recap_me">What Did I Miss!</a>
+          </li> 
         </ul>
       </div>
     </nav>
@@ -223,7 +226,7 @@ map.on('load', function() {
             .addTo(map);
     });
 
-    map.on('mouseleave', 'places', function() {
+    map.on('mouseleave', 'poi-marker', function() {
         map.getCanvas().style.cursor = '';
         popup.remove();
     }); 

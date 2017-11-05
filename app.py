@@ -16,7 +16,10 @@ def get_stories():
 def main():
 	stories = get_stories()
 	return render_template('index.html', data=json.dumps(stories))
-	
+
+@app.route('/recap_me')
+def recap_me():
+	return render_template("recap_me.html")	
 
 if __name__ == '__main__':
 	app.run(debug=True)
