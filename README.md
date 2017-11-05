@@ -84,8 +84,8 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - The web framework used
-* [NewsApi] (https://newsapi.aylien.com/) - API to news articles
-* [Geopy] (https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
+* [NewsApi](https://newsapi.aylien.com/) - API to news articles
+* [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [AWS] - for deployment of web application
 
 ## Authors
