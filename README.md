@@ -86,6 +86,8 @@ Add additional notes about how to deploy this on a live system
 * [Flask](http://flask.pocoo.org/) - The web framework used
 * [NewsApi](https://newsapi.aylien.com/) - API to news articles
 * [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
+* [Mapbox](https://github.com/mapbox/mapbox-gl-js) - a JavaScript library for interactive, customizable vector maps on the web
+* [Slick](http://kenwheeler.github.io/slick/) - carousel module for Javascript
 * [AWS] - for deployment of web application
 
 ## Authors
