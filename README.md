@@ -39,6 +39,11 @@ python app.py
 
 This will create a local server on your machine. Point your web browser to the address displayed in your terminal.
 
+
+Your browser should something like the following:
+
+![alt text](https://www.dropbox.com/s/yrkqwac9uylegaf/Screen%20Shot%202017-11-05%20at%206.42.56%20AM.png?dl=0)
+
 ### Description of Main Files
 
 
