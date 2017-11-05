@@ -41,23 +41,19 @@ This will create a local server on your machine. Point your web browser to the a
 
 ### Description of Main Files
 
-```
+
 **app.py**
 
 Contains all of the server code using Flask. 
-```
 
-```
 **retrieve_news_data.py**
 
 Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. In addition, the script also generates summaries for each news article using **sumy** which uses machine learning techniques to perform automatic summarization on textual documents
-```
 
-```
 **utils.py**
 
 Utility script file that contains code to convert textual locations to geo coordinates. 
-```
+
 
 ## Built With
 
