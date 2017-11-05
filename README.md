@@ -87,8 +87,7 @@ The json output looks like this:
 Utility script file that contains code to convert textual locations to geo coordinates. 
 
 ```
-convert_location_to_lat_lng() -> given a textual location return a tuple of latitude and longitude coordinates of that location
-
+convert_location_to_lat_lng(): given a textual location return a tuple of latitude and longitude coordinates of that location
 ```
 
 
