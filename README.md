@@ -6,7 +6,7 @@ Uptodayte is a news aggregation and visualization tool that collects relevant ne
 * Hovering over a location marker will reveal a tooltip containing the headline of the corresponding news article
 * Clicking on a marker will open the news article about the story or event that took place at that location marker
 * If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article
-* "What did I miss?!" feature contains a short summary of all the relevant information that occured in the past day
+* "What did I miss?" feature contains a short summary of all the relevant information that occured in the past day
 
 
 ## Why UpTODAYte
