@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>A simple map</title>
+<title>FillMeIn</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -113,13 +113,18 @@ parsed_stories["data"].forEach(function(story) {
     new_story["type"] = "Feature";
     new_story["properties"] = {
         "icon" : "marker",
-        "title": story["title"]
+        "icon-size": "small",
+        "description": "<strong>" + story["title"] + "</strong>",
+        "link": story["link"]
     };
-    new_story["geometry"] = {
-        "type": "Point",
-        "coordinates": [story["geo_coordinates"][0][1], story["geo_coordinates"][0][0]]
-    };
-    features.push(new_story);
+
+    story["geo_coordinates"].forEach(function(coords) {
+        new_story["geometry"] = {
+            "type": "Point",
+            "coordinates": [coords[1], coords[0]]
+        };
+        features.push(new_story);    
+    });
 });
 
 console.log(features);
@@ -152,7 +157,7 @@ map.on('load', function() {
         var symbol = feature.properties['icon'];
         var title = feature.properties['title'];
         var layerID = 'poi-' + symbol;
-
+        console.log(layerID);
         // Add a layer for this symbol type if it hasn't been added already.
         if (!map.getLayer(layerID)) {
             map.addLayer({
@@ -188,6 +193,40 @@ map.on('load', function() {
         }
     });
 });
+
+// Create a popup, but don't add it to the map yet.
+    var popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+    });
+
+    map.on("click", "poi-marker", function(e) {
+
+        function openInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+
+        map.getCanvas().style.cursor = 'pointer';
+        var link = e.features[0].properties.link;
+        openInNewTab(link);
+    });
+
+    map.on('mouseenter', 'poi-marker', function(e) {
+        // Change the cursor style as a UI indicator.
+        map.getCanvas().style.cursor = 'pointer';
+
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        popup.setLngLat(e.features[0].geometry.coordinates)
+            .setHTML(e.features[0].properties.description)
+            .addTo(map);
+    });
+
+    map.on('mouseleave', 'places', function() {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+    }); 
 </script>
 
 
