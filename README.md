@@ -1,4 +1,4 @@
-# Uptodayte
+# Up(today)te
 
 One Paragraph of project description goes here
 
