@@ -1,6 +1,10 @@
 # Up(today)te
 
-One Paragraph of project description goes here
+Uptodayte is a news aggregation and visualization tool that collects relevant news articles that took place within the last 24 hours.
+
+* Articles are represented by markers that are overlayed on a world map, indicating the location in which the story took place
+* Clicking on a marker will show more details about the story or event that took place at that marker location
+* If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article
 
 ## Getting Started
 
