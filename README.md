@@ -38,7 +38,8 @@ python app.py
 
 This will create a local server on your machine. Point your web browser to the address displayed in your terminal.
 
-### Installing
+### Description of Main Files
+
 
 A step by step series of examples that tell you have to get a development env running
 
@@ -86,14 +87,6 @@ Add additional notes about how to deploy this on a live system
 * [NewsApi] (https://newsapi.aylien.com/) - API to news articles
 * [Geopy] (https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [AWS] - for deployment of web application
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
