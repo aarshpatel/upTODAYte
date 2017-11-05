@@ -104,7 +104,7 @@ convert_location_to_lat_lng(): given a textual location return a tuple of latitu
 * [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [Mapbox](https://github.com/mapbox/mapbox-gl-js) - a JavaScript library for interactive, customizable vector maps on the web
 * [Slick](http://kenwheeler.github.io/slick/) - carousel module for Javascript
-* AWS - for deployment of web application
+* [AWS](https://aws.amazon.com/) - for deployment of web application
 
 ## Authors
 
