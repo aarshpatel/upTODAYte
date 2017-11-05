@@ -40,6 +40,10 @@ def recap_me():
 
     return render_template("recap_me.html", summaries=all_summaries[:3])
 
+@app.route('/howtouse')
+def how_to_use():
+    return render_template('howtouse.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
