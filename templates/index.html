@@ -105,6 +105,9 @@ html, body, #map {
         color: #e6e5e3 !important
     }
 
+    .nav-link {
+        font-size: 20px !important;
+    }
 
 </style>    
 </head>
@@ -116,15 +119,15 @@ html, body, #map {
         <span class="navbar-toggler-icon"></span>
       </button>
        <!-- <a href="/" class="pull-left"><img src="/static/uptodayte.png"></a>  -->
-    <a class="navbar-brand" href="/" style="max-width: 20%;z-index: 1000;bottom: 3px;right: 0px;position: relative;">
+    <a class="navbar-brand" href="/" style="max-width: 20%;z-index: 1000;bottom: 10px;right: 0px;position: relative;">
         <img src="static/uptodayte.png" class="img-fluid">
      </a>
       <!-- <a class="navbar-brand" href="#">RecapMyDay</a> -->
       <!-- <img src="/static/uptodayte.png" width> -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto" style="z-index: 10000; position: relative; bottom: 2px; right: 0px;">
+        <ul class="navbar-nav mr-auto" style="z-index: 10000; position: relative; bottom: 10px; right: 0px;">
           <li class="nav-item"> 
-            <a class="nav-link" href="/recap_me">What Did I Miss?</a>
+            <a class="nav-link" href="/recap_me"><strong>What Did I Miss!</strong></a>
           </li>      
         </ul>
       </div>
@@ -226,23 +229,23 @@ map.on('load', function() {
                 "filter": ["==", "icon", symbol]
             });
 
-            // Add checkbox and label elements for the layer.
-            var input = document.createElement('input');
-            input.type = 'checkbox';
-            input.id = layerID;
-            input.checked = true;
-            filterGroup.appendChild(input);
+            // // Add checkbox and label elements for the layer.
+            // var input = document.createElement('input');
+            // input.type = 'checkbox';
+            // input.id = layerID;
+            // input.checked = true;
+            // filterGroup.appendChild(input);
 
-            var label = document.createElement('label');
-            label.setAttribute('for', layerID);
-            label.textContent = symbol;
-            filterGroup.appendChild(label);
+            // var label = document.createElement('label');
+            // label.setAttribute('for', layerID);
+            // label.textContent = symbol;
+            // filterGroup.appendChild(label);
 
-            // When the checkbox changes, update the visibility of the layer.
-            input.addEventListener('change', function(e) {
-                map.setLayoutProperty(layerID, 'visibility',
-                    e.target.checked ? 'visible' : 'none');
-            });
+            // // When the checkbox changes, update the visibility of the layer.
+            // input.addEventListener('change', function(e) {
+            //     map.setLayoutProperty(layerID, 'visibility',
+            //         e.target.checked ? 'visible' : 'none');
+            // });
         }
     });
 });
