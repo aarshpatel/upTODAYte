@@ -1,4 +1,4 @@
-# upTODAYte ![logo](https://www.dropbox.com/s/s7zn010rtxg7z84/23269829_1764092683662192_696141440_o.png?raw=1)
+![logo](https://www.dropbox.com/s/s7zn010rtxg7z84/23269829_1764092683662192_696141440_o.png?raw=1  =500x250)
 
 Uptodayte is a news aggregation and visualization tool that collects relevant news articles that took place within the last 24 hours.
 
