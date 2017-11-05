@@ -88,12 +88,30 @@ html, body, #map {
         content: '✔';
         margin-right: 5px;
     }
+
+/*    .navbar-custom li a {
+        color: #e6e5e3 !important;
+        background-color: #6D1237 !important;
+    }*/
+
+    .navbar-default {
+      background-color: #3384E5;
+      background-image: none;
+      background-repeat: no-repeat;
+      color: #e6e5e3 !important;
+    } 
+
+    a {
+        color: #e6e5e3 !important
+    }
+
+
 </style>
 </head>
 
 <body>
     <div id="container">
-        <nav class="navbar navbar-toggleable-md navbar-dark">
+        <nav class="navbar navbar-toggleable-md navbar-default">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -163,8 +181,8 @@ var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/hisham8383/cj9m0hg0023ir2smspg983bzf',
-    center: [-98.58, 39.82],
-    zoom: 3.5,
+    center: [0, 0],
+    zoom: 1,
     interactive: true
 });
 
