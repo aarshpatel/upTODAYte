@@ -16,7 +16,7 @@
             [
                 36.5748441,
                 -9.39365580000003
-            ],
+            ]
         ],
         "link": "http://www.tennisworldusa.org/tennis/news/ATP_Tennis/48846/juan-martin-del-potro-likely-to-play-in-estoril-next-year/",
         "img_url": "http://www.tennisworldusa.org/imgb/53061/juan-martin-del-potro-likely-to-play-in-estoril-next-year.jpg"
@@ -1066,7 +1066,6 @@
         "geo_coordinates": [
             [
                 37.9642529,-91.8318334
-            [
             ]
         ],
         "link": "http://www.arkansasonline.com/news/2017/nov/04/hogs-find-unlikely-battle-with-d-ii-foe-1/",
@@ -1391,5 +1390,5 @@
         ],
         "link": "http://rssfeeds.postcrescent.com/~/485667224/0/appleton/home~Packers-Podcast-Aaron-Rodgers-speaks-to-the-media-key-matchups-vs-Lions/",
         "img_url": "https://www.gannett-cdn.com/-mm-/4a0e713a1493b6617d0fb74c424e7ed710590f60/c=0-531-5177-3456&r=x1683&c=3200x1680/local/-/media/2017/10/15/WIGroup/PackersNews/636436717575171015-MJS-packers16-5-hoffman.jpg-packers16.jpg"
-    },
+    }
 ]
