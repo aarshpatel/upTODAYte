@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>A simple map</title>
+<title>FillMeIn</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -23,9 +23,14 @@ html, body, #map {
 }
 
 .mapboxgl-popup {
-    max-width: 200px;
+    max-width: 300px;
+    background-color: #3384E5;
+    border-radius: 2px;
+    height:5px;
+    color: #e6e5e3;
 }
 
+<<<<<<< HEAD
 .marker{
   background-image: url('/static/black-basketball.svg');
   background-size: cover;
@@ -35,6 +40,19 @@ html, body, #map {
   cursor: pointer;
 }
 
+=======
+.mapboxgl-popup-tip {
+  border-top-color: #6D1237 !important;
+}
+
+.mapboxgl-popup-content {
+  background-color: #6D1237 !important;
+  top:5px;
+  position: relative;
+}
+
+
+>>>>>>> 6c9612d2741a5c50cbdc392b2320552595fedd92
  .filter-group {
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         font-weight: 600;
@@ -101,6 +119,9 @@ html, body, #map {
           <li class="nav-item">
             <a class="nav-link" href="#">How to Use It</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recap_me">What Did I Miss!</a>
+          </li> 
         </ul>
       </div>
     </nav>
@@ -115,41 +136,50 @@ html, body, #map {
 <script>
 
 var parsed_stories = JSON.parse({{data|tojson|safe}});
-console.log(parsed_stories);
-
-
 var features = [];
 parsed_stories["data"].forEach(function(story) {
     var new_story = {}
     new_story["type"] = "Feature";
+    var story_summary = "";
+
+    story.summary.forEach(function(st) {
+        story_summary += st + '~'
+    });
+
     new_story["properties"] = {
         "icon" : "marker",
+        "description": story["title"],
+        "summary": story_summary,
+        "link": story["link"],
         "title": story["title"]
     };
     new_story["geometry"] = {
         "type": "Point",
         "coordinates": [story["geo_coordinates"][0][1], story["geo_coordinates"][0][0]]
     };
-    features.push(new_story);
+
+    story["geo_coordinates"].forEach(function(coords) {
+        new_story["geometry"] = {
+            "type": "Point",
+            "coordinates": [coords[1], coords[0]]
+        };
+        features.push(new_story);    
+    });
 });
 
-console.log(features);
-
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyc2hwYXRlbCIsImEiOiJjajlsNHJzb280NTZqMnhwYXczbnZrdTQ3In0.p3_wHLMfkVdfPT3EnMeQBA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGlzaGFtODM4MyIsImEiOiJjajltMGZ3aXowbTRjMzNuNDl1OWRqZHBjIn0.4tAAJTn_VgK4w70dxwk0WA';
 var places = {
     "type": "FeatureCollection",
     "features": features 
 };
 
-console.log(places);
-
 var filterGroup = document.getElementById('filter-group');
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/dark-v9',
+    style: 'mapbox://styles/hisham8383/cj9m0hg0023ir2smspg983bzf',
     center: [-98.58, 39.82],
     zoom: 3.5,
-    interactive: false
+    interactive: true
 });
 
 map.on('load', function() {
@@ -173,8 +203,9 @@ map.on('load', function() {
 
     places.features.forEach(function(feature) {
         var symbol = feature.properties['icon'];
+        var title = feature.properties['title'];
         var layerID = 'poi-' + symbol;
-
+        console.log(layerID);
         // Add a layer for this symbol type if it hasn't been added already.
         if (!map.getLayer(layerID)) {
             map.addLayer({
@@ -183,6 +214,7 @@ map.on('load', function() {
                 "source": "places",
                 "layout": {
                     "icon-image": symbol + "-15",
+                    "icon-size": 1.5,
                     "icon-allow-overlap": true,
                     "text-offset": [0, 2],
                     "text-size": 10
@@ -210,6 +242,48 @@ map.on('load', function() {
         }
     });
 });
+
+// Create a popup, but don't add it to the map yet.
+    var popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+    });
+
+    map.on("click", "poi-marker", function(e) {
+
+        function openInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+
+        map.getCanvas().style.cursor = 'pointer';
+        var link = e.features[0].properties.link;
+        openInNewTab(link);
+    });
+
+    map.on('mouseenter', 'poi-marker', function(e) {
+        // Change the cursor style as a UI indicator.
+        map.getCanvas().style.cursor = 'pointer';
+
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        var description = e.features[0].properties.description;
+        var summary = e.features[0].properties.summary.split("~");
+        var summaryHTML = "<ul>";
+        summary.forEach(function(summary) {
+            summaryHTML += "<li>" + summary + "</li>";
+        });
+        summaryHTML += "</ul>";
+        popHTML = description + "</br>" + summaryHTML;
+        popup.setLngLat(e.features[0].geometry.coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+    map.on('mouseleave', 'poi-marker', function() {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+    }); 
 </script>
 
 

@@ -1,1262 +1,1183 @@
 [
-    {
-        "geo_coordinates": [
-            [
-                46.2419692,
-                17.5329993
-            ]
-        ],
-        "link": "http://www.nba.com/lakers/news/171103-running-diary-lakers-nets",
-        "locations": [
-            "Mike"
-        ],
-        "title": "Running Diary: Lakers vs. Nets (11/3/17)"
-    },
-    {
-        "geo_coordinates": [
-            [
-                42.3604823,
-                -71.0595678
-            ],
-            [
-                35.4729886,
-                -97.5170536
-            ]
-        ],
-        "link": "http://www.nba.com/celtics/gamerecap/keys-20171103-bosokc",
-        "locations": [
-            "Boston",
-            "Oklahoma City"
-        ],
-        "title": "Keys to the Game: Celtics 101, Thunder 94"
-    },
-    {
-        "geo_coordinates": [
-            [
-                32.7762719,
-                -96.7968559
-            ],
-            [
-                33.8613328,
-                -112.1254665
-            ]
-        ],
-        "link": "http://feedproxy.google.com/~r/breitbart/~3/fKNlSjmeHHs/",
-        "locations": [
-            "Dallas",
-            "Anthem"
-        ],
-        "title": "Papa John's Deciding Whether to Drop NFL Sponsorship After Sales Fall Due to Anthem Protests"
-    },
-    {
-        "geo_coordinates": [
-            [
-                27.7567667,
-                -81.4639835
-            ]
-        ],
-        "link": "http://www.washingtonpost.com/blogs/the-fix/wp/2017/11/04/both-bush-presidents-openly-condemned-trump-book-claims-one-even-voted-for-clinton/",
-        "locations": [
-            "Florida"
-        ],
-        "title": "Analysis | Both Bush presidents openly condemned Trump, book claims. One even voted for Clinton."
-    },
-    {
-        "geo_coordinates": [
-            [
-                37.1232245,
-                -78.4927721
-            ],
-            [
-                38.029306,
-                -78.4766781
-            ]
-        ],
-        "link": "http://thehill.com/blogs/blog-briefing-room/358767-gillespie-ahead-by-3-points-in-new-poll",
-        "locations": [
-            "Virginia",
-            "Charlottesville"
-        ],
-        "title": "Gillespie ahead by 3 points in new Virginia poll"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.7306458,
-                -73.9866136
-            ]
-        ],
-        "link": "http://mlb.mlb.com/news/article/mlb/pitcher-masahiro-tanaka-to-stay-with-yankees?ymd=20171103&content_id=260673824&vkey=news_mlb",
-        "locations": [
-            "New York"
-        ],
-        "title": "Pitcher Masahiro Tanaka to stay with Yankees"
-    },
-    {
-        "geo_coordinates": [
-            [
-                46.8044352,
-                -92.0703141
-            ]
-        ],
-        "link": "http://feedproxy.google.com/~r/breitbart/~3/3paFJ1AKbxQ/",
-        "locations": [
-            "Fox News"
-        ],
-        "title": "L.A. Times Columnist Apologizes, Retracts 'Body-Shaming' of Sarah Huckabee Sanders"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.4729886,
-                -97.5170536
-            ],
-            [
-                36.7183708,
-                -76.2466798
-            ]
-        ],
-        "link": "http://www.nba.com/celtics/news/sidebar/post-110317-celtic-pride-makes-thunderous-statement-in-okc",
-        "locations": [
-            "Oklahoma City",
-            "Chesapeake"
-        ],
-        "title": "Celtic Pride Makes Thunderous Statement in OKC"
-    },
-    {
-        "geo_coordinates": [
-            [
-                53.2824686,
-                -6.3190221
-            ]
-        ],
-        "link": "http://www.tmz.com/2017/11/04/yu-darvish-dodgers-world-series/",
-        "locations": [
-            "Beverly Grove"
-        ],
-        "title": "Yu Darvish's Emotional World Series Apology, 'I Couldn't Do It, I'm Sorry'"
-    },
-    {
-        "geo_coordinates": [
-            [
-                39.7837304,
-                -100.4458825
-            ]
-        ],
-        "link": "http://www.politicususa.com/2017/11/04/bush-presidents-speak-blowhard-trump-call-unfit-president.html",
-        "locations": [
-            "United States"
-        ],
-        "title": "Both Bush Presidents Confirm They Didn't Vote For Trump And Call Him Unfit To Be President"
-    },
-    {
-        "geo_coordinates": [
-            [
-                33.0955793,
-                44.1749775
-            ]
-        ],
-        "link": "http://feedproxy.google.com/~r/businessinsider/~3/dBpsU9aJpiY/george-hw-bush-calls-trump-a-blowhard-2017-11",
-        "locations": [
-            "Iraq"
-        ],
-        "title": "The White House fires back after George H.W. Bush calls Trump a 'blowhard'"
-    },
-    {
-        "geo_coordinates": [
-            [
-                43.7311424,
-                7.4197576
-            ],
-            [
-                53.4791301,
-                -2.2441009
-            ]
-        ],
-        "link": "http://rss.cnn.com/~r/rss/cnn_topstories/~3/dSMlfUAyukg/2742382-patrice-evra-suspended-by-olympique-marseille-after-kicking-fan",
-        "locations": [
-            "Monaco",
-            "Manchester"
-        ],
-        "title": "Patrice Evra Suspended by Olympique Marseille After Kicking Fan"
-    },
-    {
-        "geo_coordinates": [
-            [
-                8.444585,
-                125.951249185475
-            ]
-        ],
-        "link": "http://www.mercurynews.com/2017/11/03/tom-steyer-fox-news-pulled-the-plug-on-pro-impeachment-ad/",
-        "locations": [
-            "San Francisco"
-        ],
-        "title": "Tom Steyer: Fox News pulled the plug on pro-impeachment ad"
-    },
-    {
-        "geo_coordinates": [
-            [
-                33.0955793,
-                44.1749775
-            ]
-        ],
-        "link": "http://wgntv.com/2017/11/04/copy-george-h-w-bush-labels-trump-a-blowhard-in-new-book/",
-        "locations": [
-            "Iraq"
-        ],
-        "title": "Copy George H.W. Bush labels Trump a ‘blowhard’ in new book"
-    },
-    {
-        "geo_coordinates": [
-            [
-                33.0955793,
-                44.1749775
-            ]
-        ],
-        "link": "http://nypost.com/2017/11/04/white-house-slams-bushes-for-iraq-war-after-blowhard-dig/",
-        "locations": [
-            "Iraq"
-        ],
-        "title": "White House slams Bushes for Iraq War after ‘blowhard’ dig"
-    },
-    {
-        "geo_coordinates": [
-            [
-                31.8160381,
-                -99.5120986
-            ]
-        ],
-        "link": "http://nascar.nbcsports.com/2017/11/03/heres-the-starting-lineup-for-sundays-aaa-texas-500/",
-        "locations": [
-            "Texas"
-        ],
-        "title": "Here’s the starting lineup for Sunday’s AAA Texas 500"
-    },
-    {
-        "geo_coordinates": [
-            [
-                38.8949549,
-                -77.0366456
-            ]
-        ],
-        "link": "http://www.msnbc.com/rachel-maddow/watch/nyt-carter-page-met-russian-officials-informed-trump-campaign-1088391747630",
-        "locations": [
-            "Washington"
-        ],
-        "title": "NYT: Carter Page met Russian officials, informed Trump campaign"
-    },
-    {
-        "geo_coordinates": [
-            [
-                37.61003765,
-                -122.096493097361
-            ],
-            [
-                41.5051613,
-                -81.6934446
-            ]
-        ],
-        "link": "http://uproxx.com/dimemag/gordon-hayward-practicing-broken-ankle-video/",
-        "locations": [
-            "Gordon Hayward",
-            "Cleveland"
-        ],
-        "title": "Gordon Hayward Is Already Back At Practice Working On His Game"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.3736611,
-                127.0870417
-            ]
-        ],
-        "link": "http://www.politicususa.com/2017/11/04/chris-matthews-calls-trump-groundhog-day-presidents-idiotic-stuff-day.html",
-        "locations": [
-            "North Korea"
-        ],
-        "title": "Chris Matthews Calls Trump The 'Groundhog Day' Of Presidents: Same 'Idiotic' Stuff Every Day"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.7306458,
-                -73.9866136
-            ]
-        ],
-        "link": "https://www.cbssports.com/mlb/news/masahiro-tanaka-will-remain-with-yankees-for-next-three-years-after-declining-opt-out/",
-        "locations": [
-            "New York"
-        ],
-        "title": "Masahiro Tanaka to remain with Yankees for next three years after declining opt-out"
-    },
-    {
-        "geo_coordinates": [
-            [
-                46.8044352,
-                -92.0703141
-            ]
-        ],
-        "link": "http://rare.us/rare-news/the-media/columnist-apologizes-to-sarah-huckabee-sanders-for-insensitive-remarks-on-her-appearance/",
-        "locations": [
-            "Fox News"
-        ],
-        "title": "Columnist apologizes to Sarah Huckabee Sanders for “insensitive” remarks on her appearance"
-    },
-    {
-        "geo_coordinates": [
-            [
-                33.7680065,
-                66.2385139
-            ]
-        ],
-        "link": "http://insider.foxnews.com/2017/11/04/team-leader-matt-vierkant-bowe-bergdahl-outpost-selfish-person",
-        "locations": [
-            "Afghanistan"
-        ],
-        "title": "Team Leader at Bowe Bergdahl's Outpost: 'He's a Selfish Person'"
-    },
-    {
-        "geo_coordinates": [
-            [
-                36.1662859,
-                -115.149225
-            ]
-        ],
-        "link": "http://www.theblaze.com/news/2017/11/04/police-reveal-what-could-be-a-possible-motive-in-the-las-vegas-shooting/",
-        "locations": [
-            "Las Vegas"
-        ],
-        "title": "Police reveal what could be a possible motive in the Las Vegas shooting"
-    },
-    {
-        "geo_coordinates": [
-            [
-                31.8160381,
-                -99.5120986
-            ]
-        ],
-        "link": "http://nascar.nbcsports.com/2017/11/04/saturday-schedule-at-texas-motor-speedway-2/",
-        "locations": [
-            "Texas"
-        ],
-        "title": "Saturday schedule at Texas Motor Speedway"
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.7589382,
-                -95.3676974
-            ]
-        ],
-        "link": "https://www.cbssports.com/mlb/news/watch-fans-step-up-to-defeat-gravity-save-a-hat-at-astros-world-series-parade/",
-        "locations": [
-            "Houston"
-        ],
-        "title": "WATCH: Fans step up to defeat gravity, save a hat at Astros' World Series parade"
-    },
-    {
-        "geo_coordinates": [
-            [
-                45.38948185,
-                -122.751310219937
-            ]
-        ],
-        "link": "http://www.nba.com/lakers/releases/171103-larry-nance-injury-report",
-        "locations": [
-            "Portland Trail Blazers"
-        ],
-        "title": "Larry Nance Jr. Medical Update"
-    },
-    {
-        "geo_coordinates": [
-            [
-                37.182261,
-                -118.260475
-            ]
-        ],
-        "link": "http://www.tennisworldusa.org/tennis/news/Andy_Murray/48807/here-is-where-you-can-watch-murray-vs-federer-exhibition-for-free/",
-        "locations": [
-            "Zurich"
-        ],
-        "title": "Here is where you can watch Murray vs Federer exhibition For Free"
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.7589382,
-                -95.3676974
-            ]
-        ],
-        "link": "http://profootballtalk.nbcsports.com/2017/11/04/bill-obrien-texans-will-keep-fighting/",
-        "locations": [
-            "Houston"
-        ],
-        "title": "Bill O’Brien: Texans will keep fighting"
-    },
-    {
-        "geo_coordinates": [
-            [
-                33.171276,
-                -117.245728
-            ]
-        ],
-        "link": "http://abcnews.go.com/US/frat-pledges-death-sparks-investigation-suspension-fraternity/story?id=50929078",
-        "locations": [
-            "Buena Vista Drive"
-        ],
-        "title": "Frat pledge's death sparks investigation, suspension of fraternity"
-    },
-    {
-        "geo_coordinates": [
-            [
-                27.6886419,
-                -82.5723193
-            ]
-        ],
-        "link": "https://www.cbssports.com/nfl/news/buccaneers-coach-is-concerned-that-the-buccaneers-have-a-culture-of-losing/",
-        "locations": [
-            "Tampa Bay"
-        ],
-        "title": "Buccaneers coach is concerned that the Buccaneers have a culture of losing"
-    },
-    {
-        "geo_coordinates": [
-            [
-                39.9523993,
-                -75.1635899
-            ]
-        ],
-        "link": "http://www.complex.com/sneakers/2017/11/ben-simmons-nike-jersey-ripped",
-        "locations": [
-            "Philadelphia"
-        ],
-        "title": "Ben Simmons Latest to Have Nike Jersey Ripped in a Game"
-    },
-    {
-        "geo_coordinates": [
-            [
-                47.6114034,
-                -122.33442
-            ]
-        ],
-        "link": "http://www.complex.com/sneakers/2017/11/nike-pg1-bright-violet-release-date-878627-500",
-        "locations": [
-            "Nike"
-        ],
-        "title": "Purple Nike PG1 Kicks Off December"
-    },
-    {
-        "geo_coordinates": [
-            [
-                6.7501787,
-                -75.3229229277351
-            ]
-        ],
-        "link": "http://profootballtalk.nbcsports.com/2017/11/03/aaron-rodgers-if-im-healthy-and-it-makes-sense-ill-come-back/",
-        "locations": [
-            "Carolina"
-        ],
-        "title": "Aaron Rodgers: If I’m healthy and it makes sense, I’ll come back"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.4729886,
-                -97.5170536
-            ]
-        ],
-        "link": "http://www.nba.com/celtics/news/post-ups-20171103",
-        "locations": [
-            "Oklahoma City"
-        ],
-        "title": "Pregame Post-Ups: Versatility is Name of the Game Tonight"
-    },
-    {
-        "geo_coordinates": [
-            [
-                36.1709981,
-                -86.7879236
-            ],
-            [
-                34.395342,
-                -111.7632755
-            ]
-        ],
-        "link": "http://wkrn.com/2017/11/04/nashville-mayor-megan-barry-wins-national-leadership-award/",
-        "locations": [
-            "Tennessee Volunteers",
-            "Arizona"
-        ],
-        "title": "Nashville Mayor Megan Barry wins National Leadership award"
-    },
-    {
-        "geo_coordinates": [
-            [
-                32.3665322,
-                -96.1008056
-            ],
-            [
-                32.7762719,
-                -96.7968559
-            ]
-        ],
-        "link": "http://ktla.com/2017/11/03/texas-mom-planned-to-kill-her-two-children-weeks-before-sheriff-says/",
-        "locations": [
-            "Mabank",
-            "Dallas"
-        ],
-        "title": "‘Please Just Shoot Me,’ Texas Mother Told Husband After Allegedly Killing 2 Young Daughters"
-    },
-    {
-        "geo_coordinates": [
-            [
-                46.7323875,
-                -117.0001651
-            ],
-            [
-                40.58475245,
-                -8.46771457113208
-            ]
-        ],
-        "link": "https://www.cnbc.com/2017/11/04/donna-brazile-book-on-hillary-clinton-campaign-dnc-deal.html",
-        "locations": [
-            "Moscow",
-            "HFA."
-        ],
-        "title": "Outrage after book claims Clinton campaign effectively bought control of DNC before election"
-    },
-    {
-        "geo_coordinates": [
-            [
-                53.7158609,
-                -1.3823269
-            ]
-        ],
-        "link": "http://crooksandliars.com/2017/11/uh-oh-white-house-didnt-know-sam-clovis",
-        "locations": [
-            "Coffee Boy"
-        ],
-        "title": "Uh Oh. White House Didn't Know Sam Clovis Testified Last Week"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.3641184,
-                -111.73854
-            ]
-        ],
-        "link": "http://highschoolsports.al.com/news/article/9190294369122225964/pinson-valley-34-pleasant-grove-0-indians-finish-regular-season-undefeated/",
-        "locations": [
-            "Pleasant Grove"
-        ],
-        "title": "Pinson Valley 34, Pleasant Grove 0: Indians finish regular season undefeated"
-    },
-    {
-        "geo_coordinates": [
-            [
-                47.6038321,
-                -122.3300624
-            ]
-        ],
-        "link": "http://www.tmz.com/2017/11/03/colin-kaepernick-case-will-include-pete-carroll-paul-allen/",
-        "locations": [
-            "Seattle"
-        ],
-        "title": "Colin Kaepernick Case Will Include Pete Carroll, Paul Allen"
-    },
-    {
-        "geo_coordinates": [
-            [
-                27.6886419,
-                -82.5723193
-            ]
-        ],
-        "link": "https://www.cbssports.com/nfl/news/cardinals-plan-without-carson-palmer-is-to-feed-the-beast-adrian-peterson/",
-        "locations": [
-            "Tampa Bay"
-        ],
-        "title": "Cardinals' plan without Carson Palmer is to feed 'the beast,' Adrian Peterson"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.7979355,
-                -78.6118311
-            ],
-            [
-                35.875259,
-                -78.7751271
-            ]
-        ],
-        "link": "http://www.wral.com/durham-bulls-miracle-league-field-expands-baseball-league-for-children-with-disabilities-/17089431/",
-        "locations": [
-            "Wake County",
-            "Triangle"
-        ],
-        "title": "Bulls back Miracle League field for children with disabilities to play ball ::"
-    },
-    {
-        "geo_coordinates": [
-            [
-                36.194351,
-                128.038269
-            ]
-        ],
-        "link": "http://www.nbcsports.com/philadelphia/76ers/jj-redick-catches-fire-8-3-pointers-sixers-comeback",
-        "locations": [
-            ".500"
-        ],
-        "title": "JJ Redick catches fire with 8 3-pointers in Sixers' comeback"
-    },
-    {
-        "geo_coordinates": [
-            [
-                32.982418,
-                -80.619816
-            ],
-            [
-                50.0601579,
-                13.8307479420999
-            ]
-        ],
-        "link": "http://www.kansascity.com/news/local/article182760136.html#storylink=rss",
-        "locations": [
-            "Candle Light",
-            "St."
-        ],
-        "title": "Girl, 5, reported missing from Grandview home. Police seek public’s help in locating."
-    },
-    {
-        "geo_coordinates": [
-            [
-                42.7281938,
-                -84.4850116892922
-            ],
-            [
-                43.6211955,
-                -84.6824346
-            ]
-        ],
-        "link": "http://www.pennlive.com/pennstatefootball/index.ssf/2017/11/penn_state-michigan_state_to_r.html",
-        "locations": [
-            "Spartan Stadium",
-            "Mich."
-        ],
-        "title": "Penn State-Michigan State should resume at 4 p.m.; unclear if FOX, or another network, will air it"
-    },
-    {
-        "geo_coordinates": [
-            [
-                -33.8548157,
-                151.2164539
-            ]
-        ],
-        "link": "http://www.tennisworldusa.org/tennis/news/Serena_Williams/48815/serena-williams-s-2018-schedule-is-a-mistery-unlikely-to-play-brisbane/",
-        "locations": [
-            "Sydney"
-        ],
-        "title": "Serena Williams's 2018 schedule is a mistery: unlikely to play Brisbane"
-    },
-    {
-        "geo_coordinates": [
-            [
-                -33.8548157,
-                151.2164539
-            ]
-        ],
-        "link": "http://www.tennisworldusa.org/tennis/news/Serena_Williams/48815/serena-williams-2018-schedule-is-a-mystery-unlikely-to-play-brisbane/",
-        "locations": [
-            "Sydney"
-        ],
-        "title": "Serena Williams' 2018 schedule is a mystery: unlikely to play Brisbane"
-    },
-    {
-        "geo_coordinates": [
-            [
-                44.5990718,
-                -72.5002608
-            ]
-        ],
-        "link": "http://dailycaller.com/2017/11/03/trump-what-happened-to-bernie-sanders-with-dnc-was-horrible-video/",
-        "locations": [
-            "Vermont"
-        ],
-        "title": "Trump: What Happened To Bernie Sanders With DNC Was ‘Horrible’ [VIDEO]"
-    },
-    {
-        "geo_coordinates": [
-            [
-                34.1028268,
-                -118.3299899
-            ]
-        ],
-        "link": "http://www.washingtonexaminer.com/trust-donna-brazile-democrats-youre-better-off-without-clinton-and-obama/article/2639620",
-        "locations": [
-            "Hollywood"
-        ],
-        "title": "Trust Donna Brazile, Democrats: You're better off without Clinton and Obama"
-    },
-    {
-        "geo_coordinates": [
-            [
-                64.6863136,
-                97.7453061
-            ]
-        ],
-        "link": "http://insider.foxnews.com/2017/11/03/byron-york-braziles-claims-full-scale-indictment-entire-power-structure-dnc",
-        "locations": [
-            "Russia"
-        ],
-        "title": "Byron York on Brazile's Claims: 'A Full-Scale Indictment of the Entire Power Structure at the DNC'"
-    },
-    {
-        "geo_coordinates": [
-            [
-                28.3861159,
-                -80.7419984
-            ],
-            [
-                41.1421905,
-                -87.8613221
-            ]
-        ],
-        "link": "http://rssfeeds.floridatoday.com/~/485498618/0/brevard/sports~Rockledge-beats-Cocoa-to-highlight-Week/",
-        "locations": [
-            "Cocoa",
-            "Bradley"
-        ],
-        "title": "Rockledge beats Cocoa to highlight Week 11"
-    },
-    {
-        "geo_coordinates": [
-            [
-                41.71803185,
-                -75.5583619505367
-            ],
-            [
-                39.2744299,
-                -88.2423795
-            ]
-        ],
-        "link": "http://www.pennlive.com/news/2017/11/12_reasons_tuesdays_election_i.html",
-        "locations": [
-            "Susquehanna Township",
-            "Cumberland County"
-        ],
-        "title": "11 reasons Tuesday's election is more important to you than Trump vs. Clinton in 2016"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.7306458,
-                -73.9866136
-            ]
-        ],
-        "link": "http://nypost.com/2017/11/03/masahiro-tanaka-staying-with-yankees/",
-        "locations": [
-            "New York"
-        ],
-        "title": "Masahiro Tanaka had to make decision to stay with Yankees"
-    },
-    {
-        "geo_coordinates": [
-            [
-                32.8295183,
-                -96.9442177
-            ]
-        ],
-        "link": "http://uproxx.com/dimemag/kyrie-irving-unbelievably-craving-intellectual-coach-brad-stevens/",
-        "locations": [
-            "Irving"
-        ],
-        "title": "Kyrie Irving Was 'Craving' An Intellectual Coach Like Brad Stevens"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.7306458,
-                -73.9866136
-            ],
-            [
-                40.7306458,
-                -73.9866136
-            ]
-        ],
-        "link": "http://www.businessinsider.com/anthony-weiner-prison-sentence-2017-11",
-        "locations": [
-            "New York City",
-            "New York"
-        ],
-        "title": "Anthony Weiner ordered to report to prison by Monday"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.4729886,
-                -97.5170536
-            ]
-        ],
-        "link": "http://boston.cbslocal.com/2017/11/04/celtics-7-7-2-record/",
-        "locations": [
-            "Oklahoma City"
-        ],
-        "title": "Celtics @ 7: What A 7-2 Record Means For The Celtics"
-    },
-    {
-        "geo_coordinates": [
-            [
-                26.301135,
-                -81.797742
-            ]
-        ],
-        "link": "http://www.nbcsports.com/chicago/white-sox/white-sox-add-prospect-daniel-palka-twins-waivers-power-potential",
-        "locations": [
-            "Gulf Coast"
-        ],
-        "title": "White Sox add prospect with intriguing power potential"
-    },
-    {
-        "geo_coordinates": [
-            [
-                39.7837304,
-                -100.4458825
-            ],
-            [
-                35.7803977,
-                -78.6390989
-            ]
-        ],
-        "link": "http://www.wral.com/fall-back-this-weekend/16184015/",
-        "locations": [
-            "United States",
-            "Raleigh."
-        ],
-        "title": "Fall back this weekend ::"
-    },
-    {
-        "geo_coordinates": [
-            [
-                48.8566101,
-                2.3514992
-            ]
-        ],
-        "link": "http://www.tennisworldusa.org/tennis/news/On_the_ATP_results_with/48881/atp-paris-filip-krajinovic-and-jack-sock-advance-to-the-big-final/",
-        "locations": [
-            "Paris"
-        ],
-        "title": "ATP Paris: Filip Krajinovic and Jack Sock advance to the big final"
-    },
-    {
-        "geo_coordinates": [
-            [
-                41.5051613,
-                -81.6934446
-            ]
-        ],
-        "link": "http://uproxx.com/dimemag/paul-piece-thinks-lebron-james-sign-washington-wizards/",
-        "locations": [
-            "Cleveland"
-        ],
-        "title": "Paul Pierce Thinks LeBron James Should Sign With The Wizards"
-    },
-    {
-        "geo_coordinates": [
-            [
-                45.9896587,
-                -94.6113288
-            ]
-        ],
-        "link": "http://minnesota.cbslocal.com/2017/11/03/stillwater-magnificent-7/",
-        "locations": [
-            "Minnesota"
-        ],
-        "title": "Stillwater’s Magnificent 7: 20 Years Later"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.4729886,
-                -97.5170536
-            ],
-            [
-                42.3604823,
-                -71.0595678
-            ]
-        ],
-        "link": "http://www.nbcsports.com/boston/celtics/al-horford-leads-boston-celtics-comeback-win-over-oklahoma-city-thunder-extending-win-streak-7",
-        "locations": [
-            "Oklahoma City",
-            "Boston"
-        ],
-        "title": "Horford leads C's to comeback win over Thunder, extending win streak to 7"
-    },
-    {
-        "geo_coordinates": [
-            [
-                41.5051613,
-                -81.6934446
-            ],
-            [
-                38.8949549,
-                -77.0366456
-            ]
-        ],
-        "link": "http://uproxx.com/dimemag/lebron-james-57-points-cavs-wizards/",
-        "locations": [
-            "Cleveland",
-            "Washington"
-        ],
-        "title": "LeBron Put The Cavs On His Back With A Huge 57-Point Game Vs. Wizards"
-    },
-    {
-        "geo_coordinates": [
-            [
-                8.444585,
-                125.951249185475
-            ],
-            [
-                35.9301898,
-                139.3990527
-            ]
-        ],
-        "link": "https://townhall.com/columnists/jeffcrouere/2017/11/04/saints-criticize-navy-veteran-who-supports-anthem-n2404738",
-        "locations": [
-            "San Francisco",
-            "50"
-        ],
-        "title": "Saints Criticize Navy Veteran Who Supports Anthem"
-    },
-    {
-        "geo_coordinates": [
-            [
-                38.8949549,
-                -77.0366456
-            ],
-            [
-                41.5051613,
-                -81.6934446
-            ]
-        ],
-        "link": "http://www.complex.com/sports/2017/11/wizards-player-kelly-oubre-jr-could-be-fined-by-nba-over-his-choice-of-coat",
-        "locations": [
-            "Washington",
-            "Cleveland"
-        ],
-        "title": "Wizards Player Kelly Oubre Jr. Could Be Fined By NBA Over His Choice of Coat"
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.7589382,
-                -95.3676974
-            ]
-        ],
-        "link": "http://feeds.mashable.com/~r/Mashable/~3/FmGOPDxi2Gk/",
-        "locations": [
-            "Houston"
-        ],
-        "title": "Giant crowd of Astros fans saving a woman's hat is Houston at its best"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.3270127,
-                -86.1746933
-            ],
-            [
-                39.6188156,
-                -106.4285445
-            ]
-        ],
-        "link": "http://www.theindychannel.com/news/local-news/owen-county/suspect-in-31-hour-standoff-killed-after-firing-several-shots-at-officers",
-        "locations": [
-            "Ind.",
-            "Kinnickinick Ridge"
-        ],
-        "title": "Suspect in 31 hour standoff killed after firing several shots at officers, hostages rescued"
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.4246002,
-                -98.4951405
-            ],
-            [
-                35.2270869,
-                -80.8431268
-            ]
-        ],
-        "link": "https://www.cbssports.com/nba/news/watch-manu-ginobili-turns-back-clock-with-thunderous-jam-in-1000th-game/",
-        "locations": [
-            "San Antonio",
-            "Charlotte"
-        ],
-        "title": "WATCH: Manu Ginobili turns back clock with thunderous jam in 1,000th game"
-    },
-    {
-        "geo_coordinates": [
-            [
-                22.3511148,
-                78.6677428
-            ]
-        ],
-        "link": "http://www.tennisworldusa.org/tennis/news/Maria_Sharapova/48852/chris-evert-sharapova-doesn-t-talk-to-the-other-women-in-the-locker-room-/",
-        "locations": [
-            "India"
-        ],
-        "title": "Chris Evert: 'Sharapova doesn't talk to the other women in the locker room'"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.0458435,
-                -96.2749675
-            ],
-            [
-                34.9550817,
-                -97.2684063
-            ]
-        ],
-        "link": "http://www.newson6.com/story/36761950/newly-created-oklahoma-hs-football-teams-face-off",
-        "locations": [
-            "Hughes County",
-            "Oklahoma"
-        ],
-        "title": "Newly Created Oklahoma HS Football Teams Face Off"
-    },
-    {
-        "geo_coordinates": [
-            [
-                45.9896587,
-                -94.6113288
-            ],
-            [
-                38.0608444,
-                -97.9297743
-            ]
-        ],
-        "link": "http://minnesota.cbslocal.com/2017/11/03/deer-stand-injury/",
-        "locations": [
-            "Minnesota",
-            "Hutchinson"
-        ],
-        "title": "Man Falls From Deer Stand, Breaks Back, Drives Home For Help"
-    },
-    {
-        "geo_coordinates": [
-            [
-                15.6134137,
-                19.0156172
-            ],
-            [
-                42.3604823,
-                -71.0595678
-            ]
-        ],
-        "link": "https://www.boston.com/sports/sports-q/2017/11/04/are-you-disappointed-the-patriots-traded-jimmy-garoppolo",
-        "locations": [
-            "Chad",
-            "Boston"
-        ],
-        "title": "Are you disappointed the Patriots traded Jimmy Garoppolo?"
-    },
-    {
-        "geo_coordinates": [
-            [
-                41.5051613,
-                -81.6934446
-            ]
-        ],
-        "link": "http://www.complex.com/sports/2017/11/lebron-james-29000-career-points",
-        "locations": [
-            "Cleveland"
-        ],
-        "title": "LeBron Becomes Youngest NBA Player Ever to Score 29,000 Career Points"
-    },
-    {
-        "geo_coordinates": [
-            [
-                37.1232245,
-                -78.4927721
-            ]
-        ],
-        "link": "http://www.realclearpolitics.com/video/2017/11/04/david_brooks_those_of_us_trying_to_rebut_trump_have_the_disadvantage_that_our_elites_really_do_stink.html",
-        "locations": [
-            "Virginia"
-        ],
-        "title": "David Brooks: Those Of Us Trying To Rebut Trump Have The Disadvantage That \"Our Elites Really Do Stink\""
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.7589382,
-                -95.3676974
-            ]
-        ],
-        "link": "https://www.dailydot.com/unclick/houston-astros-fallen-hat-world-series-parade/",
-        "locations": [
-            "Houston"
-        ],
-        "title": "Houston Astros fans rescue fallen hat in most impressive way possible"
-    },
-    {
-        "geo_coordinates": [
-            [
-                29.7589382,
-                -95.3676974
-            ]
-        ],
-        "link": "http://www.chron.com/news/houston-texas/houston/article/Study-ranks-which-MLB-teams-have-the-brightest-12331102.php",
-        "locations": [
-            "Houston"
-        ],
-        "title": "Study predicts how well Astros and other MLB teams will perform next year"
-    },
-    {
-        "geo_coordinates": [
-            [
-                47.6038321,
-                -122.3300624
-            ]
-        ],
-        "link": "http://www.49ers.com/news/article-2/Foster-Questionable-Seven-49ers-Out-for-Week-9-vs-Cardinals/b0bcd04b-3c9b-4b97-893e-2c4781aece6f",
-        "locations": [
-            "Seattle"
-        ],
-        "title": "Foster Questionable, Seven 49ers Out for Week 9 vs. Cardinals"
-    },
-    {
-        "geo_coordinates": [
-            [
-                40.7306458,
-                -73.9866136
-            ],
-            [
-                -3.5639671,
-                -39.5179952
-            ]
-        ],
-        "link": "http://www.nydailynews.com/sports/baseball/yankees/masahiro-tanaka-opts-stay-yankees-seasons-article-1.3609923",
-        "locations": [
-            "New York",
-            "Severino"
-        ],
-        "title": "Masahiro Tanaka opts in, will stay with Yankees for three seasons"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.7234734,
-                -79.4622431
-            ],
-            [
-                38.0472916,
-                -89.8107962
-            ]
-        ],
-        "link": "http://myfox8.com/2017/11/03/randolph-county-mother-accused-of-using-kids-to-break-into-buildings-posting-videos-on-youtube/",
-        "locations": [
-            "Siler City",
-            "Randolph County"
-        ],
-        "title": "Randolph County mother accused of using kids to break into buildings, posting videos on YouTube"
-    },
-    {
-        "geo_coordinates": [
-            [
-                35.4729886,
-                -97.5170536
-            ],
-            [
-                28.554096,
-                -81.4085784254174
-            ]
-        ],
-        "link": "http://boston.cbslocal.com/2017/11/04/boston-celtics-oklahoma-city-thunder/",
-        "locations": [
-            "Oklahoma City",
-            "Orlando Magic."
-        ],
-        "title": "Celtics Storm Back For Road Win Over Thunder"
-    },
-    {
-        "geo_coordinates": [
-            [
-                43.255205,
-                -79.868202
-            ],
-            [
-                -17.6247511,
-                -149.6083311
-            ]
-        ],
-        "link": "http://www.sportingnews.com/au/league/news/rugby-league-fans-call-for-regular-series-between-tonga-and-samoa-rlwc-nrl/1nk4iaipn1o4l1mfur5vhgknsc",
-        "locations": [
-            "Hamilton",
-            "Pacific Islands"
-        ],
-        "title": "Rugby league fans call for regular series between Tonga and Samoa"
-    },
-    {
-        "geo_coordinates": [
-            [
-                39.9523993,
-                -75.1635899
-            ]
-        ],
-        "link": "https://www.cbssports.com/nba/news/sixers-rookie-ben-simmons-joins-elite-company-with-second-triple-double/",
-        "locations": [
-            "Philadelphia"
-        ],
-        "title": "Sixers rookie Ben Simmons joins elite company with second triple-double"
-    },
-    {
-        "geo_coordinates": [
-            [
-                42.120868,
-                -85.526382
-            ],
-            [
-                43.6211955,
-                -84.6824346
-            ]
-        ],
-        "link": "http://www.pennlive.com/pennstatefootball/index.ssf/2017/11/penn_state_trace_mcsorley_care.html",
-        "locations": [
-            "Michigan State",
-            "Mich."
-        ],
-        "title": "Penn State's Trace McSorley is now the Lions' all-time career passing touchdowns leader"
-    },
-    {
-        "geo_coordinates": [
-            [
-                -33.88906005,
-                151.225387171003
-            ],
-            [
-                40.3429683,
-                -76.4233816
-            ]
-        ],
-        "link": "http://www.sportingnews.com/au/league/news/watch-england-awarded-try-after-farcical-video-ref-decision-lebanon-rlwc/17n4nvavyo1021u8ytguhzqz03",
-        "locations": [
-            "Allianz Stadium",
-            "Lebanon"
-        ],
-        "title": "WATCH: England awarded try after farcical video ref decision"
-    },
-    {
-        "geo_coordinates": [
-            [
-                39.9523993,
-                -75.1635899
-            ]
-        ],
-        "link": "http://www.inforum.com/sports/4354314-family-10-year-old-boy-lost-cancer-featured-espn-piece-be-special-guests-bison-home",
-        "locations": [
-            "Philadelphia"
-        ],
-        "title": "Family of 10-year-old boy lost to cancer, featured in ESPN piece..."
-    }
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://a57.foxnews.com/images.foxnews.com/content/fox-news/us/2017/11/04/sen-rand-paul-assaulted-in-kentucky-home/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1509826814216.jpg?ve=1",
+    "link": "http://www.foxnews.com/us/2017/11/04/sen-rand-paul-assaulted-in-kentucky-home.html",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "U.S. Senator Rand Paul (R-KY) was assaulted inside his home in Bowling Green, Kentucky on Friday.",
+      "(Reuters)\n                                    \n                                \n                            \n                        \n                \t\n            \n        \n    \n\n    \n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n       \n       \n      \n          \n              Sen. Rand Paul was assaulted inside his own home in Bowling Green, Kentucky on Friday afternoon, police say.",
+      "entucky State Police have arrested the senator’s assailant, identified as Rene Boucher, 59, of Bowling Green for intentionally assaulting Sen. Paul inside his home, causing minor injury, according to WBKO.com.",
+      "Officials for Sen. Paul’s office say that the former presidential candidate did not suffer any major injuries.",
+      "\"Senator Paul was blindsided and the victim of an assault,\" Kelsey Cooper, a spokeswoman for Paul, said in a statement to thehill.com."
+    ],
+    "title": "Sen. Rand Paul assaulted in Kentucky home"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        27.7567667,
+        -81.4639835
+      ]
+    ],
+    "img_url": "https://img.washingtonpost.com/rf/image_1484w/2010-2019/Wires/Images/2017-08-16/Getty/AFP_RM38V.jpg?t=20170517",
+    "link": "http://www.washingtonpost.com/blogs/the-fix/wp/2017/11/04/both-bush-presidents-openly-condemned-trump-book-claims-one-even-voted-for-clinton/",
+    "locations": [
+      "Florida"
+    ],
+    "summary": [
+      "The only two living Republicans presidents to precede Donald Trump openly castigated him in interviews last year, an extraordinary rebuke revealed in a new book on President George W. Bush and his father.",
+      "Former president George H.W. Bush mocked Trump as a “blowhard” and voted for a Democrat over him, while the younger Bush worried aloud that Trump would destroy the idea of a Republican president in all but name, according to “The Last Republicans,” which is scheduled to go on sale later this month.",
+      "Those comments came as Trump neared the Republican nomination for president, having vanquished most other contenders, including another member of the Bush family, former Florida governor Jeb Bush.",
+      "As he watched Trump's campaign, the younger Bush feared he would “be the last Republican president,” the author told CNN.",
+      "[‘Not the America I know’: George W. Bush’s daughter wants you to remember his speech on Islam]\n\nBut not only did the Bush presidents lament the prospect of a Trump presidency, Updegrove told CNN — they even shunned their party's nominee on Election Day."
+    ],
+    "title": "Analysis | Both Bush presidents openly condemned Trump, book claims. One even voted for Clinton."
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://cdn01.dailycaller.com/wp-content/uploads/2017/10/Rand-Paul-Talks-To-Reporters-e1507642000800.jpg",
+    "link": "http://dailycaller.com/2017/11/04/rand-paul-assaulted-at-his-kentucky-home/",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Rand Paul Assaulted At His Kentucky  Sen. Rand Paul was assaulted at his Bowling Green home on Friday afternoon, according to local news reports.",
+      "Rene Bousher, 59, was arrested and charged with one count of assault in the fourth degree.",
+      "Rene Albert Bousher, 59, was arrested and charged with 4th degree assault against Rand Paul.",
+      "(Booking photo via Warren County Sheriff’s Office)\n“Senator Paul was blindsided and the victim of an assault,” Kelsey Cooper, Paul’s communications director in Kentucky said in a statement to the Bowling Green Daily News.",
+      "Senator Paul is fine.â\nBousher was taken to Warren County Detention Center."
+    ],
+    "title": "Rand Paul Assaulted At His Kentucky Home"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://cdn.cnn.com/cnnnext/dam/assets/170712155530-rand-paul-07-12-2017-super-tease.jpg",
+    "link": "http://rss.cnn.com/~r/rss/cnn_latest/~3/WUE8PvsL2qg/index.html",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Police arrested a man named Rene Albert Boucher, who they allege \"intentionally assaulted\" Paul, causing him \"minor injury.\"",
+      "Boucher, 59, of Bowling Green was charged with one count of fourth-degree assault.",
+      "Police were not immediately clear on why Boucher allegedly assaulted Paul.",
+      "Kelsey Cooper, Paul's Kentucky communications director, said in a statement: \"Senator Paul was blindsided and the victim of an assault.",
+      "Senator Paul is fine.\""
+    ],
+    "title": "Police: Rand Paul assaulted in Bowling Green"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        40.7306458,
+        -73.9866136
+      ]
+    ],
+    "img_url": "https://static01.nyt.com/images/2017/11/05/us/05dems/05dems-facebookJumbo.jpg",
+    "link": "https://www.nytimes.com/2017/11/04/us/politics/donna-brazile-clinton-biden.html?partner=rss&emc=rss",
+    "locations": [
+      "New York City"
+    ],
+    "summary": [
+      "WASHINGTON — Donna Brazile, the former interim head of the Democratic National Committee, says in a new book that she considered replacing Hillary Clinton as the party’s 2016 nominee with Vice President Joseph R. Biden Jr. after Mrs. Clinton suffered a fainting spell, according to an account published Saturday by The Washington Post.",
+      "In her book, Ms. Brazile writes of her frequent frustrations with the Clinton campaign, saying that she would tell its leaders that she could invoke powers from the D.N.C. charter to oversee the process of replacing a nominee if she were to become disabled, something that has never happened in the modern era of presidential elections.",
+      "The Post quotes Ms. Brazile as writing, “Again and again I thought about Joe Biden,” adding that “no matter my doubts and my fears about the election and Hillary as a candidate, I could not make good on that threat to replace her.”",
+      "The Post reported that Ms. Brazile had considered replacing Mrs. Clinton after she briefly collapsed in New York City following a Sept. 11 commemoration ceremony.",
+      "Howard Dean, a former D.N.C. chairman, said Saturday on MSNBC that Ms. Brazile would have had no power to unilaterally remove or replace Mrs. Clinton."
+    ],
+    "title": "Donna Brazile Reportedly Pondered Replacing Clinton With Biden in 2016"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ],
+      [
+        40.8442828,
+        -90.6168408
+      ]
+    ],
+    "img_url": "https://cdn1.ijr.com/wp-content/uploads/2017/11/GettyImages-818430990-e1509830839737.jpg",
+    "link": "http://ijr.com/the-declaration/2017/11/1011897-rand-paul-just-got-assaulted-kentucky-home/",
+    "locations": [
+      "Kentucky",
+      "Warren County"
+    ],
+    "summary": [
+      "On Friday, Sen. Rand Paul (R-KY) was reportedly the victim of an assault at his home.According to USA Today:Police say they'veÂ arrested a man who intentionally assaultedÂ U.S. Sen. Rand Paul, causing a minor injury.Rene Boucher, 59, of Bowling Green, is charged with one countÂ of fourth-degree assault and is being held in the Warren County Detention Center, according to a news release from Kentucky State Police.Police responded to a report of an assault at Paul's Warren County, Ky., residence just before 3:30 p.m. Friday.",
+      "They determined Boucher had intentionally assaulted the junior senator, according to the release.",
+      "It was not immediately clear what injury Paul suffered.The Daily Caller reported Boucher was a registered Democrat:Kentucky State Board of Election voting records list Boucher as a registered Democrat.",
+      "A person with the same name also works as an anesthesiologist in Bowling Green.âSenator Paul was blindsided and the victim of an assault,â Kelsey Cooper, Paulâs communications director in Kentucky said in a statement to the Bowling Green Daily News.However, it's still unclear why Boucher, anÂ anesthesiologist, allegedly committed the assault.Rene Boucher: 5 Fast Facts You Need toÂ Know https://t.co/oUspyZbA1I pic.twitter.com/ng7Ta5M43iâ lusirusi (@lusirusi3) November 4, 2017The Bowling GreenÂ Daily News reported that Boucher could face up to a year in prison for his crime.",
+      "A spokesman for Paul said the senator was completely “blindsided” by the assault."
+    ],
+    "title": "Rand Paul Just Got Assaulted at His Kentucky Home"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        -10.3333333,
+        -53.2
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/clintonhillary10302017getty.jpg",
+    "link": "http://thehill.com/homenews/campaign/358801-nearly-100-clinton-campaign-staffers-hit-back-at-brazile",
+    "locations": [
+      "Brazil"
+    ],
+    "summary": [
+      "Nearly 100 former Clinton campaign staffers have signed onto an open letter hitting back at former Democratic National Committee head Donna Brazil's depiction of the campaign in her upcoming memoir,\n\nIn the letter, 94 former campaign members said that the campaign portrayed by Brazile is unrecognizable to them, and blasted the former DNC interim chair for once considering removing Clinton as the party's presidential nominee – a revelation made in Brazile's book.",
+      "The former staffers also accused the former DNC interim chair of buying into \"false Russian-fueled propaganda, spread by both the Russians and our opponent,\" claiming that Clinton's health was deteriorating during the campaign.",
+      "In her memoir, Brazile says that it was \"shameful\" that Clinton's campaign sought to conceal details about her health.",
+      "The staffers' letter casts the Clinton campaign as \"unlike any in our history,\" and brushes off the notion that the former secretary of State was a weak candidate who failed to drum up voter enthusiasm.",
+      "\"We have now, as we did throughout the campaign, enormous love and pride for our candidate, Hillary Clinton Hillary Diane Rodham ClintonBlumenthal: Trump-tied data firm reaching out to WikiLeaks ‘significant’ Tillerson eliminates key State Department sanctions office: report Intel Dem: What’s in dossier more important than who paid for it MORE,\" the letter reads."
+    ],
+    "title": "Nearly 100 Clinton campaign staffers hit back at Brazile"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        42.3604823,
+        -71.0595678
+      ],
+      [
+        35.4729886,
+        -97.5170536
+      ]
+    ],
+    "img_url": "http://i.cdn.turner.com/drp/nba/celtics/sites/default/files/110317-photo.jpg",
+    "link": "http://www.nba.com/celtics/gamerecap/keys-20171103-bosokc",
+    "locations": [
+      "Boston",
+      "Oklahoma City"
+    ],
+    "summary": [
+      "Oklahoma City dominated on offense and swarmed on defense through the first 27 minutes of the game, suffocating the C’s at both ends.",
+      "Those who watched this contest quickly realized such was true as Boston stormed from behind to turn this one into a legitimate game during the third quarter.",
+      "The dunk brought Boston’s bench to its feet, and prompted Brown to show some confident emotion.",
+      "The dunk made it a 10-point game with 7:03 remaining in the third quarter.",
+      "Including two free throws Brown had hit moments before the dunk, Boston strung together a 17-5 to pull to within 67-65 with 1:47 left in the quarter."
+    ],
+    "title": "Keys to the Game: Celtics 101, Thunder 94"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        46.2419692,
+        17.5329993
+      ]
+    ],
+    "img_url": "http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/171103-kuz.jpg",
+    "link": "http://www.nba.com/lakers/news/171103-running-diary-lakers-nets",
+    "locations": [
+      "Mike"
+    ],
+    "summary": [],
+    "title": "Running Diary: Lakers vs. Nets (11/3/17)"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        32.7762719,
+        -96.7968559
+      ],
+      [
+        33.8613328,
+        -112.1254665
+      ]
+    ],
+    "img_url": "http://media.breitbart.com/media/2017/11/AP-Alex-Brandon.png",
+    "link": "http://feedproxy.google.com/~r/breitbart/~3/fKNlSjmeHHs/",
+    "locations": [
+      "Dallas",
+      "Anthem"
+    ],
+    "summary": [
+      "Papa John’s Deciding Whether to Drop NFL Sponsorship After Sales Fall Due to Anthem Protests\n\t\t\t\t\t\t\t\tAP Photo/Alex Brandon\n\t\t\t\tby Dylan Gwinn4 Nov 20170\t\t\t\t4 Nov, 2017\n\t\t\t\t4 Nov, 2017\n\t\t\t\n\t\t\t\n\t\t\t\tThe NFL and Papa John’s, have probably enjoyed the closest business relationship of any sponsor and sports league in recent history.",
+      "According to the Wall Street Journal, considering their recent drops in pizza sales during NFL games,  Papa John’s is deciding whether to continue their partnership with the NFL.",
+      "“We have to evaluate our reliance on partnerships that are TV-focused, like the NFL,” Papa John’s Chief Marketing Officer Brandon Rhoten told the Wall Street Journal.",
+      "Papa John’s CEO John Schnatter accused the NFL of “poor leadership,” regarding their handling of the anthem protests.",
+      "Many in the sports media have speculated that Papa John’s began publicly criticizing at the request of Cowboys Owner Jerry Jones."
+    ],
+    "title": "Papa John's Deciding Whether to Drop NFL Sponsorship After Sales Fall Due to Anthem Protests"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        37.1232245,
+        -78.4927721
+      ],
+      [
+        38.029306,
+        -78.4766781
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/gillespieed_110417gn2_lead.jpg",
+    "link": "http://thehill.com/blogs/blog-briefing-room/358767-gillespie-ahead-by-3-points-in-new-poll",
+    "locations": [
+      "Virginia",
+      "Charlottesville"
+    ],
+    "summary": [
+      "Republican Ed Gillespie is now narrowly leading the Virginia gubernatorial race by three points, according to a new poll, just three days before Tuesday's election.",
+      "The new Optimus/Firehouse Strategies poll of likely Virginia voters over Wednesday and Thursday shows Gillespie leading his Democratic opponent Ralph Northam by 40.4 percent to 37.4 percent.",
+      "Recent polls have suggested a late-game comeback for Gillespie, who trailed Northam by a small percentage for recent months of the race, with a Friday poll showing the two locked in a dead heat at 47 percent apiece.",
+      "However, Northam is predicted to win by a 1.5 percent margin if voter turnout mirrors 2016 levels, the poll said, citing \"volatile\" party composition.",
+      "An average of major polls still shows Northam with a slight lead of 1.2 percent, which marks a steep decline over recent weeks from averages favoring the Democrat by over 3 percent."
+    ],
+    "title": "Gillespie ahead by 3 points in new Virginia poll"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        39.7837304,
+        -100.4458825
+      ],
+      [
+        33.0955793,
+        44.1749775
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/bushhw_bushw_george_getty_112017.jpg",
+    "link": "http://thehill.com/homenews/administration/358769-white-house-strikes-back-at-bushes-over-weak-legacy",
+    "locations": [
+      "United States",
+      "Iraq"
+    ],
+    "summary": [
+      "The White House fired back at former Presidents George H.W. Bush and George W. Bush, attacking their legacies after both Bushes expressed their displeasure with President Trump in a new book.",
+      "Both Bushes offered striking criticism of Trump in the new book “The Last Republicans” by Mark K. Updegrove.",
+      "In the book, the elder Bush confirmed he voted for Democratic presidential candidate Hillary Clinton Hillary Diane Rodham ClintonBlumenthal: Trump-tied data firm reaching out to WikiLeaks ‘significant’ Tillerson eliminates key State Department sanctions office: report Intel Dem: What’s in dossier more important than who paid for it MORE in the 2016 election and called Trump a “blowhard.”",
+      "George W. Bush offered his own critique of Trump in the book, saying Trump “doesn’t know what it means to be president” and expressing concern that, despite Trump’s political affiliation, he’s worried “that I will be the last Republican president.",
+      "The preview of the new book follows a speech by George W. Bush in which he said “bigotry seems emboldened” in the United States, and warned that Americans need to reject “white supremacy.”"
+    ],
+    "title": "White House strikes back at Bushes over weak legacy"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        25.0611359,
+        -77.3129254560189
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/blogs/brazile_donna2_getty_1.jpg",
+    "link": "http://thehill.com/homenews/campaign/358775-brazile-says-she-considered-swapping-clinton-for-biden-as-2016-nominee",
+    "locations": [
+      "Brooklyn"
+    ],
+    "summary": [
+      "Donna Brazile, the former interim chair of the Democratic National Committee, says she contemplated removing Hillary Clinton Hillary Diane Rodham ClintonBlumenthal: Trump-tied data firm reaching out to WikiLeaks ‘significant’ Tillerson eliminates key State Department sanctions office: report Intel Dem: What’s in dossier more important than who paid for it MORE as the party's presidential nominee in 2016 and replacing her with then-Vice President Joe Biden Joseph (Joe) Robinette BidenBiden, Gaga release PSA on sexual assault #MeToo: Sexual assault inflicts dire economic costs as well Biden: Clinton's 2016 campaign lacked 'joy' MORE.",
+      "In the memoir, “Hacks: The Inside Story of the Break-ins and Breakdowns That Put Donald Trump Donald John TrumpIntel Dem: What’s in dossier more important than who paid for it Overnight Tech: Twitter bans ads from Russian media | Dem says she was targeted by Russian bot | House Judiciary to hold hearing on net neutrality Democrats dig for Russian connection and uncover environmentalists MORE in the White House,” which is due for release Nov. 7, Brazile casts Clinton's campaign as an often-spiritless operation and failed to elicit the kind of enthusiasm needed to propel the former secretary of State to victory.",
+      "Campaign aides for Clinton regularly disrespected Brazile, the longtime Democratic strategist recalls, and the campaign declined to provide the DNC with the funding it needed to push voter-turnout efforts.",
+      "But she says her campaign lacked enthusiasm for the candidate, and made a number of missteps that ultimately sank Clinton's presidential bid.",
+      "At one point, the Post reports, Brazile compared Clinton's Brooklyn campaign headquarters as being like a hospital in which “someone had died.”"
+    ],
+    "title": "Brazile says she considered swapping Clinton for Biden as 2016 nominee"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        4.81803125,
+        -75.6888390028759
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/article_images/emilyslistclintonh08102016getty.jpg",
+    "link": "http://thehill.com/homenews/campaign/358780-women-are-running-for-office-in-record-numbers",
+    "locations": [
+      "America"
+    ],
+    "summary": [
+      "More and more women are running for office at every level after the election of President Trump shocked many in November, according to numbers from top advocacy organizations.",
+      "EMILY's List and SheShouldRun both report record numbers of interested women considering runs for public office in state, local, and federal government, according to Axios.",
+      "More than 15,000 women have contacted She Should Run, a nonpartisan organization, since November according to the Axios report.",
+      "In addition, more than 19,000 women have contacted EMILY's list, which supports pro-choice Democratic candidates.",
+      "Many of these women have pointed to Trump as their motivations for getting involved in politics."
+    ],
+    "title": "Women are running for office in record numbers"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        8.444585,
+        125.951249185475
+      ],
+      [
+        29.7589382,
+        -95.3676974
+      ]
+    ],
+    "img_url": "https://cdn1.ijr.com/wp-content/uploads/2017/11/Screen-Shot-2017-11-04-at-9.16.50-AM.jpg",
+    "link": "http://ijr.com/the-declaration/2017/11/1011828-houston-texans-refuse-sign-kaepernick-twitter-goes-off-rails-breakneck-speed/",
+    "locations": [
+      "San Francisco",
+      "Houston"
+    ],
+    "summary": [
+      "Another quarterback opening in the National Football League, another pass on former San Francisco 49ers quarterback and current lightning rod Colin Kaepernick.As reported byÂ NBC Sports, Houston Texans starting quarterback Deshaun Watson suffered a torn ACL during practice Thursday, knocking him out of action for the remainder of the 2017 season âÂ creatingÂ an immediate need.As the Houston Chronicle reported, the TexansÂ decided within hours of Watson's injury to sign former Oakland Raiders quarterback Matt McGloinÂ as a backup.Translation: not Colin Kaepernick.12up Sports jumped on the story, predicting that Kaepernick fans wouldn't be happy when they learned the news:When Kaep supporters see the Texans signed Matt McGloin already pic.twitter.com/B5NZIewXEXâ 12up (@12upSport) November 2, 201712up was right:The Texans signed Matt McGloin, who is that you say, exactly, so just be clear, Kaep is blackballed plan and simpleâ Rube (@Rubethedude) November 2, 2017Queen Deebs tweeted a screenshot of a 2013 tweet by Kaepernick setting people straight on the “correct” spelling of his  Queen Deebs (@queendeebs) November 3, 2011Peter torched the entirety of NFL team ownership:Matt McGloin LOLLLLLLLLL ... oh yeah much better than Kap ... give me a break ... these owners are pathetic ...â Peter Rosenberg (@Rosenbergradio) November 3, 2017Courtney slapped up a few examples of “starting NFL QBs,” suggesting Kaepernick is better than all of them:Starting NFL QBs:Tom SavageBrock OsweilerBrett HundleyDrew StantonJacoby BrissettQBs worse than Colin Kaepernick:See aboveâ Courtney Theriault (@cspotweet) November 2, 2017ESPN radio talk show host Dan Le Batard said every quarterback signed by the NFL this year should replaceÂ his name on his jersey with this name:Every quarterback signed by the NFL the rest of the year should have to wear “Not Kaepernick” on back of his jersey.â Dan Le Batard Show (@LeBatardShow) November 2, 2017Black Lives Matter activist Shaun King decided to bust out a few QB stats:Matt McGloin threw 3 touchdowns and 3 interceptions TOTAL in the past 3 NFL seasons.Kaepernick threw 16 TDâs  4 interceptions last year.â Shaun King (@ShaunKing) November 3, 2017“News One Now” host Roland Martin said Texans owner Bob McNair “likes losing”:Say what?",
+      "As in: \"We can't have the inmates running the prison.âFinally, Angelicstarr said exactly what many NFL observers believe team owners are afraidÂ would happen if they signed Kaepernick:LMAO!!",
+      "#BoycottNFL til further notice!â Angelicstarr đˇ (@qt4shrt) November 3, 2017In related news, high-powered trial lawyer Mark Geragos filed a grievanceÂ in October under the NFL's collective bargaining agreement on Kaepernick's behalf, claiming owners have colluded to keep the controversial former quarterback out of the league.Geragos confirmed the filing in a statement, writing, in part:We can confirm that this morning we filed a grievance under the CBA on behalf of Colin Kaepernick.",
+      "This was done only after pursuing every possible avenue with all NFL teams and their executives.Sports Illustrated's Michael McCann in March explained the NFL “collusion”:Collusion occurs when two or more teams, or the league and at least one team, join to deprive a player of a contractually earned right.",
+      "Such a right is normally found in the collective bargaining agreement signed by a league and its players'  remains unemployed, millions of disgruntled NFL fans are tuning out, and ratings continue to decline.Oh, and Papa John's CEO John Schnatter said this week that NFL protests are hurting pizza salesÂ amid mixed reports the pizza chain isÂ “re-evaluating its NFL sponsorship.”"
+    ],
+    "title": "Houston Texans Refuse to Sign Kaepernick — Twitter Goes Off the Rails at Breakneck Speed"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ],
+      [
+        40.8442828,
+        -90.6168408
+      ]
+    ],
+    "img_url": "https://cbsnews1.cbsistatic.com/hub/i/2017/06/22/b7edbfc7-a2e2-40de-bce8-86ac56cc33dd/ap-17133465207324.jpg",
+    "link": "http://www.cbsnews.com/news/rand-paul-assaulted-kentucky-home-police/",
+    "locations": [
+      "Kentucky",
+      "Warren County"
+    ],
+    "summary": [
+      "Sen. Rand Paul suffered minor injuries when a man allegedly assaulted him at his home in Warren County, Kentucky, on Friday afternoon, according to state authorities.",
+      "Kentucky State Police say 59-year-old Rene Boucher has been charged with fourth-degree assault and booked into Warren County Detention Center, after he \"intentionally\" assaulted Paul, \"causing a minor injury.\"",
+      "\"On Friday, November 3, 2017 at 3:21 p.m., KSP Troopers responded to the residence of Rand Paul in Warren County, in reference to a report of an assault,\" Kentucky State Police said in a news release.",
+      "\"Upon their arrival, it was determined that Rene Boucher had intentionally assaulted Paul causing a minor injury.\"",
+      "Paul, Kentucky's junior senator since 2011, is known for his libertarian leanings and fiscal conservatism."
+    ],
+    "title": "Rand Paul assaulted at Kentucky home, police say"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        40.8442828,
+        -90.6168408
+      ],
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://www.theblaze.com/wp-content/uploads/2017/11/GettyImages-475541164-1280x720.jpg",
+    "link": "http://www.theblaze.com/news/2017/11/04/breaking-sen-rand-paul-assaulted-at-his-home-in-kentucky/",
+    "locations": [
+      "Warren County",
+      "Kentucky"
+    ],
+    "summary": [
+      "Breaking: Sen. Rand Paul assaulted at his home in Kentucky            \n            \n        1 min\n          \n\n\n        \n\n        \n                \n\n        Kentucky Sen. Rand Paul was assaulted at his home in Kentucky on Friday.",
+      "According to the Bowling Green Daily News, 59-year-old Rene Boucher is in Warren County Regional Jail on $5,000 bond for assaulting Paul at his home in Bowling Green on Friday around 3:20 p.m. Boucher has been charged with fourth-degree assault.",
+      "Per KSP, Rene Boucher, 59, assaulted @RandPaul causing minor injury last night Boucher charged 4th degree assault More soon at @bgdailynews pic.twitter.com/5EUthFUOEY\n— Joe Imel (@joeimel) November 4, 2017\n\nPaul received “minor” injuries, according to the Daily News.",
+      "Paul’s communication’s director, Kelsey Cooper, told the Daily News that Paul is “fine.”",
+      "“Senator Paul was blindsided and the victim of an assault."
+    ],
+    "title": "Breaking: Sen. Rand Paul assaulted at his home in Kentucky"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "https://media2.s-nbcnews.com/j/newscms/2017_44/2214851/171104-rand-paul-ew-433p_c0b3bdb62f6f293bf1b23b10d492a785.nbcnews-fp-1200-630.jpg",
+    "link": "https://www.nbcnews.com/news/us-news/sen-rand-paul-assaulted-his-kentucky-home-suspect-arrested-n817591?cid=public-rss_20171104",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Sen. Rand Paul was \"blindsided\" and suffered a minor injury when he was attacked at his home in Bowling Green, Kentucky, police and a Paul spokesperson said Saturday.",
+      "Rene Boucher, 59, of Bowling Green, was charged with one count of fourth-degree assault in the incident, which occurred at about 3:20 p.m. local time Friday, Kentucky State Police said.",
+      "\"Senator Rand Paul was blindsided and the victim of an assault,\" Kelsey Cooper, Paul's Kentucky communications director, said in a statement.",
+      "After Paul reported the assault, the Warren County Attorney's Office issued an arrest warrant and a trooper arrested Boucher soon after, police said.",
+      "Police said Paul had never met Boucher, and the Republican senator sustained a minor injury."
+    ],
+    "title": "Sen. Rand Paul was assaulted by a man inside his Kentucky home, police say"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        41.5051613,
+        -81.6934446
+      ],
+      [
+        43.653963,
+        -79.387207
+      ]
+    ],
+    "img_url": "http://m.mlb.com/assets/images/3/7/4/260694374/cuts/1280x720/cut.jpg",
+    "link": "http://mlb.mlb.com/news/article/tor/blue-jays-to-not-pick-up-jose-bautista-option?ymd=20171104&content_id=260694370&vkey=news_tor",
+    "locations": [
+      "Cleveland",
+      "Toronto"
+    ],
+    "summary": [
+      "Bautista, 37, slashed just .234/.308/.366 in 157 games and saw his highest strikeout rate (24.8 percent) and lowest walk rate (12.2 percent) in a full season since joining the Blue Jays in August 2008.",
+      "Over parts of 10 seasons with Toronto, Bautista has hit 288 home runs, leading the league in 2010 and 2011.",
+      "This story was not subject to the approval of Major League Baseball or its clubs."
+    ],
+    "title": "Blue Jays to not pick up Jose Bautista option"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ],
+      [
+        46.8453202,
+        -68.045584
+      ]
+    ],
+    "img_url": "https://thenypost.files.wordpress.com/2017/11/rand-paul-assaulted-index.jpg?quality=90&strip=all&w=1200",
+    "link": "http://nypost.com/2017/11/04/rand-paul-assaulted-at-his-home/",
+    "locations": [
+      "Kentucky",
+      "Paul’s"
+    ],
+    "summary": [
+      "Sen. Rand Paul was “blindsided” during an assault in his Bowling Green, Kentucky, home on Friday, his spokesman said Saturday.",
+      "The motive of the alleged assailant, Rene Boucher, 59, was not revealed.",
+      "“Senator Paul was blindsided and the victim of an assault,’’ Cooper said.",
+      "Boucher, who also lives in Bowling Green, was busted at 3:20 p.m. on a charge of fourth-degree assault with bail set at $5,000.",
+      "Someone named Rene Boucher lives in a gated neighborhood just west of Paul’s home, the Bowling Green Daily News reported."
+    ],
+    "title": "Rand Paul assaulted at his home"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "https://coxrare.files.wordpress.com/2017/02/ap_17011586038145.jpg?w=1200&h=627&crop=1",
+    "link": "http://rare.us/rare-news/across-the-u-s-a/a-man-is-in-jail-after-senator-rand-paul-was-attacked-in-his-home/",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Senator Rand Paul (R-KY) was assaulted at his private residence in Kentucky on Friday.",
+      "Police arrested 59-year-old Rene Boucher, who they say caused minor injuries to the Republican senator.",
+      "RELATED: A student says she was expelled for sitting during the Pledge of Allegiance\r\n\r\n\"Senator Paul was blindsided, and the victim of an assault,\" Kelsey Cooper, Paul's communications director said in a statement.",
+      "Boucher was later charged with fourth-degree assault.",
+      "Paul was assaulted on Friday afternoon, around 3:20 p.m.\r\nPaul has served as the junior senator from Kentucky since 2011."
+    ],
+    "title": "A man is in jail after Senator Rand Paul was attacked in his home"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "https://www.rawstory.com/wp-content/uploads/2015/09/Sen.-Rand-Paul-R-KY-090315-800x430.jpg",
+    "link": "https://www.rawstory.com/2017/11/rand-paul-attacked-at-home-in-kentucky-suspect-in-custody/",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Sen. Rand Paul (R-KY) appears on 'Hannity' on Sept. 3, 2015.",
+      "[Fox News]\nKentucky Sen. Rand Paul (R) was the victim of an assault at his home in Bowling Green on Friday, said The Hill.",
+      "“Senator Paul was blindsided and the victim of an assault,” said Sen. Paul’s spokeswoman Kelsey Cooper in a statement.",
+      "Senator Paul is fine.”",
+      "Boucher was reportedly charged with second-degree assault resulting in minor injury."
+    ],
+    "title": "Rand Paul attacked at home in Kentucky — suspect in custody"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        34.1028268,
+        -118.3299899
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/article_images/yiannopoulosmilo_020217_getty.jpg",
+    "link": "http://thehill.com/blogs/blog-briefing-room/358784-daily-caller-fires-opinion-editor-over-milo-controversy",
+    "locations": [
+      "Hollywood"
+    ],
+    "summary": [
+      "The Daily Caller has fired its opinion editor amid controversy over the site's publishing of a column by right-wing provocateur Milo Yiannopoulos, the editor-in-chief confirmed to a CNN reporter Saturday.",
+      "\"Sad news: The Daily Caller has caved to pressure and cancelled my weekly column after a day, claiming, falsely, they never planned to run weekly contributions from me,\" Yiannopoulos wrote Saturday.",
+      "The Daily Caller published a column from Yiannopoulos on Friday that ripped Hollywood and actor Kevin Spacey for the explosive allegations that Spacey made sexual advances towards a young teenage actor, as well as created a \"toxic\" work environment on the set of Netflix's \"House of Cards.\"",
+      "The column, according to Yiannopoulos, was meant to be a part of a series, but Daily Caller publisher and co-founder Neil Patel called it a one-off column and said he had not been hired.",
+      "Yiannopoulos responded by posting personal emails with Mariani online, showing that he had agreed to write a 600 to 1,000 word weekly column for the site."
+    ],
+    "title": "Daily Caller fires opinion editor over Milo controversy"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        40.4574358,
+        -82.7771661
+      ]
+    ],
+    "img_url": "http://image.oregonlive.com/home/olive-media/width620/img/hillsboro_news/photo/23716734-standard.jpg",
+    "link": "http://www.oregonlive.com/hillsboro/index.ssf/2017/11/hillsboro_firefighter_dies_hun.html",
+    "locations": [
+      "Morrow County"
+    ],
+    "summary": [
+      "Ryan Grimaldi had worked for the Hillsboro Fire Department for six years, according to a news release.",
+      "He was named Hillsboro Firefighter of the year in 2015.",
+      "Members of the fire department will gather at Heppner on Sunday to escort Grimaldi body back to Tualatin.",
+      "Operation Chief Scott Magers said in a news release, \"Ryan was an outstanding firefighter and member of the Hillsboro Fire Department family.",
+      "Ryan served the department and the community well."
+    ],
+    "title": "Hillsboro firefighter dies while hunting"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://www.theblaze.com/wp-content/uploads/2017/11/GettyImages-471130910-1280x720.jpg",
+    "link": "http://www.theblaze.com/news/2017/11/04/details-about-rene-boucher-the-man-who-assaulted-rand-paul-reveal-possible-motive/",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Details about Rene Boucher, the man who assaulted Rand Paul, reveal possible motive            \n            \n        1 min\n          \n\n\n        \n\n        \n                \n\n        A motive for Sen. Rand Paul's assault may have been revealed.",
+      "According to the Daily Caller, records with Kentucky State Board of Election show the alleged assailant, Rene Boucher, is a registered Democrat.",
+      "In addition to being a registered Democrat, the Daily Caller revealed:\n\nA Facebook account that appears to Boucher’s contains multiple anti-President Donald Trump postings\nBoucher shared posts from Occupy Democrats, a popular Facebook page for liberals and progressives\nThough there were no negative comments about Paul on Boucher’s Facebook page, Boucher did write negatively about many other Republicans and the GOP in general\n\nAs of Saturday afternoon, the Facebook page was quickly being inundated with comments slamming Boucher.",
+      "A neighbor who witnessed the assault told WNKY-TV that Paul and Boucher are next-door neighbors and Paul was mowing his lawn at the time of the assault.",
+      "According to the neighbor, Paul and Boucher share a corner adjacent to their homes and they have been embroiled in an ongoing feud."
+    ],
+    "title": "Details about Rene Boucher, the man who assaulted Rand Paul, reveal possible motive"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        35.4729886,
+        -97.5170536
+      ],
+      [
+        36.7183708,
+        -76.2466798
+      ]
+    ],
+    "img_url": "http://i.cdn.turner.com/drp/nba/celtics/sites/default/files/brown-dunk-970x442_2.jpg",
+    "link": "http://www.nba.com/celtics/news/sidebar/post-110317-celtic-pride-makes-thunderous-statement-in-okc",
+    "locations": [
+      "Oklahoma City",
+      "Chesapeake"
+    ],
+    "summary": [
+      "The Boston Celtics trailed by as many as 18 points during a disturbingly ugly first half of play Friday night against the vaunted Oklahoma City Thunder.",
+      "The C’s shot a woeful 31.0 percent from the field during the first half, and they struggled to breathe while crumbling under Oklahoma City’s pressure at both ends.",
+      "Irving scored 22 of his 25 points during the second half and dished out all of his six assists while committing not a single turnover.",
+      "Jaylen Brown, who scored only two points during a forgetful first half, scored eight during the second half and hauled in a total of 12 rebounds.",
+      "Marcus Morris, during his first action of the season, rebounded from a rough start and scored seven points during the second half, including five big ones at the start of the third quarter."
+    ],
+    "title": "Celtic Pride Makes Thunderous Statement in OKC"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        33.0955793,
+        44.1749775
+      ]
+    ],
+    "img_url": "http://static3.businessinsider.com/image/59fdf90958a0c130008b6a1c-1190-625/the-white-house-fires-back-after-george-hw-bush-calls-trump-a-blowhard.jpg",
+    "link": "http://feedproxy.google.com/~r/businessinsider/~3/dBpsU9aJpiY/george-hw-bush-calls-trump-a-blowhard-2017-11",
+    "locations": [
+      "Iraq"
+    ],
+    "summary": [
+      "The White House on Saturday hit back after former President George H.W. Bush gave his most candid assessment yet of President Donald Trump.",
+      "His comments were included in a new book by historian Mark Updegrove, called \"The Last Republicans,\" which focuses on the lives of George H.W. Bush and his son, former President George W. Bush.",
+      "A White House official told CNN, in response to the Bushes' comments, \"If one presidential candidate can disassemble a political party, it speaks volumes about how strong a legacy its past two presidents really had.\"",
+      "Trump repeatedly blasted the second Bush administration's decision to invade Iraq during the 2016 primaries, as he was running against George W.'s younger brother, and George H.W.'s son, Jeb.",
+      "The White House official added on Saturday that Trump \"remains focused on keeping his promises to the American people by bringing back jobs, promoting an 'America First' foreign policy and standing up for the forgotten men and women of our great country.\""
+    ],
+    "title": "The White House fires back after George H.W. Bush calls Trump a 'blowhard'"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        40.3736611,
+        127.0870417
+      ]
+    ],
+    "img_url": "http://thehill.com/sites/default/files/braziledonna_110217getty.jpg",
+    "link": "http://thehill.com/homenews/campaign/358777-brazile-hit-clinton-campaign-for-treating-her-like-a-whipping-girl",
+    "locations": [
+      "North Korea"
+    ],
+    "summary": [
+      "Former interim Democratic National Committee chair Donna Brazile accused top Clinton campaign aides of treating her like a slave, recalling in her upcoming memoir how she told them that she would not stand to be treated as their \"whipping girl\".",
+      "In the memoir, Brazile recounted an exchange with Charlie Baker, Marlon Marshall and Dennis Cheng – all senior staffers on Hillary Clinton Hillary Diane Rodham ClintonBlumenthal: Trump-tied data firm reaching out to WikiLeaks ‘significant’ Tillerson eliminates key State Department sanctions office: report Intel Dem: What’s in dossier more important than who paid for it MORE's campaign – in which she said she was being treated like a character from the film \"12 Years a Slave.\"",
+      "According to the Post, Brazile's book portrays Clinton as a well-intentioned candidate, whose campaign lacked the enthusiasm and heart needed to propel her to victory.",
+      "Brazile recalls in the book how she would remind Clinton campaign officials when she became frustrated that she was empowered as DNC chair to remove a candidate if she felt it was necessary.",
+      "with then-Vice President Joe Biden Joseph (Joe) Robinette BidenBiden, Gaga release PSA on sexual assault #MeToo: Sexual assault inflicts dire economic costs as well Biden: Clinton's 2016 campaign lacked 'joy' MORE and Sen. Cory Booker Cory Anthony BookerGAO to investigate Trump's voter fraud commission Graham, Booker to testify as character witnesses for Menendez Dems to introduce bill barring Trump from preemptive strikes without Congress approval MORE (D-N.J.)."
+    ],
+    "title": "Brazile hit Clinton campaign for treating her like a ‘whipping girl’"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        31.8160381,
+        -99.5120986
+      ]
+    ],
+    "img_url": "https://nbcnascartalk.files.wordpress.com/2017/11/869916626-e1509820787489.jpg",
+    "link": "http://nascar.nbcsports.com/2017/11/04/denny-hamlin-kyle-busch-docked-60-minutes-of-practice-time/",
+    "locations": [
+      "Texas"
+    ],
+    "summary": [
+      "Click to share on Twitter (Opens in new window)\n\nClick to share on LinkedIn (Opens in new window)\n\nClick to share on Google+ (Opens in new window)\n\nShare on Facebook (Opens in new window)\n\nFORT WORTH, Texas – Joe Gibbs Racing teammates Denny Hamlin and Kyle Busch will each miss 60 minutes of practice time between the two sessions Saturday at Texas Motor Speedway.",
+      "Hamlin and Busch, both playoff drivers, will miss 30 minutes in Saturday’s opening Cup practice and also in Saturday’s final practice.",
+      "Saturday’s final practice session is from 5 – 5:50 p.m. ET on CNBC.",
+      "Playoff drivers Kevin Harvick and Chase Elliott will each miss 15 minutes in Saturday’s final practice.",
+      "Missing 30 minutes in final practice for inspection issues will be Matt Kenseth and Erik Jones (along with Hamlin and Busch)."
+    ],
+    "title": "Denny Hamlin, Kyle Busch docked 60 minutes of practice time"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        -35.3019389,
+        -59.1683659
+      ]
+    ],
+    "img_url": "https://sportshub.cbsistatic.com/i/r/2017/10/22/08322279-c95e-4039-b6d5-669fe7020625/thumbnail/770x433/37c1d192891f2ee75fb3fae67a494be0/joe-thomas-injured.jpg",
+    "link": "https://www.cbssports.com/nfl/news/browns-reportedly-give-injured-star-tackle-joe-thomas-a-3-million-raise/",
+    "locations": [
+      "10,363"
+    ],
+    "summary": [
+      "For the first time in his NFL career, Joe Thomas is not playing.",
+      "Thomas recently had his NFL record streak of 10,363 straight snaps played to begin his career ended by a torn triceps, and now he's on injured reserve and won't play the rest of the season.",
+      "According to multiple reports, the Browns are giving Thomas a raise of $3 million, split evenly between this season and next.",
+      "Thomas -- who has made the Pro Bowl in each of his 10 NFL seasons -- is one of the best offensive linemen in the history of football, and he's been remarkably loyal to the Browns, turning down several opportunities to be traded to a team that has more of a chance of competing.",
+      "It's good to see the team take care of him like this as he enters the latter part of his sterling career."
+    ],
+    "title": "Browns reportedly give injured star tackle Joe Thomas a $3 million raise"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://a.abcnews.com/images/US/rand-paul-ap-jt-171104_16x9_992.jpg",
+    "link": "http://abcnews.go.com/US/sen-rand-paul-blindsided-kentucky-home/story?id=50933869",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "A Kentucky man was arrested after allegedly attacking Sen. Rand Paul at his Bowling Green, Kentucky, home, authorities said.",
+      "Warren County Detention Center/Handout via ReutersRene Boucher, 59, of Bowling Green, Ky., is seen in this photo, Nov. 3, 2017.",
+      "Rene Boucher, 59, of Bowling Green, Kentucky, was arrested and charged with misdemeanor assault, according to a statement from Kentucky State Police.",
+      "He was held at Warren County Detention Center on a $5,000 cash bond, the state police said.",
+      "Boucher could be in court as early as Monday if he doesn't post bail, otherwise, he will be in court on Nov. 9, a Warren County correctional officer told ABC News."
+    ],
+    "title": "Sen. Rand Paul 'blindsided' in his Kentucky home"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        53.2824686,
+        -6.3190221
+      ]
+    ],
+    "img_url": "https://media.tmz.com/2017/11/03/110317-yu-darvish-primary-1200x630-1.jpg",
+    "link": "http://www.tmz.com/2017/11/04/yu-darvish-dodgers-world-series/",
+    "locations": [
+      "Beverly Grove"
+    ],
+    "summary": [
+      "Yu Darvish is opening up on his World Series nightmare -- telling TMZ Sports he feels terrible for blowing his big moment.",
+      "\"Dodger fans ... they expect we won the World Series.",
+      "I still feel sorry,\" Darvish told us out in Beverly Grove.",
+      "Sucks, but Darvish told us he's soldiering on.",
+      "The big question -- will Darvish (a free agent) re-sign with L.A.??"
+    ],
+    "title": "Yu Darvish's Emotional World Series Apology, 'I Couldn't Do It, I'm Sorry'"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        39.7837304,
+        -100.4458825
+      ]
+    ],
+    "img_url": "http://15130-presscdn-0-89.pagely.netdna-cdn.com/wp-content/uploads/2017/10/2017-10-22T005726Z_1_LYNXMPED9L00A_RTROPTP_3_USA-HURRICANE-PRESIDENTS.jpg",
+    "link": "http://www.politicususa.com/2017/11/04/bush-presidents-speak-blowhard-trump-call-unfit-president.html",
+    "locations": [
+      "United States"
+    ],
+    "summary": [
+      "It’s been apparent for quite some time that the Bush family is no fan of Donald Trump, but a new report underscores just how deep their disgust for the new president is.",
+      "More from the report:\n\nIndeed, at one point during the 2016 presidential campaign, the younger Mr. Bush confided to the author, “I’m worried that I will be the last Republican president.”",
+      "The Bushes felt stung by Mr. Trump’s ground-burning attacks that helped destroy the campaign of Jeb Bush, the son and brother of the presidents.",
+      "George W. Bush, in particular, was emphatic in his belief during Obama’s tenure that criticizing the 44th president would hurt the presidency and be bad for the country, so he basically refused to do it.",
+      "The direct attacks on Trump today by both Bushes suggest that they believe staying silent while the 45th president continues to show himself as a clear and president danger to the United States is more damaging than speaking out."
+    ],
+    "title": "Both Bush Presidents Confirm They Didn't Vote For Trump And Call Him Unfit To Be President"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        40.7306458,
+        -73.9866136
+      ],
+      [
+        38.8949549,
+        -77.0366456
+      ]
+    ],
+    "img_url": "https://cbsnews1.cbsistatic.com/hub/i/2016/12/18/75377527-c2e6-401d-9012-b23f45e8b395/gettyimages-583550074.jpg",
+    "link": "http://www.cbsnews.com/news/donna-brazile-discussed-replacing-hillary-clinton-with-joe-biden-before-election-day/",
+    "locations": [
+      "New York City",
+      "Washington"
+    ],
+    "summary": [
+      "Former Democratic National Committee chair Donna Brazile writes in her new book that she considered replacing Hillary Clinton with then-Vice President Joe Biden as the party's nominee, mere weeks before Election Day.",
+      "Brazile considered the major change in the aftermath of Clinton's September 2016 collapse in New York City, in part because her campaign was \"anemic\" and had assumed an \"odor of failure,\" according to excerpts of the book obtained by The Washington Post.",
+      "Those explosive details add to the highly controversial excerpts Politico already published from Brazile's book -- that she believes the election was rigged in favor of Clinton over Sen. Bernie Sanders.",
+      "Her book, The Washington Post reports, contains other odd details, such as how Brazile reacted to the death of Seth Rich, a DNC staffer who was killed in Washington, D.C. last year.",
+      "President Trump has already said the public \"deserves\" a probe of Clinton after Brazile's rigged election claims."
+    ],
+    "title": "Donna Brazile discussed replacing Clinton with Biden weeks before Election Day"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        40.4258686,
+        -86.9080655
+      ],
+      [
+        40.3270127,
+        -86.1746933
+      ]
+    ],
+    "img_url": "https://tribwxin.files.wordpress.com/2017/11/gettyimages-533859316.jpg?quality=85&strip=all&w=1200",
+    "link": "http://fox59.com/2017/11/04/watch-dozens-of-corgis-race-on-purdues-grand-prix-track-during-charity-event/",
+    "locations": [
+      "West Lafayette",
+      "Ind."
+    ],
+    "summary": [
+      "WEST LAFAYETTE, Ind. — If seeing 25 fluffy-bottomed corgis race around a track on their short legs sounds like a dream come true, you’re in for a treat!",
+      "The first-ever corgi race at Purdue is happening Sunday, November 5.",
+      "The race will take place on the Purdue Grand Prix track in West Lafayette from 1 p.m. to 3 p.m.\n\nIt’s sponsored by the Theta Tau fraternity, and all proceeds will go to Give Hope, Fight Poverty.",
+      "All participants in the race are Purdue students who either have a corgi on campus or have a corgi at home.",
+      "The idea for the race came about after Archer posted an Instagram picture of Eddie suggesting a corgi race."
+    ],
+    "title": "Watch dozens of corgis race on Purdue’s Grand Prix track during charity event"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        38.8949549,
+        -77.0366456
+      ]
+    ],
+    "img_url": "http://media.breitbart.com/media/2017/11/Tulsi-Gabbart-Video.jpg",
+    "link": "http://feedproxy.google.com/~r/breitbart/~3/bXcR4RTOy_s/",
+    "locations": [
+      "WASHINGTON"
+    ],
+    "summary": [
+      "Tulsi Gabbard Blasts DNC for Rigging Presidential Primary, Says They Damaged the Party\n\t\t\t\t\t\t\t\t\n\t\t\t\tby Adelle Nazarian3 Nov 20170\t\t\t\t3 Nov, 2017\n\t\t\t\t3 Nov, 2017\n\t\t\t\n\t\t\t\n\t\t\t\tWASHINGTON, D.C. — Congresswoman Tulsi Gabbard (D-HI) on Thursday night released a video blasting the Democratic National Committee (DNC) for damaging the Democratic party and calling for it to reform itself.",
+      "Gabbard, who supported Sen. Bernie Sanders (I-VT) for president, said:\nToday we heard from Donna Brazile that what many suspected for a long time, is actually true: the DNC secretly chose their nominee over a year before the primary elections even occurred, turning over DNC control to the Clinton campaign.",
+      "Brazile, who was appointed to take over for humiliated DNC Chair Debbie Wasserman-Schultz in 2016, revealed that Hillary Clinton’s team was in control of the DNC long before winning the primary against Sen. Bernie Sanders (I-VT).",
+      "She also noted that the DNC agreed to turn control of the Democratic Party over to the Clinton campaign in exchange for fundraising assistance to help with the party’s debt.",
+      "Follow her  More Stories About:\n\t\tBig Government, Bernie Sanders, Debbie Wasserman Schultz, Democratic Party, DNC, Donna Brazile, Hillary Clinton, rigged election, Tulsi Gabbard"
+    ],
+    "title": "Tulsi Gabbard Blasts DNC for Rigging Presidential Primary, Says They Damaged the Party"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        33.0955793,
+        44.1749775
+      ]
+    ],
+    "img_url": "https://tribwgntv.files.wordpress.com/2017/11/s085199291.jpg?quality=85&strip=all&w=1200",
+    "link": "http://wgntv.com/2017/11/04/copy-george-h-w-bush-labels-trump-a-blowhard-in-new-book/",
+    "locations": [
+      "Iraq"
+    ],
+    "summary": [
+      "Former President George H.W. Bush has a blunt assessment of Donald Trump: “He’s a blowhard.”",
+      "The author went on to ask George H.W. Bush what he thought Trump was seeking in running for president, and the former Navy war hero responded by saying that Trump had “a certain ego.”",
+      "Though George H.W. Bush told the author he thought Trump could unite the country, he said it would require “humility,” which the former President told Updegrove was a challenge for Trump.",
+      "Updegrove told CNN: “When Donald Trump said, ‘I am my own adviser,’ Bush thought — and this is a quote — ‘Wow, this guy doesn’t know what it means to be president.'”",
+      "When asked about the power and influence of former vice president Cheney and former Secretary of Defense Donald Rumsfeld in his administration, George W. Bush replied that Cheney and Rumsfeld “didn’t make one fucking decision.”"
+    ],
+    "title": "Copy George H.W. Bush labels Trump a ‘blowhard’ in new book"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        38.8949549,
+        -77.0366456
+      ]
+    ],
+    "img_url": "https://www.rawstory.com/wp-content/uploads/2017/03/Hillary-Clinton-1-1-800x430.jpg",
+    "link": "https://www.rawstory.com/2017/11/dnc-head-donna-brazile-considered-replacing-clinton-with-biden-after-candidate-fainted-during-campaign-report/",
+    "locations": [
+      "Washington"
+    ],
+    "summary": [
+      "Former secretary of state Hillary Clinton speaks at an award ceremony honoring women and their role in international politics and peace building efforts hosted by the Georgetown Institute for Women, Peace and Security in Washington, U.S., March 31, 2017.",
+      "REUTERS/Kevin Lamarque\nAccording to a report in the Washington Post, former Democratic National Committee head Donna Brazile considered replacing Hillary Clinton as the Democratic presidential nominee and replacing her with Vice President Joe Biden.",
+      "As reported by Philip Rucker, Brazile writes in her new book that she became concerned with Clinton’s candidacy, calling it, “anemic” and saying it had taken on “the odor of failure.”",
+      "“Again and again I thought about Joe Biden,” Brazile wrote, adding “No matter my doubts and my fears about the election and Hillary as a candidate, I could not make good on that threat to replace her.”",
+      "Brazile writes that she considered multiple candidates to replace Clinton but backed off attempting to drop the first female Presidential candidate."
+    ],
+    "title": "DNC head Donna Brazile considered replacing Clinton with Biden after candidate fainted during campaign: report"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        41.9216734,
+        -93.3122705
+      ]
+    ],
+    "img_url": "https://localtvwjw.files.wordpress.com/2017/11/iowa-wave.jpg?quality=85&strip=all",
+    "link": "http://fox8.com/2017/11/04/forget-the-final-score-watch-the-buckeyes-take-part-in-very-special-iowa-wave/",
+    "locations": [
+      "Iowa"
+    ],
+    "summary": [
+      "IOWA CITY – Forget the fact that the Ohio State Buckeyes got trampled by the Iowa Hawkeyes Saturday.",
+      "They were big winners when it came to what’s known as the “Iowa Wave.”",
+      "At the end of the first quarter of every home game, the entire stadium – fans, players, coaches – over 60-thousand of them – turn toward the hospital and wave at the children and their families watching from the upper windows of theÂ Â Iowa Stead Family Childrenâs Hospital, which sits right next toÂ  Kinnick  wave was the idea of Krista Young.",
+      "She posted about Iowa fans doing the wave on a Facebook back in May."
+    ],
+    "title": "Forget the final score: watch the Buckeyes take part in very special ‘Iowa wave’"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        38.8949549,
+        -77.0366456
+      ]
+    ],
+    "img_url": "https://media1.s-nbcnews.com/j/MSNBC/Components/Video/201711/2017-11-04T01-32-14-9Z--1280x720.video_1067x600.jpg",
+    "link": "http://www.msnbc.com/rachel-maddow/watch/nyt-carter-page-met-russian-officials-informed-trump-campaign-1088391747630",
+    "locations": [
+      "Washington"
+    ],
+    "summary": [],
+    "title": "NYT: Carter Page met Russian officials, informed Trump campaign"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        53.3497645,
+        -6.2602732
+      ],
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "http://prod.static.49ers.clubs.nfl.com//assets/images/imported/SF/110417-Blair-TH.jpg",
+    "link": "http://www.49ers.com/news/article-2/49ers-Announce-Roster-Moves/e7bb1dd4-f0e0-4871-a07f-01ee8f0eef00",
+    "locations": [
+      "Dublin",
+      "Kentucky"
+    ],
+    "summary": [
+      "The San Francisco 49ers announced on Saturday they have activated DLfrom the Injured Reserve List and promoted OLto the active roster from the team’s practice squad.",
+      "The team has also placed WRon the Injured Reserve List and released OL Bryce Harris.Blair III (6-4, 270) was originally drafted by San Francisco as the first of three fifth-round selections (142nd overall) in the 2016 NFL Draft.",
+      "He was placed on the Injured Reserve List on September 3, 2017.",
+      "He was released from the team on September 2 and signed to the practice squad the following day.A 24-year-old native of Dublin, GA, Williams Jr. attended Western Kentucky University where he appeared in 46 games during his five years (2012-16) along the offensive line.Williams Jr. will wear number 78.",
+      "This season with the team, he started each of the first eight games and registered team highs in both receptions (40) and receiving yards (500)."
+    ],
+    "title": "49ers Announce Roster Moves"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        48.8566101,
+        2.3514992
+      ]
+    ],
+    "img_url": "http://www.tennisworldusa.org/world/media/big/v_image53113.jpg",
+    "link": "http://www.tennisworldusa.org/tennis/videos/Tennis_Stories/48891/-who-are-you-a-security-guard-doesn-t-recognize-rafael-nadal/",
+    "locations": [
+      "Paris"
+    ],
+    "summary": [
+      "Rafael Nadal is on his way to the Players Lounge area in Paris Bercy when he meets, before going in, a security guard who tells him: 'Good afternoon sir.",
+      "I don't have it here', Nadal replied.",
+      "'Who are you', security guard said.",
+      "'Rafael Nadal.'",
+      "And he lets Nadal enter."
+    ],
+    "title": "'Who are you?' A security guard doesn't recognize Rafael Nadal"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        48.8566101,
+        2.3514992
+      ]
+    ],
+    "img_url": "http://www.tennisworldusa.org/imgb/53075/greg-rusedski-roger-federer-can-get-to-2021-slams-by-the-end-of-2018-.jpg",
+    "link": "http://www.tennisworldusa.org/tennis/news/Roger_Federer/48860/greg-rusedski-roger-federer-can-get-to-2021-slams-by-the-end-of-2018-/",
+    "locations": [
+      "Paris"
+    ],
+    "summary": [
+      "He also won his third-round match against Pablo Cuevas, before wihdrawing from his quarter-final match against Filip Krajinovic on Friday.Had Roger Federer played in Paris, both players would have still been in the race to finish the year as the world no. 1.",
+      "That's what former world no. 4 Greg Rusedski said in an interview to Sky Sports.",
+      "‘Had Federer not been injured, we might be talking about a different story for world no. 1 right now.",
+      "He [Nadal] has a winning head-to-head against Roger, even though he’s lost all four [matches] this year and if Roger stays healthy, I think Roger will just pip it.'",
+      "Rusedski predicts huge success for the Swiss in the next 12 months: 'I can see Roger getting to 20-21 [Slams] by the end of next year possibly and Rafa is going to win a few more French [Open's] so it will be very, very close.I think he’s got one or two more left in him, Roger, if he can stay healthy – that’s the big question.'"
+    ],
+    "title": "Greg Rusedski: 'Roger Federer can get to 20-21 Slams by the end of 2018'"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        33.0955793,
+        44.1749775
+      ]
+    ],
+    "img_url": "https://thenypost.files.wordpress.com/2017/11/bush-legacy-white-house-feaure.jpg?quality=90&strip=all&w=1200",
+    "link": "http://nypost.com/2017/11/04/white-house-slams-bushes-for-iraq-war-after-blowhard-dig/",
+    "locations": [
+      "Iraq"
+    ],
+    "summary": [
+      "The White House punched back at both Presidents Bush on Saturday over their criticism of fellow Republican President Donald Trump as a destructive force in the party.",
+      "“He’s a blowhard,” said President George H.W. Bush, who was president from 1989 to 1993.",
+      "His son George W. Bush thinks that Trump’s ego and lack of humility could tear the GOP apart.",
+      "“I’m worried that I will be the last Republican president,” said the younger Bush, who was president from 2001 to 2009.",
+      "George W. Bush left the top of his 2016 ballot blank, while George H. W. Bush voted for Hillary Clinton, the book reveals."
+    ],
+    "title": "White House slams Bushes for Iraq War after ‘blowhard’ dig"
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        40.0757384,
+        -74.4041622
+      ],
+      [
+        40.7306458,
+        -73.9866136
+      ]
+    ],
+    "img_url": "https://media.townhall.com/townhall/reu/ha/2016/272/2016-09-28T094144Z_2_LYNXNPEC8Q060_RTROPTP_3_USA-ELECTION-DEBATE.JPG",
+    "link": "https://townhall.com/tipsheet/timothymeads/2017/11/04/donna-brazile-considered-replacing-clinton-with-biden-n2404937",
+    "locations": [
+      "New Jersey",
+      "New York"
+    ],
+    "summary": [
+      "The Washington Post reported new details from Donna Brazile’s forthcoming book Hacks: The Inside Story of the Break-ins and Breakdowns That Put Donald Trump in the White House that include the fact that the interim chair of the Democratic National Committee considered replacing Hillary Clinton as the Democratic party’s 2016 presidential candidate.Following Clinton’s bizarre collapse the 2016 9/11 memorial ceremony, Brazile seriously considered choosing either Vice President Joe Biden or Sen. Cory Booker from New Jersey as the party’s presidential nominee.",
+      "Brazile paints a scathing portrait of Clinton as a well-intentioned, historic candidate whose campaign was badly mismanaged, took minority constituencies for granted and made blunders with “stiff” and “stupid” messages.",
+      "“Brazile also recounts fiery disagreements with Clinton’s staffers — including a conference call in which she told three senior campaign officials, Charlie Baker, Marlon Marshall and Dennis Cheng, that she was being treated like a slave.",
+      "\"Brazile also was paid a surprise visit in her DNC office by Baker, who, she writes, was dispatched by the Clinton campaign “to make sure that Donna didn’t do anything crazy.",
+      "“Brazile writes that she inherited a national party in disarray, in part because President Obama, Clinton and Wasserman Schultz were “three titanic egos” who had “stripped the party to a shell for their own purposes.”"
+    ],
+    "title": "Donna Brazile Considered Replacing Clinton with Biden, Describes an \"Odor of Failure\""
+  },
+  {
+    "category": "Politics",
+    "geo_coordinates": [
+      [
+        40.3736611,
+        127.0870417
+      ]
+    ],
+    "img_url": "http://15130-presscdn-0-89.pagely.netdna-cdn.com/wp-content/uploads/2017/11/Screen-Shot-2017-11-04-at-11.31.10-AM.png",
+    "link": "http://www.politicususa.com/2017/11/04/chris-matthews-calls-trump-groundhog-day-presidents-idiotic-stuff-day.html",
+    "locations": [
+      "North Korea"
+    ],
+    "summary": [
+      "MSNBC’s Chris Matthews summed up the Donald Trump presidency using classic Bill Murray flick ‘Groundhog Day’, saying each day of this presidency brings about the same “idiotic” conduct from Trump – and Trump’s inability to “mature” means his behavior will never change.",
+      "“Learning is politics,” Matthews said in an interview on AM Joy, explaining that Trump clearly isn’t capable of doing that.",
+      "In less than 30 seconds Matthews dismantled the way Trump conducts himself on a daily basis:\n\nLearning is politics.",
+      "He never matures, he never learns anything about race or people or foreign policy.",
+      "Instead, each day of this presidency is a rerun of the last, with Trump recklessly lashing out on Twitter about everything from television ratings to NFL players to his former 2016 opponent, Hillary Clinton."
+    ],
+    "title": "Chris Matthews Calls Trump The 'Groundhog Day' Of Presidents: Same 'Idiotic' Stuff Every Day"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "https://www.redstate.com/wp-content/uploads/2017/05/breaking-police2-1.jpg",
+    "link": "https://www.redstate.com/sweetie15/2017/11/04/breaking-senator-rand-paul-assaulted-kentucky/",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "And with today’s political climate, it’s potentially dangerous, as well.",
+      "Details are still sketchy, but Kentucky Senator Rand Paul has been assaulted at his home, today.",
+      "The suspect was identified as 59-year-old Rene Boucher of Bowling Green, Kent., according to a statement from Kentucky State Police reported by the Bowling Green Daily News.",
+      "Boucher was arrested, and police are still investigating the assault."
+    ],
+    "title": "BREAKING: Senator Rand Paul Assaulted in Kentucky"
+  },
+  {
+    "category": "News",
+    "geo_coordinates": [
+      [
+        37.5726028,
+        -85.1551411
+      ]
+    ],
+    "img_url": "https://twt-media.washtimes.com/media/image/2017/09/26/congress_health_overhaul_60060.jpg",
+    "link": "http://www.washingtontimes.com/news/2017/nov/4/sen-rand-paul-assaulted-kentucky-home-suspect-rene/?utm_source=RSS_Feed&utm_medium=RSS",
+    "locations": [
+      "Kentucky"
+    ],
+    "summary": [
+      "Sen. Rand Paul, Kentucky Republican, was assaulted at his home in Bowling Green, Ky., his office confirmed Saturday.The incident happened Friday afternoon, Mr. Paul’s office said in a statement, and a suspect has been taken into custody, according to local law enforcement.",
+      "“Senator Paul was blindsided and the victim of an assault,” said Kelsey Cooper, a spokeswoman for the senator.",
+      "”“Senator Paul is fine,” the spokeswoman said.Kentucky State Police received a call at 3:21 p.m. Friday concerning an incident at the Paul residence, authorities said in a news release.Rene Boucher, 59, was arrested shortly afterwards and charged with 4th degree assault, a Class A misdemeanor punishable by up to 12 months in jail, the release said.Mr.",
+      "Boucher was being held in the Warren County Regional Jail in lieu of a $5,000 bond as of Saturday afternoon, according to online jail records cited by Bowling Green Daily News.",
+      "Property records listed an addressed for Mr. Boucher located close to Mr. Paul’s residence, the Daily News reported.An investigation is ongoing, police said.Mr."
+    ],
+    "title": "Sen. Rand Paul assaulted at Kentucky home, suspect Rene Boucher in custody"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        49.619608,
+        -125.028534
+      ]
+    ],
+    "img_url": "http://expo.advance.net/img/434f6dfdd5/width960/hbgfbhbgfb35216.jpg",
+    "link": "http://highschoolsports.pennlive.com/news/article/2190138368414225080/yahmir-wilkerson-micah-parsons-lead-harrisburg-to-win-over-cumberland-valley-mid-penn-commonwealth-title/",
+    "locations": [
+      "Cumberland Valley"
+    ],
+    "summary": [
+      "Tears streamed down Ronald Kent’s face, and as hard as he tried to stop it, the Harrisburg senior couldn’t contain his emotions following his team’s 56-14 win Saturday over Cumberland Valley.",
+      "Cumberland Valley (8-2, 4-2 Commonwealth) rolled into severance field with just one loss Saturday, featuring the type of physical run game that has given the Cougars (10-0, 6-0) problems in the past.",
+      "The throw to Anderson-Butts came on a fourth-and-goal play, and the pass to Kent came on the final series for most of the Cougars’ regulars, to start the third, against Cumberland Valley’s reserves.",
+      "Galen Witmer ran for 38 yards, and scored on a 1-yard run for Cumberland Valley in the second quarter.",
+      "GAME-CHANGING PLAY\nWith Cumberland Valley hanging around early in the second, Parsons took a handoff, and broke into the open."
+    ],
+    "title": "Yahmir Wilkerson, Micah Parsons lead Harrisburg to win over Cumberland Valley, Mid-Penn Commonwealth title"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        38.8949549,
+        -77.0366456
+      ]
+    ],
+    "img_url": "https://sportshub.cbsistatic.com/i/r/2017/11/04/7980f747-eb95-479e-ad8e-18dd10bc08eb/thumbnail/770x433/ce4fa86c14e40663d2160c7417c71b28/lebron-james-john-wall.png",
+    "link": "https://www.cbssports.com/nba/news/john-wall-says-lebron-and-cavs-intentionally-ducked-wizards-in-last-years-playoffs/",
+    "locations": [
+      "Washington"
+    ],
+    "summary": [
+      "LeBron James turned in his best performances of the season on Friday night, scoring 57 points in a 130-122 win over the Washington Wizards.",
+      "On ESPN's \"The Jump,\" Wizards point guard John Wall said that LeBron and the Cavs intentionally got the No. 2 seed last season so that they wouldn't have to face the Wizards in the second round.",
+      "\"I think they wanted to see us in the Eastern Conference finals and we fell one game short of that.",
+      "The Cavaliers lost their last four games of the 2016-17 regular season and missed out on the No. 1 seed to the Boston Celtics by two games.",
+      "Cleveland rested LeBron James, Kyrie Irving and Kevin Love for the final two games of the season, so it was clear that playoff health was a bigger priority than chasing the top seed."
+    ],
+    "title": "John Wall says LeBron, Cavs intentionally ducked Wizards in last year's playoffs"
+  },
+  {
+    "category": "Sports",
+    "geo_coordinates": [
+      [
+        31.8160381,
+        -99.5120986
+      ]
+    ],
+    "img_url": "https://nbcnascartalk.files.wordpress.com/2017/11/621298826.jpg",
+    "link": "http://nascar.nbcsports.com/2017/11/04/tonights-xfinity-race-at-texas-start-time-weather-tvradio-info/",
+    "locations": [
+      "Texas"
+    ],
+    "summary": [
+      "Click to share on Twitter (Opens in new window)\n\nClick to share on LinkedIn (Opens in new window)\n\nClick to share on Google+ (Opens in new window)\n\nShare on Facebook (Opens in new window)\n\nThe second race of the three-race NASCAR Xfinity Series Round of 8 playoffs takes place in tonight’s O’Reilly Auto Parts 300 at Texas Motor Speedway.",
+      "Here’s the info you need for the race:\n\nSTART: Chris Newton, Chris Muffler Service, will give the command to start engines at 8:37 p.m. Green flag is scheduled for 8:46 p.m.\n\nDISTANCE: The race is scheduled for 200 laps (300 miles) around the 1.5-mile oval.",
+      "PRERACE SCHEDULE: Qualifying is slated for 6:05 p.m. Driver introductions are at 8 p.m.\n\nNATIONAL ANTHEM: Madison McWilliams will perform the anthem at 8:31 p.m.\n\nTV/RADIO:  NBCSN will broadcast the race at 8:30 p.m. Performance Racing Network will broadcast the race on radio and at goprn.com, starting with its pre-race show at 8 p.m. SiriusXM NASCAR Radio will carry the PRN broadcast.",
+      "FORECAST: The wunderground.com site predicts a temperature of 80 degrees and a one percent chance of rain at race time.",
+      "LAST TIME: Kyle Larson won last fall’s playoff race, followed by Brad Keselowski and Kevin Harvick."
+    ],
+    "title": "Tonight’s Xfinity race at Texas: Start time, weather, TV/radio info"
+  }
 ]

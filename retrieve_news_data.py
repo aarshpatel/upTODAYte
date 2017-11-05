@@ -28,7 +28,7 @@ def fetch_stories(params={}):
   fetched_stories = []
   stories = None
 
-  while (stories is None or len(stories) > 0) and (len(fetched_stories) < 5):
+  while (stories is None or len(stories) > 0) and (len(fetched_stories) < 100):
     try:
       response = api_instance.list_stories(**params)
     except ApiException as e:
@@ -85,13 +85,20 @@ def get_title_and_location_of_stories(stories):
         continue
       else:
 
+        # get the category of the story
         all_ids = [cat.id for cat in story.categories]
         for story_id in all_ids:
           if story_id in id_to_category:
             id_category = id_to_category[story_id]
             break
 
-        stories_and_location.append((title, all_entities, story.links.permalink, geo_coordinates, id_category))
+        # get the image of the story            
+        url = story.media[0].url
+
+        # get the summary of the story
+        summary = story.summary.sentences
+
+        stories_and_location.append((title, all_entities, story.links.permalink, geo_coordinates, id_category, url, summary))
   return stories_and_location
 
 
@@ -99,13 +106,16 @@ def create_json_from_stories(stories_and_location):
   """ Convert the preprocessed stories into a list of dictionaries. This will help us with making
   the 3d visualizations """
   stories = []
-  for story, location, link, geo_coordinates, category in stories_and_location:
+  for story, location, link, geo_coordinates, category, img_url, summary in stories_and_location:
     story_dict = {}
     story_dict["title"] = story
     story_dict["locations"] = location
     story_dict["link"] = link
     story_dict["geo_coordinates"] = geo_coordinates
     story_dict["category"] = category
+    story_dict["img_url"] = img_url
+    story_dict["summary"] = summary 
+
     stories.append(story_dict)
   return stories
 

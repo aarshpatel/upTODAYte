@@ -20,7 +20,10 @@ def main():
 @app.route('/about')
 def about():
 	return render_template('about.html')
-	
+
+@app.route('/recap_me')
+def recap_me():
+	return render_template("recap_me.html")
 
 if __name__ == '__main__':
 	app.run(debug=True)
