@@ -11,16 +11,18 @@ params = {
     'published_at_start': 'NOW-1DAYS',
     'published_at_end': 'NOW',
     'categories_taxonomy': 'iab-qag',
-    'sort_by': 'hotness',
-    'categories_id': ['IAB17', 'IAB12', 'IAB11-4'],
+    'sort_by': 'relevance',
+    'categories_id': ['IAB17', 'IAB19', 'IAB11-4', 'IAB1-2', 'IAB3'],
     'cursor': '*',
     'per_page': 16
 }
 
 id_to_category = {
     'IAB17': 'Sports',
-    'IAB12': 'News',
-    'IAB11-4': 'Politics'
+    'IAB19': 'Tech',
+    'IAB11-4': 'Politics',
+    'IAB1-2': 'Celebrity Fan/Gossip',
+    'IAB3': 'Business'
 }
 
 
@@ -28,7 +30,7 @@ def fetch_stories(params={}):
   fetched_stories = []
   stories = None
 
-  while (stories is None or len(stories) > 0) and (len(fetched_stories) < 100):
+  while (stories is None or len(stories) > 0) and (len(fetched_stories) < 200):
     try:
       response = api_instance.list_stories(**params)
     except ApiException as e:
@@ -76,7 +78,7 @@ def get_title_and_location_of_stories(stories):
       for entities in story.entities.body:
         if "Place" in entities.types:
           coords = convert_location_to_lat_lng(entities.text)
-          if coords is not None:
+          if coords is not None and entities.text.isalpha():
             geo_coordinates.append(coords)  # append the geo_coordinates of the place
             all_entities.append(entities.text)  # append the text of the place
             print entities.text, coords
@@ -92,8 +94,10 @@ def get_title_and_location_of_stories(stories):
             id_category = id_to_category[story_id]
             break
 
-        # get the image of the story            
-        url = story.media[0].url
+        # get the image of the story
+        url = None
+        if len(story.media) > 0:
+          url = story.media[0].url
 
         # get the summary of the story
         summary = story.summary.sentences
@@ -114,7 +118,7 @@ def create_json_from_stories(stories_and_location):
     story_dict["geo_coordinates"] = geo_coordinates
     story_dict["category"] = category
     story_dict["img_url"] = img_url
-    story_dict["summary"] = summary 
+    story_dict["summary"] = summary
 
     stories.append(story_dict)
   return stories
