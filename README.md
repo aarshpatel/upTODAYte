@@ -109,8 +109,8 @@ convert_location_to_lat_lng(): given a textual location return a tuple of latitu
 ## Authors
 
 * **Aarsh Patel** -https://github.com/aarshpatel
-* **Hisham Alhussain** - https://github.com
-* **Varun Sharma** - https://github.com
+* **Hisham Alhussain** - https://github.com/hisham8383
+* **Varun Sharma** - https://github.com/varunsharmadps
 * **Lynn Samson** - https://github.com/lasamson
 
 See also the list of [contributors](https://github.com/aarshpatel/upTODAYte/contributors) who participated in this project.
