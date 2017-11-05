@@ -20,6 +20,7 @@ What things you need to install the software and how to install them
  * flask
  * geopy 
  * aylien_news_api
+ * sumy
  
 
 The requirements.txt file contains all of the modules and versions of those modules to be installed. It can be done like this:
@@ -46,29 +47,17 @@ Contains all of the server code using Flask.
 
 **retrieve_news_data.py**
 
-Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. 
+Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. In addition, the script also generates summaries for each news article using **sumy** which uses machine learning techniques to perform automatic summarization on textual documents
 
 **utils.py**
 
 Utility script file that contains code to convert textual locations to geo coordinates. 
 
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - The web framework used
 * [NewsApi](https://newsapi.aylien.com/) - API to news articles
+* [Sumy](https://pypi.python.org/pypi/sumy) - Library to generate summaries for news articles or html documents
 * [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [Mapbox](https://github.com/mapbox/mapbox-gl-js) - a JavaScript library for interactive, customizable vector maps on the web
 * [Slick](http://kenwheeler.github.io/slick/) - carousel module for Javascript
