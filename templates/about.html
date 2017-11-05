@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>About RecapMyDay</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+
+.dark-cover {
+    background-color: #343332;
+    color: #EAEAEA;
+    margin:0;
+    padding:0;
+    height: 670px;
+}
+
+.space {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-toggleable-md navbar-dark">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/"><strong>RecapMyDay</strong></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How to Use It</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="dark-cover">
+    <div class="space">
+        <div><p>Ever been too busy to keep up with news and current events? Ever wished there was one central location to catch you up on what's going on in the world?<p>
+
+        <h3>Look no more!</h3>
+
+        <p>RecapMyDay is a news aggregation and visualization tool that collects relevant news articles that took place within the last 24 hours.</p>
+
+        <p>Here are some of the features:</p>
+
+        <ul>
+            <li>Articles are represented by markers that are overlayed on a world map, indicating the location in which the story took place</li>
+            <li>Clicking on a marker will show more details about the story or event that took place at that marker location</li>
+            <li>If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article</li>
+        </ul></div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
