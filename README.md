@@ -48,7 +48,34 @@ Contains all of the server code using Flask.
 
 **retrieve_news_data.py**
 
-Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. In addition, the script also generates summaries for each news article using **sumy** which uses machine learning techniques to perform automatic summarization on textual documents
+Script to retrieve all news articles from the past day. The script also filters out the non-relevant information returned from the NewsAPI and returns the data as JSON. In addition, the script also generates summaries for each news article using **sumy** which uses machine learning techniques to perform automatic summarization on textual documents.
+
+The json output looks like this:
+
+```json
+ {
+        "category": "Tech",
+        "title": "iPhone X Drop Test Proves It's the Most Breakable iPhone Yet?",
+        "locations": [
+            "China"
+        ],
+        "summary": [
+            "Samuel L. Jackson's Mr. Glass and the new iPhone X have a lot in common.",
+            "A man in China has already dropped and destroyed his brand new iPhone X. Apple has been advertising that the new iPhone was made with the most powerful glass yet, but that appears to be quite the exaggeration since the brand new, expensive as hell phone is now destroyed and worthless.",
+            "Demand for the new Apple product is off the charts since this is the first real evolutionary change in the iPhone in 3 years as the body and shape of the phone has been the same since the iPhone 6.",
+            "The glass backs on Apple's new 2017 iPhones might be really strong.",
+            "But the claim that these new phones contain the strongest glass ever to be used on a smartphone is flat-out ridiculous and people are starting to call Apple out."
+        ],
+        "geo_coordinates": [
+            [
+                39.913818, 
+                116.363625 
+            ]
+        ],
+        "link": "https://movieweb.com/iphone-x-drop-test-video-most-breakable/",
+        "img_url": "https://cdn.movieweb.com/img.news.tops/NEkwttq6jwrXnq_1_a/Iphone-X-Drop-Test-Video-Most-Breakable.jpg"
+    },
+```
 
 **utils.py**
 
