@@ -115,10 +115,6 @@ convert_location_to_lat_lng(): given a textual location return a tuple of latitu
 
 See also the list of [contributors](https://github.com/aarshpatel/upTODAYte/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * HackUMass Volunteers
