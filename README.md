@@ -6,7 +6,7 @@ Uptodayte is a news aggregation and visualization tool that collects relevant ne
 * Hovering over a location marker will reveal a tooltip containing the headline of the corresponding news article
 * Clicking on a marker will open the news article about the story or event that took place at that location marker
 * If users only need a quick preview of the story, hovering over the marker with a cursor will reveal a tooltip containing the title of the news article
-* "What did I miss?!" feature contains a short summary of all the relevant information that occured in the past day
+* "What did I miss?" feature contains a short summary of all the relevant information that occured in the past day
 
 
 ## Why UpTODAYte
@@ -104,20 +104,16 @@ convert_location_to_lat_lng(): given a textual location return a tuple of latitu
 * [Geopy](https://github.com/geopy/geopy) - Client for several popular geocoding web services (converting textual locations to coordinates)
 * [Mapbox](https://github.com/mapbox/mapbox-gl-js) - a JavaScript library for interactive, customizable vector maps on the web
 * [Slick](http://kenwheeler.github.io/slick/) - carousel module for Javascript
-* AWS - for deployment of web application
+* [AWS](https://aws.amazon.com/) - for deployment of web application
 
 ## Authors
 
 * **Aarsh Patel** -https://github.com/aarshpatel
-* **Hisham** - https://github.com
-* **Varun Sharma** - https://github.com
+* **Hisham Alhussain** - https://github.com/hisham8383
+* **Varun Sharma** - https://github.com/varunsharmadps
 * **Lynn Samson** - https://github.com/lasamson
 
 See also the list of [contributors](https://github.com/aarshpatel/upTODAYte/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
